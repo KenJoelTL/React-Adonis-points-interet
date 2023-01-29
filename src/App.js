@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import CompteurTable from './components/CompteurTable'
+import ButtonsSection from './components/ButtonsSection'
 
 function App() {
   const [compteurList, setCompteurList] = useState([
@@ -510,9 +511,16 @@ function App() {
       Annee_implante: 2020
     }
   ])
+  const menuButtons = [
+    { id: 1, name: 'Comptages de vélos' },
+    { id: 2, name: 'Points d\'intérêt' },
+    { id: 3, name: 'Fontaines à boire' },
+    { id: 4, name: 'Réparation vélos' },
+    { id: 5, name: 'Ajouter un point d\'intérêt' }
+  ];
   return (
     <div className="App">
-
+      <ButtonsSection menuButtons={menuButtons} />
       <CompteurTable compteurList={compteurList} />
     </div>
   )
