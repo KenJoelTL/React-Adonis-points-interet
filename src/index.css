@@ -13,6 +13,7 @@ code {
 }
 
 header {
+  overflow: hidden;
   margin: auto;
   width: 70%;
   height: 100px;
@@ -35,6 +36,7 @@ header h1 {
 }
 
 footer {
+  overflow: hidden;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -44,6 +46,7 @@ footer {
 }
 
 .MainSection {
+  overflow: hidden;
   margin: auto;
   width: 70%;
   border: 3px solid green;
