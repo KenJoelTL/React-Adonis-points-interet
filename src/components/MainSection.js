@@ -1,9 +1,10 @@
 import React from 'react'
 import CompteurTable from './CompteurTable'
 import { useState } from 'react'
+import SortingBox from './SortingBox'
 
 function MainSection() {
-    const [compteurList, setCompteurList] = useState([
+  const [compteurList, setCompteurList] = useState([
     {
       ID: 100041114,
       Ancien_ID: "",
@@ -509,13 +510,53 @@ function MainSection() {
       Annee_implante: 2020
     }
   ])
+
+  const [sort, setSort] = React.useState({ column: '', direction: '' })
+
+  const handleSort = (column) => {
+    let direction = 'asc'
+    if (sort.column === column && sort.direction === 'asc') {
+      direction = 'desc'
+    }
+    setSort({ column, direction })
+  }
+
+  const sortedCompteurList = compteurList.sort((a, b) => {
+    if (sort.direction === '') {
+      return 0
+    } else if (sort.direction === 'asc') {
+      if (a[sort.column] < b[sort.column]) {
+        return -1
+      }
+      if (a[sort.column] > b[sort.column]) {
+        return 1
+      }
+      return 0
+    } else {
+      if (a[sort.column] < b[sort.column]) {
+        return 1
+      }
+      if (a[sort.column] > b[sort.column]) {
+        return -1
+      }
+      return 0
+    }
+  })
+
   return (
     <div className='MainSection'>
-        <div className='ItemMenu'></div>
-        <div className='CompteurTable'>
-            <CompteurTable compteurList={compteurList} />
-        </div>
-    </div>  
+      <div className='ItemMenu'></div>
+
+      <div className='CompteurTable'>
+
+        <div className='d-flex'>
+          <h1>Comptages de vélos</h1>
+          <SortingBox onSort={handleSort} />
+        </div >
+
+        <CompteurTable onSort={handleSort} compteurList={sortedCompteurList} />
+      </div >
+    </div >
   )
 }
 

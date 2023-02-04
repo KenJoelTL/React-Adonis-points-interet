@@ -1,75 +1,55 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import StartEndDatePicker from './StartEndDatePicker';
+import StartEndDatePicker from './StartEndDatePicker'
 
 function CompteurTable(props) {
-  const [sort, setSort] = React.useState({column: '', direction: ''});
-  const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 });
-  const [showResults, setShowResults] = React.useState({ show: false, id: -1 });
 
-  const handleSort = (column) => {
-    let direction = 'asc';
-    if (sort.column === column && sort.direction === 'asc') {
-      direction = 'desc';
-    }
-    setSort({ column, direction });
-  };
+  const compteurList = props.compteurList
 
-  const sortedCompteurList = props.compteurList.sort((a, b) => {
-    if (sort.direction === '') {
-      return 0;
-    } else if (sort.direction === 'asc') {
-      if (a[sort.column] < b[sort.column]) {
-        return -1;
-      }
-      if (a[sort.column] > b[sort.column]) {
-        return 1;
-      }
-      return 0;
-    } else {
-      if (a[sort.column] < b[sort.column]) {
-        return 1;
-      }
-      if (a[sort.column] > b[sort.column]) {
-        return -1;
-      }
-      return 0;
-    }
-  });
+  const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 })
+  const [showResults, setShowResults] = React.useState({ show: false, id: -1 })
 
   //For StartEndDatePicker
-  const [startDate, setStartDate] = React.useState(null);
-  const [endDate, setEndDate] = React.useState(null);
+  const [startDate, setStartDate] = React.useState(null)
+  const [endDate, setEndDate] = React.useState(null)
 
   const handleStartDateChange = (date) => {
-    setStartDate(date);
-  };
+    setStartDate(date)
+  }
 
   const handleEndDateChange = (date) => {
-    setEndDate(date);
-  };
+    setEndDate(date)
+  }
+
+  const handleSort = (column) => {
+    props.onSort(column)
+  }
 
   return (
     <div>
       <table>
         <thead>
-          <th onClick={() => handleSort('ID')}>ID</th>
-          <th onClick={() => handleSort('Nom')}>Nom du compteur</th>
-          <th onClick={() => handleSort('Statut')}>Statut</th>
-          <th onClick={() => handleSort('Annee_implante')}>Année Implanté</th>
-          <th></th>
+          <tr>
+            <th className='clickable left' onClick={() => handleSort('ID')}>ID</th>
+            <th className='clickable left' onClick={() => handleSort('Nom')}>Nom du compteur</th>
+            <th className='clickable center' onClick={() => handleSort('Statut')}>Statut</th>
+            <th className='clickable center' onClick={() => handleSort('Annee_implante')}>Année Implanté</th>
+            <th></th>
+            <th></th>
+          </tr>
         </thead>
 
         <tbody>
           {
-            sortedCompteurList.map(compteur => {
+            compteurList.map(compteur => {
               return (
                 <tr key={compteur.ID}>
-                  <td> {compteur.ID} </td>
-                  <td> {compteur.Nom} </td>
-                  <td> {compteur.Statut} </td>
-                  <td> {compteur.Annee_implante} </td>
-                  <td>
+                  <td className='left'> {compteur.ID} </td>
+                  <td className='left'> {compteur.Nom} </td>
+                  <td className='center'> {compteur.Statut} </td>
+                  <td className='center'> {compteur.Annee_implante} </td>
+                  <td className='center'> IC </td>
+                  <td className='right'>
                     <button onClick={() => setShowDetails({ show: true, id: compteur.ID })}>
                       Statistiques
                     </button>
@@ -94,8 +74,8 @@ function CompteurTable(props) {
                 />
               </div>
               <button onClick={() => setShowResults({ show: true, id: selectedCompteur.ID })}>
-                      Afficher résultats
-                    </button>
+                Afficher résultats
+              </button>
             </div>
           ))}
         </div>
