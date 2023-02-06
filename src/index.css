@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+button:hover {
+  color: yellow;
+}
+
+button.selected {
+  color: red;
+}
+
 header {
   overflow: hidden;
   margin: auto;

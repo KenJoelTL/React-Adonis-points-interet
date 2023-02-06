@@ -2,6 +2,7 @@ import React from 'react'
 import CompteurTable from './CompteurTable'
 import { useState } from 'react'
 import SortingBox from './SortingBox'
+import ButtonsSection from './ButtonsSection'
 
 function MainSection() {
   const [compteurList, setCompteurList] = useState([
@@ -511,6 +512,14 @@ function MainSection() {
     }
   ])
 
+  const menuButtons = [
+    { id: 1, name: 'Comptages de vélos' },
+    { id: 2, name: 'Points d\'intérêt' },
+    { id: 3, name: 'Fontaines à boire' },
+    { id: 4, name: 'Réparation vélos' },
+    { id: 5, name: 'Ajouter un point d\'intérêt' }
+  ]
+
   const [sort, setSort] = React.useState({ column: '', direction: '' })
 
   const handleSort = (column) => {
@@ -545,7 +554,10 @@ function MainSection() {
 
   return (
     <div className='MainSection'>
-      <div className='ItemMenu'></div>
+      <div className='ItemMenu'>
+        <ButtonsSection menuButtons={menuButtons} />
+      </div>
+
 
       <div className='CompteurTable'>
 
