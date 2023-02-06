@@ -12,11 +12,11 @@ code {
     monospace;
 }
 
-button:hover {
+.ItemMenu button:hover {
   color: yellow;
 }
 
-button.selected {
+.ItemMenu button.selected {
   color: red;
 }
 
