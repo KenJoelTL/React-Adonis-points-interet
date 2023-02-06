@@ -26,7 +26,7 @@ function CompteurTable(props) {
   }
 
   return (
-    <div>
+    <>
       <table>
         <thead>
           <tr>
@@ -80,7 +80,7 @@ function CompteurTable(props) {
           ))}
         </div>
       )}
-    </div>
+    </>
   )
 }
 
