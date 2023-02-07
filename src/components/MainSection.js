@@ -1,8 +1,10 @@
 import React from 'react'
 import CompteurTable from './CompteurTable'
+import FontaineTable from './FontaineTable'
 import SortingBox from './SortingBox'
 import ButtonsSection from './ButtonsSection'
 import compteurList from '../data/compteurs.json'
+import fontaineList from '../data/fontaines.json'
 
 function MainSection() {
 
@@ -15,6 +17,7 @@ function MainSection() {
   ]
 
   const [sort, setSort] = React.useState({ column: '', direction: '' })
+  const [selectedBtnId, setSelectedBtnId] = React.useState(1)
 
   const handleSort = (column) => {
     let direction = 'asc'
@@ -24,7 +27,7 @@ function MainSection() {
     setSort({ column, direction })
   }
 
-  const sortedCompteurList = compteurList.sort((a, b) => {
+  const sortListAlgo = (a, b) => {
     if (sort.direction === '') {
       return 0
     } else if (sort.direction === 'asc') {
@@ -44,27 +47,43 @@ function MainSection() {
       }
       return 0
     }
-  })
+  }
+
+  const sortedCompteurList = compteurList.slice(0, 15).sort(sortListAlgo)
+  const sortedFontaineList = fontaineList.slice(0, 15).sort(sortListAlgo)
+
+  const handleMenuChange = (buttonId) => {
+    setSelectedBtnId(buttonId)
+  }
 
   return (
     <div className='MainSection'>
       <div className='ItemMenu'>
-        <ButtonsSection menuButtons={menuButtons} />
+        <ButtonsSection menuButtons={menuButtons} selectedId={selectedBtnId} onClick={handleMenuChange} />
       </div>
 
+      {selectedBtnId === 1 &&
+        <div className='CompteurTable'>
+          <div className='d-flex'>
+            <h2>Comptages de vélos</h2>
+            <SortingBox onSort={handleSort} />
+          </div>
+          <div>
+            <CompteurTable onSort={handleSort} compteurList={sortedCompteurList} />
+          </div>
+        </div>
+      }
 
-      <div className='CompteurTable'>
+      {selectedBtnId === 2 &&
+        <div className='FontaineTable'>
+          <h2>Point d'intérêt</h2>
+          <div>
+            <FontaineTable onSort={handleSort} fontaineList={sortedFontaineList} />
+          </div>
+        </div>
+      }
 
-        <div className='d-flex'>
-          <h1>Comptages de vélos</h1>
-          <SortingBox onSort={handleSort} />
-        </div >
-        <div>
-          <CompteurTable onSort={handleSort} compteurList={sortedCompteurList} />
-        </div >
-
-      </div >
-    </div >
+    </div>
   )
 }
 
