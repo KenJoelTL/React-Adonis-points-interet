@@ -105,9 +105,11 @@ footer {
   width: 100%;
 }
 
+.CompteurTable table,
 .FontaineTable table {
-  height: 200px;
+  height: 420px;
   overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .MainSection table .left {
@@ -140,6 +142,10 @@ footer {
   margin-left: 8px;
   padding: 2px 8px;
   border: 1px dashed grey;
+}
+
+td {
+  white-space: nowrap;
 }
 
 .d-flex {

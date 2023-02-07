@@ -49,8 +49,8 @@ function MainSection() {
     }
   }
 
-  const sortedCompteurList = compteurList.slice(0, 15).sort(sortListAlgo)
-  const sortedFontaineList = fontaineList.slice(0, 15).sort(sortListAlgo)
+  const sortedCompteurList = compteurList.sort(sortListAlgo)
+  const sortedFontaineList = fontaineList.sort(sortListAlgo)
 
   const handleMenuChange = (buttonId) => {
     setSelectedBtnId(buttonId)
