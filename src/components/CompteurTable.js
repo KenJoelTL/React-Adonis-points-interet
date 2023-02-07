@@ -5,6 +5,7 @@ import StartEndDatePicker from './StartEndDatePicker'
 function CompteurTable(props) {
 
   const compteurList = props.compteurList
+  const handleSort = (column) => { props.onSort(column) }
 
   const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 })
   const [showResults, setShowResults] = React.useState({ show: false, id: -1 })
@@ -13,20 +14,11 @@ function CompteurTable(props) {
   const [startDate, setStartDate] = React.useState(null)
   const [endDate, setEndDate] = React.useState(null)
 
-  const handleStartDateChange = (date) => {
-    setStartDate(date)
-  }
-
-  const handleEndDateChange = (date) => {
-    setEndDate(date)
-  }
-
-  const handleSort = (column) => {
-    props.onSort(column)
-  }
+  const handleStartDateChange = (date) => { setStartDate(date) }
+  const handleEndDateChange = (date) => { setEndDate(date) }
 
   return (
-    <div>
+    <>
       <table>
         <thead>
           <tr>
@@ -61,8 +53,8 @@ function CompteurTable(props) {
       </table>
       {showDetails.show && (
         <div>
-          {props.compteurList.filter(compteur => compteur.ID === showDetails.id).map(selectedCompteur => (
-            <div>
+          {props.compteurList.filter(compteur => compteur.ID === showDetails.id).map((selectedCompteur, i) => (
+            <div key={selectedCompteur.ID + "-" + i}>
               <h3>Statistiques du compteur: {selectedCompteur.ID}</h3>
               <p>Plage de dates</p>
               <div>
@@ -80,7 +72,7 @@ function CompteurTable(props) {
           ))}
         </div>
       )}
-    </div>
+    </>
   )
 }
 

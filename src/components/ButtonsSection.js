@@ -1,21 +1,24 @@
 import React, { useState } from 'react'
 
-const ButtonsSection = ({ menuButtons }) => {
-  const [selectedId, setSelectedId] = useState(null);
+const ButtonsSection = ({ menuButtons, selectedId, onClick }) => {
+  const handleOnClick = (buttonId) => {
+    onClick(buttonId)
+  }
 
   return (
-    <div>
-      <ul align="left">
+    <>
+      <ul>
         {menuButtons.map(mButton => (
-          <li><button type="button"
-            key={mButton.id}
-            className={mButton.id === selectedId ? 'selected' : ''}
-            onClick={() => setSelectedId(mButton.id)}
-          >{mButton.name}</button></li>
+          <li key={mButton.id}>
+            <button type="button"
+              className={mButton.id === selectedId ? 'selected' : ''}
+              onClick={() => handleOnClick(mButton.id)}
+            >{mButton.name}</button>
+          </li>
         ))}
       </ul>
-    </div>
-  );
-};
+    </>
+  )
+}
 
 export default ButtonsSection

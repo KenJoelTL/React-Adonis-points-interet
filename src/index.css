@@ -20,6 +20,21 @@ code {
   color: red;
 }
 
+.ItemMenu ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.ItemMenu li {
+  margin-bottom: 8px;
+}
+
+.ItemMenu ul button {
+  width: 90%;
+  padding: 8px;
+}
+
 header {
   overflow: hidden;
   margin: auto;
@@ -61,6 +76,10 @@ footer {
   padding: 10px;
 }
 
+.MainSection .clickable {
+  cursor: pointer;
+}
+
 .ItemMenu {
   width: 20%;
   float: left;
@@ -69,7 +88,8 @@ footer {
   border: 3px solid green;
 }
 
-.CompteurTable {
+.CompteurTable,
+.FontaineTable {
   width: 70%;
   max-width: 100%;
   max-height: 100%;
@@ -78,9 +98,16 @@ footer {
   padding: 20px;
 }
 
-.MainSection table {
+.CompteurTable table,
+.FontaineTable table {
+  display: block;
   border-collapse: collapse;
   width: 100%;
+}
+
+.FontaineTable table {
+  height: 200px;
+  overflow-y: scroll;
 }
 
 .MainSection table .left {
@@ -95,8 +122,8 @@ footer {
   text-align: right;
 }
 
-.MainSection .clickable {
-  cursor: pointer;
+.MainSection h2 {
+  text-decoration: underline;
 }
 
 .MainSection table tr:first-child td {
