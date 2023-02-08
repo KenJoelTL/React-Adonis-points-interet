@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ItemMenu button:hover {
+  color: yellow;
+}
+
+.ItemMenu button.selected {
+  color: red;
+}
+
+.ItemMenu ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.ItemMenu li {
+  margin-bottom: 8px;
+}
+
+.ItemMenu ul button {
+  width: 90%;
+  padding: 8px;
+}
+
+header {
+  overflow: hidden;
+  margin: auto;
+  width: 70%;
+  height: 100px;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+header img {
+  width: 20%;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px solid green;
+}
+
+header h1 {
+  width: 70%;
+  float: right;
+  border: 3px solid green;
+}
+
+footer {
+  overflow: hidden;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  border: 3px solid green;
+}
+
+.MainSection {
+  overflow: hidden;
+  margin: auto;
+  width: 70%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.MainSection .clickable {
+  cursor: pointer;
+}
+
+.ItemMenu {
+  width: 20%;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px solid green;
+}
+
+.CompteurTable,
+.FontaineTable {
+  width: 70%;
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+  border: 3px solid green;
+  padding: 20px;
+}
+
+.CompteurTable table,
+.FontaineTable table {
+  display: block;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.CompteurTable table,
+.FontaineTable table {
+  height: 420px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.MainSection table .left {
+  text-align: left;
+}
+
+.MainSection table .center {
+  text-align: center;
+}
+
+.MainSection table .right {
+  text-align: right;
+}
+
+.MainSection h2 {
+  text-decoration: underline;
+}
+
+.MainSection table tr:first-child td {
+  border-top: 2px solid gray;
+}
+
+.MainSection table tr:last-child td {
+  border-bottom: 2px solid gray;
+}
+
+.SortingBox ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border: 1px dashed grey;
+}
+
+td {
+  white-space: nowrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ml-auto {
+  margin-left: auto
+}

@@ -1,0 +1,849 @@
+ID,Arrondissement,Nom_parc_lieu,Proximité_jeux_repère,Intersection,Etat,Date_installation,Remarque,Precision_localisation,X,Y,Longitude,Latitude
+1,Saint-Léonard,Delorme,Bocce,rue Loranger/rue Péguy,,,,orthophotographies,297819.89,5050237.94,-73.5894623756030,45.5920117541965
+2,Saint-Léonard,Delorme,Pavillon,rue Loranger/rue Péguy,,,,orthophotographies,297773.67,5050257.68,-73.5900550494669,45.5921889147626
+3,Saint-Léonard,Delorme,Pavillon,rue Loranger/rue Péguy,,,,orthophotographies,297774.77,5050256.8,-73.5900409383450,45.5921810073908
+4,Saint-Léonard,Delorme,montagne,rue Loranger/rue Péguy,,,,orthophotographies,297855.21,5050101.09,-73.5890077418093,45.5907806932441
+5,Saint-Léonard,Delorme,Basketball et soccer,entrée boulevard Robert,,,,orthophotographies,297654.59,5050300.62,-73.5915819002069,45.5925740874714
+6,Saint-Léonard,Ferland,Pavillon,rue Belcourt /boulevard Lavoisier,,,,orthophotographies,297118.07,5050704,-73.5984647530588,45.5961980909595
+7,Saint-Léonard,Ferland,Piscine,rue Belcourt /boulevard Lavoisier,,,accès restreint,orthophotographies,297138.85,5050685.88,-73.5981981170499,45.5960352715738
+8,Saint-Léonard,Pie-XII,Bocce,rue Jean-Marie Lefebvre/boul. Lavoisier,,,,orthophotographies,296529.51,5050026.57,-73.6059972563072,45.5900956399991
+9,Saint-Léonard,Pie-XII,Basketball,rue Dujarié/rue Le Corbusier,,,,orthophotographies,296526.98,5049953.5,-73.6060284435696,45.5894381057632
+10,Saint-Léonard,Pie-XII,Piscine,rue Dujarié/rue de Nevers,,,accès restreint,orthophotographies,296464.97,5049913.19,-73.6068224849356,45.5890746447919
+11,Saint-Léonard,Pie-XII,Piscine,rue Dujarié/rue de Nevers,,,accès restreint,orthophotographies,296464.26,5049912.13,-73.6068315662484,45.5890650981076
+12,Saint-Léonard,Coubertin,Pavillon,rue Valéry/rue Narbonne,,,,orthophotographies,296215.93,5049339.91,-73.6100041217273,45.5839130808075
+13,Saint-Léonard,Coubertin,Pavillon,rue Valéry/rue Narbonne,,,,orthophotographies,296215.93,5049338.32,-73.6100040937848,45.5838987735332
+14,Saint-Léonard,Luigi-Pirandello,Bocce,rue Jean-Rivard/rue de Nice,,,,orthophotographies,296717.63,5048690.13,-73.6035641400041,45.5780721805316
+15,Saint-Léonard,Hébert (Stade),Baseball,rue Colbert/boul. Métropolitain Est,,,,orthophotographies,297450.41,5048206.42,-73.5941673390367,45.5737277378482
+16,Saint-Léonard,Hébert (Stade),Soccer,rue de Viterbe/rue de Viterbe,,,,orthophotographies,297595.18,5048152.18,-73.5923116621237,45.5732411836133
+17,Saint-Léonard,Hébert (Stade),Pavillon,rue Colbert/boul. Provencher,,,,orthophotographies,297620.82,5048037.96,-73.5919814726014,45.5722136618172
+18,Saint-Léonard,Hébert (Stade),Stade (l'entrée sous-sol),rue Colbert/boul. Métropolitain Est,,,,orthophotographies,297518.57,5048198.03,-73.5932939085551,45.5736529585964
+19,Saint-Léonard,Hébert (Parc),Piscine,rue Colbert/boul. Provencher,,,accès restreint,orthophotographies,297589.11,5048062.64,-73.5923881127418,45.5724354122334
+20,Saint-Léonard,Hébert (Parc),Piscine,rue Colbert/boul. Provencher,,,accès restreint,orthophotographies,297587.9,5048061.19,-73.5924035942125,45.5724223521469
+21,Saint-Léonard,Hébert (Parc),Piscine,rue Colbert/boul. Provencher,,,accès restreint,orthophotographies,297575.68,5048086.1,-73.5925605285234,45.5726463732631
+22,Saint-Léonard,Hébert (Parc),Piscine,rue Colbert/boul. Provencher,,,accès restreint,orthophotographies,297577.76,5048084.96,-73.5925338620210,45.5726361367813
+23,Saint-Léonard,Hébert (Parc),Piscine,rue Colbert/boul. Provencher,,,accès restreint,orthophotographies,297579.26,5048083.81,-73.5925146265321,45.5726258042923
+24,Saint-Léonard,Hébert (Parc),Piscine,rue Colbert/boul. Provencher,,,accès restreint,orthophotographies,297581.13,5048082.8,-73.5924906525568,45.5726167354014
+25,Saint-Léonard,Hébert (Parc),Carré de sable,rue Colbert/boul. Provencher,,,,orthophotographies,297575.08,5048019.23,-73.5925672274284,45.5720446501215
+26,Saint-Léonard,Ladauversière,Bocce,rue de Meudon/boul. Lacordaire,,,,orthophotographies,298274.39,5049047.39,-73.5836212582356,45.5813032552857
+27,Saint-Léonard,Ladauversière,Piscine,rue de Meudon/boul. Lacordaire,,,accès restreint,orthophotographies,298309.22,5049078.31,-73.5831753467495,45.5815818084528
+28,Saint-Léonard,Ladauversière,Piscine,rue de Meudon/boul. Lacordaire,,,accès restreint,orthophotographies,298350.2,5049103.86,-73.5826505511845,45.5818120960631
+29,Saint-Léonard,Ladauversière,Piscine,rue de Meudon/boul. Lacordaire,,,accès restreint,orthophotographies,298358.77,5049108.4,-73.5825407914425,45.5818530277291
+30,Saint-Léonard,Ladauversière,Piscine,rue de Meudon/boul. Lacordaire,,,accès restreint,orthophotographies,298312.39,5049071.44,-73.5831346339605,45.5815200197243
+31,Saint-Léonard,Ladauversière,Baseball,rue Jean-Talon Est/rue de Pontoise,,,,orthophotographies,298489.01,5049176.95,-73.5808727253446,45.5824710546093
+32,Saint-Léonard,Giuseppe-Garibaldi,Piscine,rue de Côme/rue La Dauversière,,,accès restreint,orthophotographies,299177.5,5049649.24,-73.5720554549725,45.5867267641060
+33,Saint-Léonard,Giuseppe-Garibaldi,Pavillon,rue de Côme/rue La Dauversière,,,,orthophotographies,299163.16,5049603.25,-73.5722386990733,45.5863128166389
+34,Saint-Léonard,Giuseppe-Garibaldi,Pavillon,rue de Côme/rue La Dauversière,,,,orthophotographies,299160.52,5049604.25,-73.5722725434083,45.5863217935310
+35,Saint-Léonard,Giuseppe-Garibaldi,Baseball,rue Liénard/rue La Dauversière,,,,orthophotographies,299039.32,5049611.05,-73.5738258563620,45.5863819887031
+36,Saint-Léonard,Saint-Léonard,Pavillon de la scène,boul. Lacordaire/rue des Galets,,,,orthophotographies,297412.2,5049561.24,-73.5946773947037,45.5859184052737
+37,Saint-Léonard,Saint-Léonard,Pavillon de la scène,boul. Lacordaire/rue des Galets,,,,orthophotographies,297418.27,5049552.31,-73.5945994705437,45.5858381150145
+38,Saint-Léonard,Saint-Léonard,Pavillon de la scène,boul. Lacordaire/rue des Galets,,,,orthophotographies,297425.29,5049566.73,-73.5945097246301,45.5859679447740
+39,Saint-Léonard,Saint-Léonard,Pavillon de la scène,boul. Lacordaire/rue des Galets,,,,orthophotographies,297428.27,5049557.43,-73.5944713944749,45.5858842922942
+40,Saint-Léonard,aréna Martin-Brodeur,Soccer,rue des Galets/rue de l'Aunis,,,,orthophotographies,297119.5,5049569.42,-73.5984285768339,45.5859888409044
+41,Saint-Léonard,aréna Martin-Brodeur,Aréna,rue des Galets/rue de l'Aunis,,,,orthophotographies,297102.72,5049449.89,-73.5986417349467,45.5849130902329
+42,Saint-Léonard,aréna Martin-Brodeur,Aréna,rue des Galets/rue de l'Aunis,,,,orthophotographies,297107.02,5049453.19,-73.5985866818955,45.5849428321497
+43,Ahuntsic-Cartierville,Prieur,Jardins communautaires,rue Sackville/rue Prieur Est,,,accès restreint,orthophotographies,293151.73,5048680.08,-73.6492557330476,45.5779311872942
+44,Ahuntsic-Cartierville,,Jardins communautaires,rue Frémont/avenue De Chateaubriand,,,accès restreint,orthophotographies,292953.69,5045875.79,-73.6517253756271,45.5526940005986
+45,Ahuntsic-Cartierville,,Jardins communautaires,rue Deschamps/rue Letellier,,,accès restreint,orthophotographies,289589.09,5044953.59,-73.6947896703629,45.5443303990800
+46,Ahuntsic-Cartierville,,Jardins communautaires,rue Deschamps/rue Letellier,,,accès restreint,orthophotographies,289590.59,5044960.86,-73.6947706874980,45.5443958495668
+47,Ahuntsic-Cartierville,du Petit-Bois-Franc,Jardins communautaires,rue Dudemaine/rue Grenet,,,accès restreint,orthophotographies,288688.91,5042752.27,-73.7062448098801,45.5245019742243
+48,Ahuntsic-Cartierville,Ahuntsic (près de),Jardins communautaires,avenue Durham/boul. Henri-Bourassa Est,,,accès restreint,orthophotographies,291837.96,5046357.6,-73.6660281500602,45.5570096029911
+49,Ahuntsic-Cartierville,Marcelin-Wilson,Jardins communautaires,avenue Marcelin-Wilson/rue Defoy,,,accès restreint,orthophotographies,290512.32,5044177.23,-73.6829442674349,45.5373640079733
+50,Ahuntsic-Cartierville,Saint-Sulpice (JC),Jardins communautaires,ave Émile-Journault/ave André-Grasset,,,accès restreint,orthophotographies,294235.31,5046379.95,-73.6353215573431,45.5572512175254
+51,Ahuntsic-Cartierville,Saint-Sulpice (JC),Jardins communautaires,ave Émile-Journault/ave André-Grasset,,,accès restreint,orthophotographies,294184.58,5046303.11,-73.6359696810356,45.5565590150628
+52,Ahuntsic-Cartierville,Du Sault-au-Récollets (JC),Jardins communautaires,rue du Pressoir (tourne-bride)/boul. Gouin Est,,,accès restreint,orthophotographies,292333.66,5048494.82,-73.6597333507135,45.5762499897693
+53,Ahuntsic-Cartierville,Ahuntsic,,rue Lajeunesse/rue Prieur Est,,,,orthophotographies,291787.23,5046257.8,-73.6666752827003,45.5561106256678
+54,Ahuntsic-Cartierville,Avila-Vidal,Modules pour enfants,rue Filion/rue de la Paix,,,,orthophotographies,289515.25,5043300.34,-73.6956836482083,45.5294523034188
+55,Ahuntsic-Cartierville,De Beauséjour,,boul. Gouin Ouest/rue Henri-D'Arles,,,,orthophotographies,286655.11,5043216.86,-73.7322973382624,45.5286325299218
+56,Ahuntsic-Cartierville,Du Cardinal-Paul-Émile-Léger,,rue Chabanel Est/ave De Galinée,,,,orthophotographies,293685.77,5046588.35,-73.6423652483467,45.5591179113194
+57,Ahuntsic-Cartierville,Du Boisé-De-Saint-Sulpice,,ave Olivier-Maurault/rue Legendre Est,,,,orthophotographies,293771.51,5046057.51,-73.6412550160094,45.5543426076567
+58,Ahuntsic-Cartierville,De Bordeaux,,rue Viel/boul. de l'Acadie,,,,orthophotographies,289197.05,5044677.87,-73.6998012836626,45.5418407134645
+59,Ahuntsic-Cartierville,Roland-Giguère,,Place de l'Acadie (tourne-bride),,,,orthophotographies,290685.06,5043602.12,-73.6807158813563,45.5321924961963
+60,Ahuntsic-Cartierville,D'Auteuil,Baseball,rue Saint-Denis/rue Sauvé Est,,,,orthophotographies,292630.73,5045446.11,-73.6558510868443,45.5488220330590
+61,Ahuntsic-Cartierville,D'Auteuil,Pavillon,rue Saint-Denis/rue Sauvé Est,,,,orthophotographies,292562.6,5045548.7,-73.6567261857860,45.5497439773201
+62,Ahuntsic-Cartierville,D'Auteuil,,rue Saint-Denis/rue Sauvé Est,,,,orthophotographies,292510,5045500.53,-73.6573986293738,45.5493096019002
+63,Ahuntsic-Cartierville,Ahuntsic,,rue Lajeunesse/rue Prieur Est,,,,orthophotographies,292107.24,5046329.48,-73.6625782814415,45.5567615314066
+64,Ahuntsic-Cartierville,Ahuntsic,,rue Lajeunesse/rue Prieur Est,,,,orthophotographies,292107.24,5046329.48,-73.6625782814415,45.5567615314066
+65,Ahuntsic-Cartierville,De la Merci,,boul. Gouin Est/rue Poincaré,,,,orthophotographies,289403.22,5045174.2,-73.6971768320911,45.5463114327480
+66,Ahuntsic-Cartierville,De Mésy,,rue Legault/rue Grenet,,,,orthophotographies,287819.83,5043362.35,-73.7173913333422,45.5299710451682
+67,Ahuntsic-Cartierville,Des Hirondelles,,rue Fleury Est/rue Larose,,,,orthophotographies,293882.41,5048443.23,-73.6398878627745,45.5758117920313
+68,Ahuntsic-Cartierville,Des Hirondelles,,rue Fleury Est/rue Larose,,,,orthophotographies,293830.99,5048325.81,-73.6405440732804,45.5747544042729
+69,Ahuntsic-Cartierville,Des Hirondelles,,rue Fleury Est/rue Larose,,,,orthophotographies,293743.44,5048479.59,-73.6416693125804,45.5761367754353
+70,Ahuntsic-Cartierville,Des Hirondelles,,rue Fleury Est/rue Larose,,,,orthophotographies,293469.35,5048691.27,-73.6451861649691,45.5780371229728
+71,Ahuntsic-Cartierville,Gabriel-Lalemant,,rue de Lille/rue Sauvé Est,,,,orthophotographies,293648.93,5047932.46,-73.6428677953635,45.5712120325848
+72,Ahuntsic-Cartierville,Gabreil-Lalemand,,rue Sauvé Est/rue de Lille,,,,orthophotographies,293655.1,5047941.81,-73.6427889586055,45.5712962654717
+73,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293660.36,5047951.68,-73.6427217924050,45.5713851628507
+74,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293129.31,5045314.83,-73.6494626952386,45.5476492655392
+75,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293130.87,5045310.16,-73.6494426055465,45.5476072694801
+76,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293109.09,5045210.14,-73.6497191443933,45.5467068913082
+77,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293017.24,5045327.11,-73.6508982296043,45.5477578781529
+78,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293019.18,5045330.78,-73.6508734730469,45.5477909348337
+79,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293013.12,5045351.45,-73.6509515792422,45.5479768277479
+80,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,293204.3,5045290.96,-73.6485017606100,45.5474357279059
+81,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,292811.77,5045387.69,-73.6535310960871,45.5482994905555
+82,Ahuntsic-Cartierville,Henri-Julien,,rue Saint-Denis/rue Legendre Est,,,,orthophotographies,292940.52,5045395.48,-73.6518824127463,45.5483717917014
+83,Ahuntsic-Cartierville,J.-J.-Gagnier,,rue J.-J.-Gagnier/rue Prieur Est,,,,orthophotographies,293186.26,5048936.75,-73.6488193836909,45.5802413529268
+84,Ahuntsic-Cartierville,Jean-Matucci,,ave. André-Grasset/ave. Émile-Journault,,,,orthophotographies,294303.18,5046270.61,-73.6344498765934,45.5562683676585
+85,Ahuntsic-Cartierville,Jean-Matucci,,ave. André-Grasset/ave. Émile-Journault,,,,orthophotographies,294309.65,5046247.87,-73.6343665173268,45.5560638433353
+86,Ahuntsic-Cartierville,Jeanne-Sauvé (parc du pont Ahuntsic),,rue Basile-Routhier/ave. Parc Stanley,,,,orthophotographies,291311.43,5046366,-73.6727725677358,45.5570751877587
+87,Ahuntsic-Cartierville,Lefebvre,,rue Cousineau/rue Laurin,,,,orthophotographies,287416.23,5043075.41,-73.7225482655434,45.5273791165665
+88,Ahuntsic-Cartierville,Lomer-Gouin,,rue De Saint-Firmin/boul. Gouin Est,,,,orthophotographies,292400.48,5048161.69,-73.6588687254571,45.5732535859795
+89,Ahuntsic-Cartierville,De Louisbourg,,rue De Louisbourg/rue De Meulles,,,,orthophotographies,288649.87,5043302.87,-73.7067627243823,45.5294555533529
+90,Ahuntsic-Cartierville,De Louisbourg,,rue De Louisbourg/rue De Meulles,,,,orthophotographies,288616.64,5043185.73,-73.7071842802365,45.5284007181151
+91,Ahuntsic-Cartierville,De Louisbourg,,rue De Louisbourg/rue De Meulles,,,,orthophotographies,288600.47,5043243.34,-73.7073931971887,45.5289187362999
+92,Ahuntsic-Cartierville,Marcelin-Wilson,,boul. de l'Acadie/rue Dudemaine,,,,orthophotographies,290331.33,5044135.17,-73.6852604694240,45.5369818033720
+93,Ahuntsic-Cartierville,Marcelin-Wilson,,boul. de l'Acadie/rue Dudemaine,,,,orthophotographies,290350.95,5044125.36,-73.6850089618831,45.5368939368997
+94,Ahuntsic-Cartierville,Marcelin-Wilson,,boul. de l'Acadie/rue Dudemaine,,,,orthophotographies,290367.11,5044112.67,-73.6848016725720,45.5367800830190
+95,Ahuntsic-Cartierville,Marcelin-Wilson,,boul. de l'Acadie/rue Dudemaine,,,,orthophotographies,290391.92,5044097.09,-73.6844835434965,45.5366404025044
+96,Ahuntsic-Cartierville,Maurice-Richard,,ave. Park Stanley/rue Basile-Routhier,,,,orthophotographies,291256,5046411.88,-73.6734838273432,45.5574869538941
+97,Ahuntsic-Cartierville,Nicolas-Viel,,boul. Gouin Ouest/rue Saint-Urbain,,,,orthophotographies,290964.72,5045655.96,-73.6771934103038,45.5506792271636
+98,Ahuntsic-Cartierville,Nicolas-Viel,,boul. Gouin Ouest/rue Saint-Urbain,,,,orthophotographies,290966.02,5045661.89,-73.6771769284716,45.5507326129766
+99,Ahuntsic-Cartierville,Olympia/Gouin,,boul. Gouin Est/boul. Olympia,,,,orthophotographies,291996.46,5047112.49,-73.6640177269551,45.5638052642209
+100,Ahuntsic-Cartierville,Stanley/rue piétonne,,ave. Park Stanley/ave. Durham,,,,orthophotographies,291288.51,5046442.36,-73.6730682536757,45.5577618537941
+101,Ahuntsic-Cartierville,Rosanne-Laflamme,,boul. O'Brien/rue Dudemaine,,,,orthophotographies,289173.31,5043128.27,-73.7000558338182,45.5278963770113
+102,Ahuntsic-Cartierville,Saint-Alphonse,,ave. Émile-Journault/ave. De Chateaubriand,,,,orthophotographies,293831.96,5045535.49,-73.6404690611218,45.5496462564262
+103,Ahuntsic-Cartierville,Saint-Alphonse,,ave. Émile-Journault/ave. De Chateaubriand,,,,orthophotographies,293981.45,5045446.01,-73.6385525514253,45.5488434239487
+104,Ahuntsic-Cartierville,Saint-André-Apôtre,,rue Prieur Ouest/ave. de l'Esplanade,,,,orthophotographies,291473.29,5045153,-73.6706663041195,45.5461633503817
+105,Ahuntsic-Cartierville,Saint-André-Apôtre,,rue Prieur Ouest/ave. de l'Esplanade,,,,orthophotographies,291423.42,5045161.79,-73.6713051933843,45.5462414897022
+106,Ahuntsic-Cartierville,Saint-Benoît,,rue Meilleur/rue Sauvé Ouest,,,,orthophotographies,291816.18,5044545.09,-73.6662590343114,45.5406996525384
+107,Ahuntsic-Cartierville,Sainte-Odile,,rue De Salaberry/rue Marsan,,,,orthophotographies,288817.12,5043857.08,-73.7046395979109,45.5344463717281
+108,Ahuntsic-Cartierville,Sainte-Odile,,rue De Salaberry/rue Marsan,,,,orthophotographies,288775.21,5043938.22,-73.7051788515544,45.5351755330588
+109,Ahuntsic-Cartierville,Sainte-Odile,,rue De Salaberry/rue Marsan,,,,orthophotographies,288427.52,5044006.19,-73.7096328615590,45.5357790660945
+110,Ahuntsic-Cartierville,Saint-Paul-de-la-Croix,,rue Sauriol Est/ave. Hamel,,,,orthophotographies,292831.25,5046832.43,-73.6533169667666,45.5613000527922
+111,Ahuntsic-Cartierville,Saint-Paul-de-la-Croix,,ave. Hamel/rue Sauvé Est,,,,orthophotographies,292945.4,5046756.6,-73.6518528982769,45.5606196642886
+112,Ahuntsic-Cartierville,Saint-Simon-Apôtre,,rue Meunier/rue Legendre Est,,,,orthophotographies,293149.89,5044456.84,-73.6491787141556,45.5399291284247
+113,Ahuntsic-Cartierville,de Salaberry,,rue Pasteur/rue de Louisbourg,,,,orthophotographies,289654.38,5044304.26,-73.6939334879104,45.5384889439353
+114,Ahuntsic-Cartierville,du Sault-au-Récollet,,ave. Charton/rue Fleury Est,,,,orthophotographies,292879.52,5047784.86,-73.6527218623452,45.5698711311723
+115,Ahuntsic-Cartierville,du Sault-au-Récollet,,ave. Charton/rue Fleury Est,,,,orthophotographies,292835.47,5047872.51,-73.6532883620273,45.5706590755614
+116,Ahuntsic-Cartierville,Tolhurst,,rue Tolhurst/rue Fleury Ouest,,,,orthophotographies,291886.3,5044916.85,-73.6653709519651,45.5440461751636
+117,Ahuntsic-Cartierville,Victor-Barbeau,,rue Lucien-Plante/rue Ernest-Savignac,,,,orthophotographies,294583.6,5046316.56,-73.6308590500136,45.5566860114634
+118,Lachine,,piste de course,rue Esther-Blondin/rue Duff Court,,,école secondaire Dalbé-Viau,orthophotographies,290727.24,5033930.29,-73.6798985861241,45.4451622720691
+119,Lachine,Carignan,,42² ave/rue Provost,,,,orthophotographies,288995.91,5033706.95,-73.7020236724136,45.4431155533198
+120,Lachine,Dixie,,rue Victoria/54²ave,,,,orthophotographies,287728.33,5033782.23,-73.7182296445682,45.4437631502532
+121,Lachine,de la Renaissance,,ter. Louis-Basile_pigeon/ter.J.-S.-Aimé-Ashby,,,,orthophotographies,289956.51,5033985.23,-73.6897527879088,45.4456407060950
+122,Lachine,Lasalle,,rue Victoria/10e ave,,,,orthophotographies,291277.6,5033081.49,-73.6728397903953,45.4375352201740
+123,Lachine,Lasalle,,16e ave/rue Remembrance,,,,orthophotographies,290983.65,5033112.99,-73.6765978490507,45.4378129256955
+124,Lachine,Lasalle,stade,rue Saint-Ambroise/10e ave,,,,orthophotographies,291310.61,5033287.33,-73.6724235083680,45.4393881073424
+125,Lachine,Lasalle,face au stade,10e ave/rue Saint-Ambroise,,,,orthophotographies,291285.22,5033279.31,-73.6727478256452,45.4393154491021
+126,Lachine,Lasalle,,rue Saint-Antoine/13e ave,,,,orthophotographies,290973.32,5033326.31,-73.6767358769674,45.4397322791747
+127,Lachine,Stoney Point,,boul. Saint-Joseph/46e ave,,,,orthophotographies,288624.13,5032961.24,-73.7067515964051,45.4363967988034
+128,Lachine,Saint-Louis,,boul. Saint-Joseph/32e ave,,,,orthophotographies,289726.63,5032607.49,-73.6926492640046,45.4332382208168
+129,Lachine,Village Saint-Louis,,rue Dalbé-Viau,,,,orthophotographies,289434.38,5033821.1,-73.6964223087907,45.4441525043676
+130,Lachine,Monk,,boul. Saint-Joseph/7e ave,,,,orthophotographies,291448.26,5032370.28,-73.6706391802007,45.4311386775380
+131,Lachine,Brewster,,rue Broadway/44e ave,,,,orthophotographies,288785.58,5032991.65,-73.7046890287225,45.4366741589851
+132,Lachine,Grovehill,,rue Saint-Antoine/33e ave,,,,orthophotographies,289611.5,5033420.94,-73.6941458049357,45.4405555457854
+133,Lachine,Rosewood,,rue Rosewood/ave de Mount Vernon,,,,orthophotographies,292866.13,5034445.43,-73.6525687702489,45.4498375420882
+134,Lachine,Wilfrid-Vincent,,rues des Érables/ave Richardson,,,,orthophotographies,292849.24,5033780.16,-73.6527685400731,45.4438508299377
+135,Lachine,Sainte-Anne,,rue Provost/24e ave,,,,orthophotographies,290340.85,5033539.99,-73.6848264937758,45.4416422802227
+137,Villeray–Saint-Michel–Parc-Extension,Frédéric-Back,,rue des Regrattiers/rue Paul-Boutet,,,Grands Parcs,,295750.32,5046671.85,-73.6159214617419,45.5598991674733
+138,Verdun,Arthur-Therrien,,boul. Gaétan-Laberge/rue Rhéaume,,,,orthophotographies,299963.51,5036342.72,-73.5618509460977,45.4669954529513
+139,Verdun,Arthur-Therrien,,boul. Gaétan-Laberge/rue Hickson,,,,orthophotographies,299954.98,5036007.6,-73.5619567276014,45.4639798217384
+140,Verdun,Lacoursière,,chemin du Golf/rue des Camélias,,,,orthophotographies,300864.9,5036251.56,-73.5503228895368,45.4661808111553
+141,Verdun,Desmarchais,,boul. Lasalle/5e ave,,,,orthophotographies,299821.62,5035074.19,-73.5636526445142,45.4555796005352
+142,Verdun,Centre communautaire Marcel Giroux,cour arrière,rue Willibrord/rue Bannantyne,,,,orthophotographies,298798.49,5035490.82,-73.5767392694651,45.4593206045246
+143,Verdun,Adrien-D.Archambault,soccer,boulevard de la Forêt,,,,orthophotographies,300300.8,5035022.26,-73.5575254659587,45.4551155581432
+144,Verdun,Adrien-D.Archambault,soccer,boulevard de la Forêt,,,,orthophotographies,300289.34,5035152.93,-73.5576731886907,45.4562913183312
+145,Verdun,Duquette,,rue Newmarch/rue Dupuis,,,,orthophotographies,298957.81,5036209.29,-73.5747106391521,45.4657870976596
+146,Verdun,Elgard,tennis,rue Elgar (tourne-bride),,,,orthophotographies,301084.09,5035309.31,-73.5475127202215,45.4577031823754
+147,Verdun,Archie-Wilcox,jardins communautaires,boul. Lasalle/rue Melrose,,,,orthophotographies,299714.67,5034772.92,-73.5650169713038,45.4528678517425
+148,Verdun,Natatorium,Piscine,boul. Lasalle/rue Stephens,,,accès restreint,orthophotographies,298849.41,5033734.67,-73.5760669275707,45.4435183172986
+149,Verdun,Natatorium,Piscine,boul. Lasalle/rue Stephens,,,accès restreint,orthophotographies,298863.68,5033752.93,-73.5758847333250,45.4436827515381
+150,Verdun,Natatorium,Piscine,boul. Lasalle/rue Stephens,,,accès restreint,orthophotographies,298882.28,5033686.51,-73.5756461686020,45.4430852277618
+151,Verdun,Norman-Dawe,,rue Woodland/rue Bannantyne,,,,orthophotographies,298654.19,5034732.6,-73.5785749067769,45.4524965101464
+152,Verdun,Adrien-D.Archambault,,Chemin de la Pointe-Sud/rue des Parulines,,,,orthophotographies,300831.31,5034326.94,-73.5507369114423,45.4488619304488
+153,Verdun,de l'Honorable-George-O'Reilly,,boul. Lasalle/rue Riverview,,,,orthophotographies,299154.55,5034048.54,-73.5721698999103,45.4463452121710
+154,Verdun,de l'Honorable-George-O'Reilly,,boul. Lasalle/rue Godin,,,,orthophotographies,299226.23,5034083.27,-73.5712539564230,45.4466583057978
+155,Verdun,De La Fontaine,tennis,place de la Fontaine (tourne-bride),,,,orthophotographies,301333.59,5035991.01,-73.5443273472831,45.4638387384392
+156,Verdun,De La Fontaine,,place de la Fontaine (tourne-bride),,,,orthophotographies,301274.9,5035926.68,-73.5450773947526,45.4632595718719
+157,Verdun,,,Chemin de la Pointe-Nord/rue de la Rotonde,,,,orthophotographies,301784.16,5037007.47,-73.5385718408805,45.4729874270676
+158,Verdun,de la Reine-Élizabeth,,rue Crawford/rue Penniston,,,,orthophotographies,297595.65,5033197.84,-73.5920859768643,45.4386758464251
+159,Verdun,Arthur-Therrien,baseball,boul. Gaétan-Laberge,,,,orthophotographies,300017.6,5036247.97,-73.5611583002149,45.4661432191555
+160,Verdun,Arthur-Therrien,baseball,boul. Gaétan-Laberge,,,,orthophotographies,299998.45,5036271.07,-73.5614034198280,45.4663509527397
+161,Verdun,Labelle,,rue Henri-Duhamel/rue de Verdun,,,,orthophotographies,299299.37,5036956.41,-73.5703510944878,45.4725128131732
+162,Verdun,Willibrord,,rue Bannantyne/rue Willibrord,,,,orthophotographies,298878,5035496.19,-73.5757226676873,45.4593696049074
+163,Verdun,Woodland,,rue Woodland/rue Wellington,,,,orthophotographies,299541.09,5034672.63,-73.5672351528308,45.4519641070232
+164,Verdun,De La Fontaine,,place de la Fontaine (tourne-bride),,,,orthophotographies,301392.54,5036011.25,-73.5435736539818,45.4640211579132
+165,Verdun,De La Fontaine,,place de la Fontaine (tourne-bride),,,,orthophotographies,301374.5,5036071.43,-73.5438047638256,45.4645625987446
+166,Verdun,De La Fontaine,,place de la Fontaine/rue Berlioz,,,,orthophotographies,301467.79,5035914.1,-73.5426107195395,45.4631473176096
+167,Le Sud-Ouest,Brewster,,ave Brewster/rue Saint-Jacques,,,,orthophotographies,298364.38,5038083.51,-73.5823240386162,45.4826469881113
+168,Le Sud-Ouest,David-Lefebvre,,rue Vinet/rue Quesnel,,,,orthophotographies,298740.67,5038485.76,-73.5775155295401,45.4862699828013
+169,Le Sud-Ouest,de l'Encan,,boul. Georges-Vanier/rue Notre-Dame Ouest,,,,orthophotographies,299122.09,5038330.51,-73.5726343253176,45.4848761802612
+170,Le Sud-Ouest,des Cordonniers,,rue Bourget/rue Notre-Dame Ouest,,,,orthophotographies,298510.77,5037690.03,-73.5804463900214,45.4791076096942
+171,Le Sud-Ouest,Gadbois,,rue des Utilités publiques/chemin de la Côte-Saint-Paul,,,,orthophotographies,297337.54,5036387.78,-73.5954335341273,45.4673778042842
+172,Le Sud-Ouest,Jacques-Viger,,rue Saint-Philippe/rue Sainte-Philomène,,,,orthophotographies,298241.88,5037275.56,-73.5838802610298,45.4753755433897
+173,Le Sud-Ouest,Jessie-Maxwell-Smith,,rue Saint-Antoine Ouest/place Richmond,,,,orthophotographies,299085.95,5039089.86,-73.5731054822130,45.4917088555216
+174,Le Sud-Ouest,Polyvalente Saint-Henri,,rue du Couvent/rue Saint-Antoine Ouest,,,,orthophotographies,298015.87,5037675.18,-73.5867765105778,45.4789693490225
+175,Le Sud-Ouest,Sainte-Cunégonde,,rue Notre-Dame Ouest/rue Charlevoix,,,,orthophotographies,298826.61,5038050.03,-73.5764108203221,45.4823498281249
+176,Le Sud-Ouest,Vinet,,rue Charlevoix/rue Workman,,,,orthophotographies,298840.41,5038126.97,-73.5762352264456,45.4830422871593
+177,Le Sud-Ouest,Square Sainte-Élizabeth,,rue du square Sainte-Élizabeth/rue De Courcelle,,,,orthophotographies,297537.73,5037223.59,-73.5928857645931,45.4749009247713
+178,Le Sud-Ouest,Place Roland-Proulx,,rue du Square-Sir-Georges-Étienne-Cartier/rue Saint-Ambroise,,,,orthophotographies,298200.12,5036946.93,-73.5844099682367,45.4724179838495
+179,Le Sud-Ouest,Herb-Trawick,,rue Notre-DAme Ouest/rue Saint-Martin,,,,orthophotographies,299388.86,5038766.74,-73.5692264965382,45.4888036927982
+180,Le Sud-Ouest,Carré d'Hibernia,,rue Grand Trunk/rue Laprairie,,,,orthophotographies,299776.76,5037679.41,-73.5642528439406,45.4790223025200
+181,Le Sud-Ouest,D'Argenson,baseball,rue du Centre/ave Atwater,,,,orthophotographies,299163.94,5037395.82,-73.5720882355495,45.4764657502313
+182,Le Sud-Ouest,Le Ber,,ave Ash/rue Le Ber,,,,orthophotographies,300514.32,5037536.68,-73.5548173880031,45.4777428686637
+183,Le Sud-Ouest,Le Ber,,ave Ash/rue Le Ber,,,,orthophotographies,300637.65,5037581.14,-73.5532402728631,45.4781436865964
+184,Le Sud-Ouest,Atwater / Saint-Charles,,rue Saint-Charles/rue Thomas-Keefer,,,,orthophotographies,299058.53,5037507.25,-73.5734377874211,45.4774675902691
+185,Le Sud-Ouest,Saint-Gabriel,,rue Charlevoix/rue Grand Trunk,,,,orthophotographies,299541.86,5037533.45,-73.5672559124382,45.4777071572516
+186,Le Sud-Ouest,Campbell-Ouest ou parc Oscar-Peterson,,rue Quesnel/rue Chatham,,,,orthophotographies,299001.59,5038785.97,-73.5741811923200,45.4889736229050
+187,Le Sud-Ouest,Clifford,,boul. de la Vérendrye/rue Raudot,,,,orthophotographies,297838.03,5034438.05,-73.5890054278174,45.4498383470737
+188,Le Sud-Ouest,des Métallos,,rue Jacques-Hertel/rue Mazzarin,,,,orthophotographies,296843.51,5035393.38,-73.6017353229602,45.4584242631163
+189,Le Sud-Ouest,Garneau,,boul. Monk/rue du Parc-Garneau,,,,orthophotographies,297383.74,5035089.32,-73.5948231188930,45.4556941253771
+190,Le Sud-Ouest,Springland,,rue Springland/boul. De La Vérendrye,,,,orthophotographies,298285.06,5034917.61,-73.5832967233019,45.4541579786506
+191,LaSalle,Albert-Perras,,rue Perras/rue Jean-Chevalier,,,,orthophotographies,296051.29,5032771.09,-73.6118183619702,45.4348181093229
+192,LaSalle,Boivin,,rue de Cabano/rue de Percé,,,,orthophotographies,294369.41,5031013.62,-73.6332774068654,45.4189804032321
+193,LaSalle,Chevalier-De Lasalle,tennis,80e avenue/rue de Matane,,,,orthophotographies,293995.44,5031003.72,-73.6380555972055,45.4188856422998
+194,LaSalle,Chevalier-De Lasalle,soccer,,,,localisation approx.,localisation approx.,293759.41,5031011.19,-73.6410716360680,45.4189491764593
+195,LaSalle,Centre sportif Dollard St-Laurent,jeux d'eau,,,,localisation approx.,localisation approx.,294740.34,5031299.95,-73.6285436881101,45.4215623865836
+196,LaSalle,Christophe-Colomb,jeux,rue David-Boyer/rue Réjane,,,,orthophotographies,294845.57,5032265.77,-73.6272185684087,45.4302548521999
+197,LaSalle,Dalmany,jeux,rue Dalmany/avenue Stirling,,,,orthophotographies,292363.69,5032181.78,-73.6589350007125,45.4294593367135
+198,LaSalle,Hayward,jeux,rue Hayward,,,localisation approx.,localisation approx.,293147.81,5031448.4,-73.6488966975097,45.4228735048442
+199,LaSalle,Hébert,jeux,rue Beyries/66e avenue,,,localisation approx. / accès par la ruelle ?,localisation approx.,294883.01,5031086.94,-73.6267163484590,45.4196476449072
+200,LaSalle,J.-D.-Ducharme,,rue rancourt/rue Daoust,,,,orthophotographies,295055.28,5031972.51,-73.6245326578798,45.4276188979357
+201,LaSalle,Leduc,,rue Béique/rue Paquette,,,localisation approx.,localisation approx.,294421.61,5032020.41,-73.6326316324772,45.4280408115093
+202,LaSalle,Jeannotte,jeux,rue Clément/rue Trudeau,,,,orthophotographies,293853.21,5032476.16,-73.6399056652547,45.4321332210644
+203,LaSalle,Lacharité,softball,ave Latour/boul LaSalle,,,,orthophotographies,295140.7,5030701.39,-73.6234161119837,45.4161818615722
+204,LaSalle,Lasalle-Nord,jeux,rue Chouinard/rue Lapierre,,,,orthophotographies,295603.69,5033082.97,-73.6175450084565,45.4376188232935
+205,LaSalle,Lawrence,jeux,66e ave/rue Beyries,,,,orthophotographies,294899.52,5030912.86,-73.6265018911661,45.4180814126424
+206,LaSalle,Lefebvre,jeux,rue Cordner/rue Hardy,,,,orthophotographies,294262.68,5033103.59,-73.6346858704910,45.4377854480139
+207,LaSalle,Leroux,soccer,rue Centrale/ave Alepin,,,,orthophotographies,297340.53,5032701.78,-73.5953393982553,45.4342093635957
+208,LaSalle,Leroux,jeux,rue Centrale/ave Alepin,,,,orthophotographies,297246.34,5032737.3,-73.5965437828214,45.4345279801040
+209,LaSalle,Louis-Marie-Gagnon,jeux,rue des Oblats/rue Airlie,,,,orthophotographies,292688.44,5031803.23,-73.6547754286876,45.4260586476609
+210,LaSalle,G.-Melatti,jeux,rue Melatti,,,,orthophotographies,296284.6,5032523.35,-73.6088321180635,45.4325916952546
+211,LaSalle,Mohawk,,rue Dalmany/ave Highlands,,,,orthophotographies,292537.14,5032192.91,-73.6567186097983,45.4295625529705
+212,LaSalle,Ouellette,baseball,rue Giguère,,,,orthophotographies,295242.48,5032626.29,-73.6221530305268,45.4335045364018
+213,LaSalle,Ouellette,Piscine,rue Robert/rue Charbonneau,,,accès restreint,orthophotographies,295323.19,5032569.29,-73.6211203949660,45.4329927192033
+214,LaSalle,Paul-Séguin,jeux,rue Raymond/30e ave,,,,orthophotographies,295938.88,5031631.39,-73.6132345770209,45.4245610706648
+215,LaSalle,Raymond,soccer,boul. Bishop-Power/rue Centrale,,,,orthophotographies,296801.27,5031975.82,-73.6022198705110,45.4276708301280
+216,LaSalle,Riverside,jeux,35e ave/ave Vachon,,,,orthophotographies,295964.66,5031092.18,-73.6128954691008,45.4197092936004
+217,LaSalle,Riverside,mini-soccer,35e ave/ave Vachon,,,,orthophotographies,295882.97,5031186.57,-73.6139409870620,45.4205576296981
+218,Outremont,Beaubien,jeux,ave Stuart/ave Saint-Viateur,,,,orthophotographies,296382.72,5041768.37,-73.6077364834767,45.5157838258671
+219,Outremont,Beaubien,étang,ave Stuart/ave Saint-Viateur,,,,orthophotographies,296282.46,5041763.3,-73.6090196650693,45.5157369865025
+220,Outremont,parc canin,,ave McEachran/ave du Manoir,,,,orthophotographies,295365.47,5042234.2,-73.6207656541679,45.5199625225131
+221,Outremont,F.-X.-Garneau,,place Elmwood/ave Outremont,,,,orthophotographies,296598.14,5041853.27,-73.6049806530182,45.5165503567389
+222,Outremont,John-F. Kennedy,Piscine,ave Ducharme/ave Wiseman,,,accès restreint,orthophotographies,295715,5042412.3,-73.6162948452321,45.5215697770223
+223,Outremont,Joyce,jeux,ave Lajoie/ave Antonine-maillet,,,,orthophotographies,295789.34,5041713.79,-73.6153303978899,45.5152852780852
+224,Outremont,Joyce,chalet,ave Lajoie/ave Antonine-maillet,,,,orthophotographies,295849.54,5041675.17,-73.6145591747501,45.5149385354707
+225,Outremont,Joyce,tennis,ave Lajoie/ave Antonine-maillet,,,,orthophotographies,295828.78,5041698.01,-73.6148253046165,45.5151437919886
+226,Outremont,d'Oakwood,tennis,ave Roskilde/ave Springgrove,,,,orthophotographies,296934.68,5041487.19,-73.6006672038924,45.5132601008522
+227,Outremont,Pratt,étang,ave Van Horne/ave Dunlop,,,,orthophotographies,295454.06,5041656.92,-73.6196206633243,45.5147691263294
+228,Outremont,Raoul-Dandurand,,ave Van Horne/boul Dollard,,,Parc Stanislas (dans BD ville),orthophotographies,295728.64,5042090.95,-73.6161142953500,45.5186783237126
+229,Outremont,Saint-Viateur,jeux,ave Querbes/ave Bernard,,,,orthophotographies,296509.47,5042301.73,-73.6061231785313,45.5205847261625
+230,Outremont,Saint-Viateur,tennis #3,ave Querbes/ave Bernard,,,accès restreint,orthophotographies,296492.98,5042332.05,-73.6063347728387,45.5208573609582
+231,Outremont,Saint-Viateur,tennis #4,ave Querbes/ave Bernard,,,accès restreint,orthophotographies,296475.12,5042343.39,-73.6065635836433,45.5209591896189
+232,Outremont,CCI,,ave McEachran/ave du Manoir,,,Centre Communautaire Intergénérationnel,orthophotographies,295418.66,5042238.63,-73.6200848877841,45.5200031031151
+233,Plateau-Mont-Royal,des Açores (ou Hôtel-de-Ville),jeux,ave de l'Hôtel-de-Ville/rue Rachel Est,,,,,298592.36,5042162.19,-73.5794593451970,45.5193507480139
+234,Plateau-Mont-Royal,Albert-Saint-Martin,jeux,rue Berri/rue De Bienville,,,,,298296.79,5042867.68,-73.5832520737098,45.5256963277821
+235,Plateau-Mont-Royal,Alphonse-Télésphore-Lépine,,ave De Gaspé/ave Fairmount Est,,,,,297556.33,5042893.51,-73.5927315825684,45.5259214543915
+236,Plateau-Mont-Royal,des Amériques,,boul Saint-Laurent/rue Rachel Est,,,,,298407.4,5042041.99,-73.5818253093539,45.5182674694248
+237,Plateau-Mont-Royal,Baldwin,,rue Fullum/rue Marie-Anne Est,,,localisation approx.,localisation approx.,299636.36,5044081.49,-73.5661161238705,45.5366298617974
+238,Plateau-Mont-Royal,Baldwin,,rue Fullum/rue Marie-Anne Est,,,localisation approx.,localisation approx.,299513.4,5044132.92,-73.5676910787635,45.5370917259121
+239,Plateau-Mont-Royal,De Bullion,,rue De Bullion/rue Prince-Arthur Est,,,,orthophotographies,299176.16,5041778.11,-73.5719821586527,45.5158995961116
+240,Plateau-Mont-Royal,des Compagnons-de-Saint-Laurent,,ave du Mont-Royal Est/rue Cartier,,,,orthophotographies,299088.8,5043765.81,-73.5731234880642,45.5337849827221
+241,Plateau-Mont-Royal,Devonshire,,rue Sewell/ave des Pins Ouest,,,,orthophotographies,298845.98,5041644.63,-73.5762066620594,45.5146957480695
+242,Plateau-Mont-Royal,Drolet / Rachel,,rue Drolet/rue Rachel Est,,,,orthophotographies,298550.93,5042425.63,-73.5799930181560,45.5217209147616
+243,Plateau-Mont-Royal,Gilles-Lefebvre,jeux d'eau,ave Henri-Julien/ave du Mont-Royal Est,,,,orthophotographies,298215.56,5042605.74,-73.5842884338338,45.5233385278252
+244,Plateau-Mont-Royal,Jean-Jacques-Olier,,rue Drolet/ave Duluth Est,,,,orthophotographies,298901.35,5042199.65,-73.5755046502770,45.5196905106462
+245,Plateau-Mont-Royal,de la Bolduc,,rue Rachel Est/rue Rivard,,,,orthophotographies,298753.36,5042497.68,-73.5774026461476,45.5223710340807
+246,Plateau-Mont-Royal,Lahaie,,ave Laurier Est/rue saint-Dominique,,,,orthophotographies,297618.64,5042600.23,-73.5919296087411,45.5232830529216
+247,Plateau-Mont-Royal,Laval,,ave Laval/rue du Square-Saint-Louis,,,,orthophotographies,299176.24,5041892.17,-73.5719824432553,45.5169259544878
+248,Plateau-Mont-Royal,Lhasa-de-Sela (Clark),,rue Clark/rue Saint-Urbain,,,,orthophotographies,296614.15,5043055.9,-73.6047958203969,45.5273722729354
+249,Plateau-Mont-Royal,Louis-Reitman,,rue saint-Dominique/rue Roy Est,,,,orthophotographies,298867.17,5041789.34,-73.5759371986965,45.5159980875607
+250,Plateau-Mont-Royal,du Portugal,,boul Saint-Laurent/rue Marie-Anne Est,,,,orthophotographies,298268.08,5042151.33,-73.5836100612599,45.5192500627160
+260,Plateau-Mont-Royal,Saint-Pierre-Claver,,rue Fullum/rue Gilford,,,,orthophotographies,299043.35,5044416.59,-73.5737130584537,45.5396405676612
+261,Plateau-Mont-Royal,Thérèse-Daviau (Roy/Rivard),,rue Roy Est/rue Rivard,,,,orthophotographies,299166.31,5042247.58,-73.5721136292920,45.5201239951802
+262,Plateau-Mont-Royal,University Settlement,,rue Clark/rue Milton,,,,orthophotographies,299194.68,5041412.88,-73.5717409367901,45.5126132576154
+263,Plateau-Mont-Royal,Palomino Brin D'Amour (Villeneuve),,ave Henri-Julien/rue Gilford,,,,orthophotographies,298098.68,5042684.6,-73.5857857095901,45.5240470268704
+264,Rivière-des-Prairies–Pointe-aux-Trembles,Centre récréatif RDP,tennis,ave Fernand-Gauthier/boul Maurice-Duplessis,,,accès restreint,orthophotographies,297413.61,5054079.38,-73.5947277283662,45.6265737945856
+265,Rivière-des-Prairies–Pointe-aux-Trembles,École Bosco-Ville,privé,10950 boul Perras,,,localisation approx. accès restreint/terrain privé,localisation approx.,301385.43,5058447.59,-73.5438212615417,45.6659107068590
+266,Rivière-des-Prairies–Pointe-aux-Trembles,Jean-Jacques-Rousseau,Jardins communautaires,rue La Galissionnière/rue des Philosophes,,,Jardin commun. Les Arpents Verts/accès restreint,orthophotographies,300911.49,5057959.4,-73.5498997179818,45.6615153940499
+267,Rivière-des-Prairies–Pointe-aux-Trembles,Jardin commun. Les Deux Sapins,Jardins communautaires,89e ave/boul Perras,,,accès restreint,orthophotographies,301723.08,5059203.33,-73.5394927761062,45.6727125600457
+268,Rivière-des-Prairies–Pointe-aux-Trembles,Albéric-Bourgeois,,ave André-Ampère/25e ave,,,,orthophotographies,297802.1,5055260.25,-73.5897624542843,45.6372035396820
+269,Rivière-des-Prairies–Pointe-aux-Trembles,André-Corbeil-Dit_Tranchemontagne,,boul Gouin Est/26e ave,,,,orthophotographies,297225.01,5056013.88,-73.5971765318649,45.6439787969703
+270,Rivière-des-Prairies–Pointe-aux-Trembles,Armand-Bombardier,,ave Charles-Renard/ave Octave-Pelletier,,,,orthophotographies,297309.95,5055651.44,-73.5960812971405,45.6407184120555
+271,Rivière-des-Prairies–Pointe-aux-Trembles,Cécile-Bérubé,,ave Élie-Beauregard/rue Joseph De Montenon,,,,orthophotographies,297143.71,5054944.64,-73.5982026870833,45.6343566679258
+272,Rivière-des-Prairies–Pointe-aux-Trembles,Claudine-Vallerand,,27e ave/rue Pierre-Magnet,,,,orthophotographies,298253.28,5054644.92,-73.5839668805398,45.6316710700366
+273,Rivière-des-Prairies–Pointe-aux-Trembles,Conrad-Poirier,,boul Perras/ave Salomon-Marion,,,localisation approx.,localisation approx.,297231.15,5055224.3,-73.5970854930095,45.6368740652190
+274,Rivière-des-Prairies–Pointe-aux-Trembles,Dollard-Morin,,rue La Valinière/ave René-Descartes,,,,orthophotographies,297565.11,5054219.44,-73.5927868785874,45.6278356800796
+275,Rivière-des-Prairies–Pointe-aux-Trembles,Dollard-Morin,,boul Maurice-Duplessis/15e ave,,,,orthophotographies,297506.39,5054233.17,-73.5935401623173,45.6279586115232
+276,Rivière-des-Prairies–Pointe-aux-Trembles,Dollard-Morin,,rue La Valinière/ave René-Descartes,,,localisation approx.,localisation approx.,297554.91,5054207.24,-73.5929175112119,45.6277257954617
+277,Rivière-des-Prairies–Pointe-aux-Trembles,Dollard-Morin,,rue La Valinière/ave René-Descartes,,,localisation approx.,localisation approx.,297563.49,5054164.45,-73.5928068383731,45.6273408510092
+278,Rivière-des-Prairies–Pointe-aux-Trembles,Alexis-Carrel (Don Bosco),,boul Perras/ave Alfred-Nobel,,,,orthophotographies,297888.96,5056066.52,-73.5886597395037,45.6444593895548
+279,Rivière-des-Prairies–Pointe-aux-Trembles,du Moulin-du-Rapide,,rue de Clichy/58e ave,,,,orthophotographies,299185.11,5057811.58,-73.5720519518042,45.6601734597883
+280,Rivière-des-Prairies–Pointe-aux-Trembles,Edmondo-Chiodini,,4e rue/60e ave,,,,orthophotographies,299711.48,5057336.56,-73.5652924509159,45.6559032049528
+281,Rivière-des-Prairies–Pointe-aux-Trembles,Ernest-Rouleau,,boul Gouin Est/ave Ozias-Leduc,,,,orthophotographies,295743.68,5054620.9,-73.6161539886417,45.6314267412940
+282,Rivière-des-Prairies–Pointe-aux-Trembles,Ferdinand-Biondi,,ave Auguste-Picard/ave Éli-Beauregard,,,,orthophotographies,297376.08,5054454.98,-73.5952147581020,45.6299531257986
+283,Rivière-des-Prairies–Pointe-aux-Trembles,Gérard-Picard,,boul Rodolphe-Forget/ave Louis-Dessaules,,,,orthophotographies,298898.67,5056333.32,-73.5757097072896,45.6468694265539
+284,Rivière-des-Prairies–Pointe-aux-Trembles,Gerry-Roufs,,boul Gouin Est/ave Pierre-Baillargeon,,,,orthophotographies,298030.1,5056778.13,-73.5868589931791,45.6508639831311
+285,Rivière-des-Prairies–Pointe-aux-Trembles,Marie-Cardinal,,rue Jacques-Rousseau (tourne-bride),,,,orthophotographies,296564.81,5055062.02,-73.6056298657726,45.6354062534361
+286,Rivière-des-Prairies–Pointe-aux-Trembles,Pasquale-Gatusso,,Place Gilles-Trottier,,,,orthophotographies,298879.52,5055142.91,-73.5759409148921,45.6361577123321
+287,Rivière-des-Prairies–Pointe-aux-Trembles,Renée-Vautelet,,ave Pierre-Baillargeon/rue Albert-Chamberland,,,,orthophotographies,298186.32,5056707.07,-73.5848537001502,45.6502260782468
+288,Rivière-des-Prairies–Pointe-aux-Trembles,Pierre-Blanchet,,ave Philippe-Panneton/ave André-Ampère,,,,orthophotographies,296721.12,5054187.95,-73.6036104430683,45.6275430221672
+289,Rivière-des-Prairies–Pointe-aux-Trembles,Pierre-Dagenais-dis-Lépine,,boul Gouin Est/48e ave,,,,orthophotographies,298473.28,5057234.47,-73.5811788549883,45.6549743960093
+290,Rivière-des-Prairies–Pointe-aux-Trembles,Pierre-Perrault,,boul Gouin Est/ave Rita-Levi-Montalcini,,,,orthophotographies,297540.47,5056353.15,-73.5931346852597,45.6470349845320
+291,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Valérien,,boul Perras/87e ave,,,,orthophotographies,301518.04,5058951.61,-73.5421227985137,45.6704466028730
+292,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Marthe,,rue Jacques-Rousseau/ave Jean-Jalbot,,,localisation approx.,localisation approx.,297029.93,5055435.06,-73.5996698963546,45.6387683040063
+293,Rivière-des-Prairies–Pointe-aux-Trembles,Samuel-Morse,,ave André-Dumas/ave André-Ampère,,,,orthophotographies,298158.31,5055423.63,-73.5851955617989,45.6386771653639
+294,Rivière-des-Prairies–Pointe-aux-Trembles,Marie-Coron (Urgel-Charbonneau),,rue René-Lévesque/36e ave,,,,orthophotographies,304810.48,5057751.05,-73.4998655187484,45.6596515204152
+295,Rivière-des-Prairies–Pointe-aux-Trembles,Gérard-Vaillancourt,,rue Ontario Est/47e ave,,,,orthophotographies,304673.22,5058592.02,-73.5016270830346,45.6672187053992
+296,Rivière-des-Prairies–Pointe-aux-Trembles,Rodrigue-Gilbert Sud,,rue Joseph-Dargent/rue Joseph-Janot,,,localisation approx.,localisation approx.,304888.1,5056874.37,-73.4988696436189,45.6517629828106
+297,Rivière-des-Prairies–Pointe-aux-Trembles,Pierre-Lacroix (Jardins commun.),Jardins communautaires,rue Parent/18e ave,,,accès restreint,orthophotographies,305158.75,5056263.7,-73.4953975516274,45.6462679653216
+298,Rivière-des-Prairies–Pointe-aux-Trembles,Richelieu (Jardins commun.),Jardins communautaires,rue Forsyth/40e ave,,,accès restreint,orthophotographies,304451.6,5058194.18,-73.5044710490445,45.6636387962139
+299,Rivière-des-Prairies–Pointe-aux-Trembles,Maria-Goreti (Jardins commun.),Jardins communautaires,Ter. Sainte-Maria-Goreti/94e ave,,,accès restreint,orthophotographies,306171.31,5062008.15,-73.4823910915763,45.6979561971675
+300,Rivière-des-Prairies–Pointe-aux-Trembles,Parc-école Notre-Dame,,rue Notre-Dame Est/57e ave,,,,orthophotographies,305287.02,5059240.66,-73.4937489797824,45.6730551163016
+301,Rivière-des-Prairies–Pointe-aux-Trembles,Beausoleil,,rue Beausoleil/rue Beaudoin,,,,orthophotographies,305381.7,5060631.4,-73.4925320743857,45.6855691322943
+302,Rivière-des-Prairies–Pointe-aux-Trembles,des Bouleaux,,rue des Bouleaux/rue Reeves,,,,orthophotographies,304732.16,5056402.67,-73.5008703471647,45.6475185349384
+303,Rivière-des-Prairies–Pointe-aux-Trembles,de la Rivière,,rue Pierre-Mercure/rue Napoléon-Brisebois,,,,orthophotographies,305475.33,5062143.69,-73.4913279397998,45.6991768303512
+304,Rivière-des-Prairies–Pointe-aux-Trembles,du Bout-de-L'île,,rue Bureau (tourne-bride),,,localisation approx.,localisation approx.,306495.87,5062481.84,-73.4782217819081,45.7022177972606
+305,Rivière-des-Prairies–Pointe-aux-Trembles,Clémentine-De la Rousselière,,rue Notre-Dame Est/boul De La Rousselière,,,,orthophotographies,305267.71,5058703.18,-73.4939973453372,45.6682187958388
+306,Rivière-des-Prairies–Pointe-aux-Trembles,du Colombier,,rue du Colombier,,,,orthophotographies,305255.6,5056568.26,-73.4941547659083,45.6490084007415
+307,Rivière-des-Prairies–Pointe-aux-Trembles,Daniel-Johnson,,boul du Tricentenaire/rue Joseph-Dargent,,,,orthophotographies,304810.48,5056697.17,-73.4998655414445,45.6501685079520
+308,Rivière-des-Prairies–Pointe-aux-Trembles,des Épinettes,,rue des Épinettes/rue des Bois-Francs,,,,orthophotographies,304223.09,5056575.66,-73.5074016198203,45.6490748971834
+309,Rivière-des-Prairies–Pointe-aux-Trembles,François-La Bernarde,,place François-La Bernarde/rue Antoine-Chaudillon,,,,orthophotographies,305571.23,5061326.17,-73.4900977653473,45.6918205825659
+310,Rivière-des-Prairies–Pointe-aux-Trembles,François-Vaillancourt,,rue René-Lévesque/31e ave,,,localisation approx.,localisation approx.,304740.65,5057334.61,-73.5007615391156,45.6559043136076
+311,Rivière-des-Prairies–Pointe-aux-Trembles,de Montmartre,,rue De Montigny/60e ave,,,,orthophotographies,304999.39,5059548.03,-73.4974406547523,45.6758210228070
+312,Rivière-des-Prairies–Pointe-aux-Trembles,Richelieu,,rue Forsyth/40e ave,,,,orthophotographies,304414.25,5058182.5,-73.5049503557438,45.6635336777520
+313,Rivière-des-Prairies–Pointe-aux-Trembles,Rosaire-Prieur (Prince-Albert),,rue Prince-Albert/8e ave,,,,orthophotographies,305397.83,5055439.65,-73.4923313762802,45.6388528260918
+314,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Georges,,place Saint-Georges,,,,orthophotographies,305404.06,5057166.65,-73.4922493185835,45.6543927173063
+315,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Jean-Baptiste,,boul Saint-Jean-Baptiste/rue René-Lévesque,,,,orthophotographies,304761.14,5055686.57,-73.5004984937151,45.6410749212930
+316,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Joseph,,boul Gouin Est/68e ave,,,,orthophotographies,300044.95,5057888.52,-73.5610189860566,45.6608722053241
+317,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Joseph,,boul Gouin Est/68e ave,,,,orthophotographies,299910.65,5058024.55,-73.5627437515313,45.6620952934889
+318,Rivière-des-Prairies–Pointe-aux-Trembles,Saint-Joseph,,boul Gouin Est/68e ave,,,,orthophotographies,299907.84,5058053.38,-73.5627801014470,45.6623546910069
+319,Rivière-des-Prairies–Pointe-aux-Trembles,Maria-Goretti,,rue Notre-Dame Est/85e ave,,,,orthophotographies,305761.51,5061305.65,-73.4876546992836,45.6916357030358
+320,Rivière-des-Prairies–Pointe-aux-Trembles,Yves-Thériault / Sherbrooke,,ave Yves-Thériault/rue Thérèse-Giroux,,,,orthophotographies,304515.32,5059963,-73.5036543601290,45.6795549569747
+321,Rivière-des-Prairies–Pointe-aux-Trembles,Polyvalente Pointe-aux-Trembles,,rue Sherbrooke Est/rue Damien-Gauthier,,,localisation approx.,localisation approx.,305184.31,5060501.17,-73.4950662909077,45.6843974417520
+322,Rivière-des-Prairies–Pointe-aux-Trembles,Polyvalente Pointe-aux-Trembles,,rue Sherbrooke Est/rue Damien-Gauthier,,,localisation approx.,localisation approx.,305197.73,5060500.7,-73.4948940075222,45.6843932050549
+323,Rivière-des-Prairies–Pointe-aux-Trembles,Polyvalente Pointe-aux-Trembles,,rue Sherbrooke Est/rue Damien-Gauthier,,,localisation approx.,localisation approx.,305185.73,5060490.11,-73.4950480699597,45.6842979214975
+324,Rivière-des-Prairies–Pointe-aux-Trembles,Polyvalente Pointe-aux-Trembles,,rue Sherbrooke Est/rue Damien-Gauthier,,,localisation approx.,localisation approx.,305198.67,5060491.29,-73.4948819476775,45.6843085319858
+325,Rivière-des-Prairies–Pointe-aux-Trembles,Victoria-Girard,,rue Forsyth/rue Jean-Leduc,,,localisation approx.,localisation approx.,304233.62,5057189.24,-73.5072672364081,45.6545960182082
+326,Rivière-des-Prairies–Pointe-aux-Trembles,Place du Village,,rue Notre-Dame Est/boul Saint-Jean-Baptiste,,,localisation approx.,localisation approx.,305645.88,5055542.62,-73.4891493529637,45.6397791143472
+327,Rivière-des-Prairies–Pointe-aux-Trembles,Rampe de mise à l'eau,,rue Notre-Dame Est/36e ave,,,,orthophotographies,305552.02,5057685.59,-73.4903500448747,45.6590620918888
+328,Rivière-des-Prairies–Pointe-aux-Trembles,Francesco-Lacurto,,rue Maude-Abbott/rue Charlotte-Tassé,,,,orthophotographies,297291.98,5053906.55,-73.5962849236484,45.6250173275932
+329,Rivière-des-Prairies–Pointe-aux-Trembles,Perh-Kalm,,ave Rolland-Germain/rue Marcel-Raymond,,,,orthophotographies,300776.16,5058196.67,-73.5516383166077,45.6636496191226
+330,Rivière-des-Prairies–Pointe-aux-Trembles,René-Masson,,boul Rodolphe-Forget/boul Perras,,,,orthophotographies,298660.35,5056906.72,-73.5787744063546,45.6520269216699
+331,Rivière-des-Prairies–Pointe-aux-Trembles,des Pins,,42e ave/rue Cherrier,,,,orthophotographies,303503.27,5058519.67,-73.5166419220824,45.6665664872244
+332,Rivière-des-Prairies–Pointe-aux-Trembles,Marie-Claire-Daveluy,,ave Jean-Yves-Bigras/ave Louis-Dessaules,,,,orthophotographies,299446.45,5056654.1,-73.5686856273730,45.6497603082497
+333,Rosemont–La Petite-Patrie,Beaubien,,rue Beaubien Est/6e ave,,,localisation approx.,localisation approx.,297758.91,5045994.13,-73.5901828013251,45.5538240277343
+334,Rosemont–La Petite-Patrie,Beaubien,,rue Beaubien Est/6e ave,,,localisation approx.,localisation approx.,297774.55,5045990.22,-73.5899824271494,45.5537890021944
+335,Rosemont–La Petite-Patrie,Bélanger/Chateaubriand,,reu Bélanger/ave De Chateaubriand,,,,orthophotographies,296178.21,5044268.7,-73.6103980942254,45.5382802355238
+336,Rosemont–La Petite-Patrie,Carmela-Galardo-Frascarelli,,rue Drolet/rue Bélanger,,,,orthophotographies,296030.3,5044053.19,-73.6122881509997,45.5363391532123
+337,Rosemont–La Petite-Patrie,des Carrières,,rue des Carrières/rue Boyer,,,,orthophotographies,297510.28,5043746.14,-73.5933337903976,45.5335932596698
+338,Rosemont–La Petite-Patrie,de la Cité-Jardin,,boul Rosemont/ave des Épinettes,,,localisation approx.,localisation approx.,299971.7,5047937.37,-73.5618604308963,45.5713288024950
+339,Rosemont–La Petite-Patrie,Dante,,rue Dante/ave De Gaspé,,,,orthophotographies,296064.58,5043832.45,-73.6118452895708,45.5343532853950
+340,Rosemont–La Petite-Patrie,De Gaspé,,ave De Gaspé/rue Saint-Zotique Est,,,,orthophotographies,296268.16,5043694.32,-73.6092363202975,45.5331128635227
+341,Rosemont–La Petite-Patrie,Étienne-Desmarteau,,rue Beaubien Est/20e ave,,,,orthophotographies,298533.93,5046741.81,-73.5802658762942,45.5605593085642
+342,Rosemont–La Petite-Patrie,Étienne-Desmarteau,,rue Beaubien Est/20e ave,,,,orthophotographies,298574.73,5046727.85,-73.5797430672580,45.5604340578906
+343,Rosemont–La Petite-Patrie,Étienne-Desmarteau,,rue Beaubien Est/20e ave,,,localisation approx.,localisation approx.,298536.78,5046645.61,-73.5802281369770,45.5596936947573
+344,Rosemont–La Petite-Patrie,Étienne-Desmarteau,,rue Beaubien Est/20e ave,,,localisation approx.,localisation approx.,298585.63,5046628,-73.5796021742768,45.5595356718738
+345,Rosemont–La Petite-Patrie,Étienne-Desmarteau,,rue Beaubien Est/20e ave,,,localisation approx.,localisation approx.,298518.73,5046611.28,-73.5804589056530,45.5593846194073
+346,Rosemont–La Petite-Patrie,Étienne-Desmarteau,,rue Beaubien Est/20e ave,,,localisation approx.,localisation approx.,298569.78,5046587.96,-73.5798046925694,45.5591752369886
+347,Rosemont–La Petite-Patrie,Guglielmo-Marconi (Jean-Talon/Saint-Laurent),,boul Saint-Laurent/rue Jean-Talon Est,,,,orthophotographies,295607.38,5043882.07,-73.6177000391677,45.5347939026664
+348,Rosemont–La Petite-Patrie,Guido-Nincheri,,rue Sherbrooke Est/boul Pie-IX,,,localisation approx.,localisation approx.,300503.29,5046033.34,-73.5550329452937,45.5541991942267
+349,Rosemont–La Petite-Patrie,Place Hector-Prud'homme,,rue Saint-Hubert/rue de Bellechasse,,,,orthophotographies,297015.6,5043883.2,-73.5996695855457,45.5348212254720
+350,Rosemont–La Petite-Patrie,Henri-Valade,,place Henri-Valade/boul Saint-Joseph Est,,,,orthophotographies,299482.87,5045404.34,-73.5680958032691,45.5485321897072
+351,Rosemont–La Petite-Patrie,Idola-Saint-Jean,,boul Rosemont/18e ave,,,,orthophotographies,298778.19,5046429.53,-73.5771331604392,45.5577514646343
+352,Rosemont–La Petite-Patrie,J.-Arthur-Champagne,,ave du Mont-Royal Est/rue Henri-Deslongchamps,,,,orthophotographies,300015.36,5045769.94,-73.5612798510165,45.5518258482451
+353,Rosemont–La Petite-Patrie,Jean-Duceppe,,rue William-Tremblay/rue André-Laurendeau,,,,orthophotographies,299753.65,5044798.52,-73.5646217144162,45.5430828197083
+354,Rosemont–La Petite-Patrie,Jean-Duceppe,,rue William-Tremblay/rue André-Laurendeau,,,localisation approx.,localisation approx.,299606.4,5044884.68,-73.5665082570232,45.5438570361742
+355,Rosemont–La Petite-Patrie,Jean-Et-Èva-Tremblay,,place Guillet/18e ave,,,localisation approx.,localisation approx.,300206.19,5045742.33,-73.5588355149888,45.5515786887867
+356,Rosemont–La Petite-Patrie,Joseph-N.-Drapeau,,place Joseph-N.-Drapeau/rue William-Tremblay,,,,orthophotographies,300069.84,5045404.45,-73.5605785591755,45.5485374132424
+357,Rosemont–La Petite-Patrie,Joseph-Paré,,rue Beaubien Est/43e ave,,,,orthophotographies,299347.87,5048317.37,-73.5698572068049,45.5747435537360
+358,Rosemont–La Petite-Patrie,Lafond,,boul Saint-Joseph Est/13e ave,,,,orthophotographies,299490.95,5045732.07,-73.5679958795843,45.5514812804610
+359,Rosemont–La Petite-Patrie,Lafond,,boul Saint-Joseph Est/13e ave,,,localisation approx.,localisation approx.,299421.71,5045820.54,-73.5688836456202,45.5522768328883
+360,Rosemont–La Petite-Patrie,Lafond,,boul Saint-Joseph Est/13e ave,,,localisation approx.,localisation approx.,299443.88,5045816.85,-73.5685996582237,45.5522437998584
+361,Rosemont–La Petite-Patrie,Lafond,,boul Saint-Joseph Est/13e ave,,,localisation approx.,localisation approx.,299453,5045812.66,-73.5684828061569,45.5522061668725
+362,Rosemont–La Petite-Patrie,Maisonneuve (gorf municipal),,rue Sherbrooke Est/boul de L'Assomption,,,,orthophotographies,300370.15,5048029.43,-73.5567563057624,45.5721598378904
+363,Rosemont–La Petite-Patrie,Maisonneuve (gorf municipal),,rue Sherbrooke Est/boul de L'Assomption,,,localisation approx.,localisation approx.,300364.05,5047696.08,-73.5568314351581,45.5691602094482
+364,Rosemont–La Petite-Patrie,Léon-Provancher,,boul Pix-IX/rue Dandurand,,,localisation approx.,localisation approx.,299364.14,5046720.46,-73.5696309860435,45.5603741713975
+365,Rosemont–La Petite-Patrie,des Locomotives,,rue Omer-Lavallée/ave du Midway,,,,orthophotographies,299966.06,5045090.2,-73.5619045517758,45.5457089675548
+366,Rosemont–La Petite-Patrie,de la Louisiane,,rue de Bellechasse/35e ave,,,localisation approx.,localisation approx.,299266.31,5047660.12,-73.5708947790953,45.5688287676533
+367,Rosemont–La Petite-Patrie,de la Louisiane,,rue de Bellechasse/35e ave,,,localisation approx.,localisation approx.,299057.59,5047603.19,-73.5735681210432,45.5683148025702
+368,Rosemont–La Petite-Patrie,de la Louisiane,,rue de Bellechasse/35e ave,,,localisation approx.,localisation approx.,299140.6,5047622.97,-73.5725048793367,45.5684934692544
+369,Rosemont–La Petite-Patrie,de la Louisiane,,rue de Bellechasse/35e ave,,,localisation approx.,localisation approx.,299151.93,5047621.04,-73.5723597039084,45.5684761945326
+370,Rosemont–La Petite-Patrie,Luc-Durand,,ave De Chateaubriand/rue des Ateliers,,,,orthophotographies,297273.76,5043567.31,-73.5963593173862,45.5319815667106
+371,Rosemont–La Petite-Patrie,Maisonneuve,,rue Sherbrooke Est/rue Viau,,,,orthophotographies,299732.23,5047587.14,-73.5649249001007,45.5681756186515
+372,Rosemont–La Petite-Patrie,Maisonneuve,,rue Sherbrooke Est/rue Viau,,,,orthophotographies,300288.25,5046937.45,-73.5577955502424,45.5623333217971
+373,Rosemont–La Petite-Patrie,Maisonneuve,,rue Sherbrooke Est/rue Viau,,,,orthophotographies,300465.69,5046858.59,-73.5555218446949,45.5616248406435
+374,Rosemont–La Petite-Patrie,Molson,,rue d'Iberville/ave Elsdale,,,localisation approx.,localisation approx.,297609.7,5045538.08,-73.5920871896442,45.5497188093937
+375,Rosemont–La Petite-Patrie,Montcalm,,rue Cartier/rue Saint-Zotique Est,,,,orthophotographies,296861.59,5045148.53,-73.6016620067772,45.5462053787496
+376,Rosemont–La Petite-Patrie,Mozart,,ave Mozart Ouest/rue Waverly,,,,orthophotographies,295663.52,5043502.97,-73.6169741658990,45.5313833612507
+377,Rosemont–La Petite-Patrie,du Pélican,,rue Laurier Est/1ere ave,,,,orthophotographies,298982.19,5044918.37,-73.5745021659334,45.5441552572935
+378,Rosemont–La Petite-Patrie,du Pélican,,rue Molson/boul Saint-Joseph,,,,orthophotographies,299127.94,5044785.18,-73.5726341673704,45.5429579678978
+379,Rosemont–La Petite-Patrie,Père-Marquette (sud),Parc à chien,rue Garnier/boul Rosemont,,,parc à chien / accès restreint,orthophotographies,297726.01,5044270.43,-73.5905792728304,45.5383132368199
+380,Rosemont–La Petite-Patrie,Père-Marquette (centre),,boul Rosemont/rue Chambord,,,,orthophotographies,297585.1,5044499.45,-73.5923869348099,45.5403725965631
+381,Rosemont–La Petite-Patrie,Père-Marquette (centre),,boul Rosemont/rue Chambord,,,,orthophotographies,297392.54,5044348.53,-73.5948503826016,45.5390125433111
+382,Rosemont–La Petite-Patrie,Père-Marquette (centre),,boul Rosemont/rue Chambord,,,localisation approx.,localisation approx.,297469.85,5044336.97,-73.5938602786908,45.5389093399205
+383,Rosemont–La Petite-Patrie,Père-Marquette (centre),,boul Rosemont/rue Chambord,,,localisation approx.,localisation approx.,297480.98,5044336.97,-73.5937177627133,45.5389094569297
+384,Rosemont–La Petite-Patrie,Père-Marquette (nord),,rue De Drucourt/rue De Lanaudière,,,,orthophotographies,297268.14,5044433.6,-73.5964445950522,45.5397767000744
+385,Rosemont–La Petite-Patrie,de la Petite-Italie,,rue Clark/rue Saint-Zotique Ouest,,,localisation approx.,localisation approx.,296054.76,5043503.75,-73.6119651519854,45.5313953993685
+386,Rosemont–La Petite-Patrie,Richard-Angus,,rue Ernest-Gendreau/ave du Mont-Royal Est,,,,orthophotographies,299838.55,5045537.94,-73.5635420125141,45.5497369940234
+387,Rosemont–La Petite-Patrie,Rosemont,,rue Dandurand/place Basile-Patenaude,,,,orthophotographies,298525.96,5045097.71,-73.5803468849870,45.5457650625458
+388,Rosemont–La Petite-Patrie,Saint-Édouard,,rue Boyer/rue Saint-Zotique Est,,,,orthophotographies,296453.83,5044320.89,-73.6068698015766,45.5387532160116
+389,Rosemont–La Petite-Patrie,Saint-Émile,,rue Rachel Est/rue Saint-Germain,,,,orthophotographies,300217.04,5045076.75,-73.5586903197493,45.5455896361678
+390,Rosemont–La Petite-Patrie,Saint-Émile,,rue Rachel Est/rue Saint-Germain,,,,orthophotographies,300174.69,5045100.84,-73.5592328898457,45.5458061266843
+391,Rosemont–La Petite-Patrie,Soeur-Madeleine-Gagnon (Saint-Jean-De-La-Croix),,rue Saint-Dominique/rue Saint-Zotique Est,,,,orthophotographies,296161.42,5043527.62,-73.6106000094739,45.5316115207103
+392,Rosemont–La Petite-Patrie,Raymond-Lévesque (Saint-Zotique/23e avenue),,rue Saint-Zotique Est/23e ave,,,,orthophotographies,298235.64,5047195.31,-73.5840929368250,45.5646373009131
+393,Rosemont–La Petite-Patrie,Sainte-Bernadette,,rue Bélanger/19e ave,,,,orthophotographies,297943.84,5046922.54,-73.5878272208381,45.5621800151337
+394,Rosemont–La Petite-Patrie,Sainte-Bernadette,,rue Bélanger/19e ave,,,localisation approx.,localisation approx.,297935.86,5046842.85,-73.5879283257351,45.5614628598458
+395,Rosemont–La Petite-Patrie,de l'Ukraine,pataugeoir,rue de Bellechasse/12e ave,,,accès restreint,orthophotographies,298368.77,5046142.78,-73.5823736320395,45.5551675303225
+396,Rosemont–La Petite-Patrie,de l'Ukraine,,rue de Bellechasse/12e ave,,,localisation approx.,localisation approx.,298379.8,5046136.66,-73.5822322754457,45.5551125622756
+397,Villeray–Saint-Michel–Parc-Extension,Le Goupillier (jardin),Jardins communautaires,54e rue (#4161),,,accès restreint,orthophotographies,294954.18,5049278.84,-73.6261720719409,45.5833468415968
+398,Villeray–Saint-Michel–Parc-Extension,Champdoré (jardin),Jardins communautaires,ave Charton (#9400),,,accès restreint,orthophotographies,293735.89,5047243.9,-73.6417380813116,45.5650175512588
+399,Villeray–Saint-Michel–Parc-Extension,De Lille (jardin),Jardins communautaires,ave Bruchesi (#9400),,,accès restreint,orthophotographies,294055.13,5047840.38,-73.6376615418056,45.5703898594061
+400,Villeray–Saint-Michel–Parc-Extension,Le Michelois (jardin),Jardins communautaires,,,,accès restreint,orthophotographies,295490.68,5047613.62,-73.6192652314997,45.5683700863962
+401,Villeray–Saint-Michel–Parc-Extension,Villeray(jardin),Jardins communautaires,ave Christophe-Colomb (#8000),,,accès restreint,orthophotographies,295200.52,5045254.11,-73.6229362658930,45.5471345119634
+402,Villeray–Saint-Michel–Parc-Extension,De Normandville,Jardins communautaires,rue De Normandville (#7955),,,accès restreint,orthophotographies,295409.09,5045398.06,-73.6202679710556,45.5484326662418
+403,Villeray–Saint-Michel–Parc-Extension,Babylone,Jardins communautaires,ave Ball (#435),,,accès restreint,orthophotographies,294457.89,5043618.84,-73.6324122295634,45.5324091524558
+404,Villeray–Saint-Michel–Parc-Extension,Jean-Rivard,,rue Jean-Rivard/2e ave,,,localisation approx.,localisation approx.,295660.3,5047070.11,-73.6170820096994,45.5634816619204
+405,Villeray–Saint-Michel–Parc-Extension,George-Vernot,,13e ave/boul Robert,,,localisation approx.,localisation approx.,295751.08,5047727.33,-73.6159312601328,45.5693967181725
+406,Villeray–Saint-Michel–Parc-Extension,George-Vernot,,13e ave/boul Robert,,,localisation approx.,localisation approx.,295876.98,5047571.86,-73.6143154435032,45.5679993766769
+407,Villeray–Saint-Michel–Parc-Extension,George-Vernot,,13e ave/boul Robert,,,localisation approx.,localisation approx.,295767.76,5047617.47,-73.6157155330060,45.5684083807586
+408,Villeray–Saint-Michel–Parc-Extension,Parc-école-Montcalm,,boul Saint-Michel/rue Denis-Papin,,,localisation approx.,localisation approx.,295267.33,5047778.53,-73.6221298625060,45.5698509737071
+409,Villeray–Saint-Michel–Parc-Extension,Sainte-Lucie,,rue Legendre Est/16e ave,,,,orthophotographies,295053.79,5048347.05,-73.6248770067764,45.5749637291213
+410,Villeray–Saint-Michel–Parc-Extension,Sainte-Lucie,,rue Legendre Est/16e ave,,,localisation approx.,localisation approx.,294975.09,5048369.28,-73.6258858248203,45.5751626544705
+411,Villeray–Saint-Michel–Parc-Extension,Champdoré,,rue Champdoré/rue de Lille,,,localisation approx.,localisation approx.,294270.82,5047639.24,-73.6348938316090,45.5685832379118
+412,Villeray–Saint-Michel–Parc-Extension,Champdoré,,rue Champdoré/rue de Lille,,,localisation approx.,localisation approx.,294293.79,5047638.89,-73.6345995464046,45.5685804356186
+413,Villeray–Saint-Michel–Parc-Extension,Ovila-Légaré,,boul Pie-IX/48e rue,,,,orthophotographies,295207.08,5049023.73,-73.6229262105659,45.5810548227385
+414,Villeray–Saint-Michel–Parc-Extension,Ovila-Légaré,,boul Pie-IX/48e rue,,,,orthophotographies,295288.29,5048985.5,-73.6218848222252,45.5807119332884
+415,Villeray–Saint-Michel–Parc-Extension,Ovila-Légaré,,boul Pie-IX/48e rue,,,localisation approx.,localisation approx.,295150.63,5049053.53,-73.6236501626927,45.5813221909809
+416,Villeray–Saint-Michel–Parc-Extension,René-Goupil,,25e ave/boul Robert,,,,orthophotographies,296189.27,5048614.51,-73.6103329812080,45.5773853911971
+417,Villeray–Saint-Michel–Parc-Extension,François-Perrault,,rue François-Perrault/ave Musset,,,localisation approx.,localisation approx.,296941.41,5046942.05,-73.6006686163738,45.5623449781838
+418,Villeray–Saint-Michel–Parc-Extension,Joseph-Robin,,ave Léonard-De Vinci/rue Everett,,,,orthophotographies,297272.08,5047178.88,-73.5964363825625,45.5644797050394
+419,Villeray–Saint-Michel–Parc-Extension,du Bon-Air,,rue Everett/8e ave,,,,orthophotographies,296858.74,5046403.4,-73.6017188719595,45.5574970917145
+420,Villeray–Saint-Michel–Parc-Extension,Gabriel-Sagard,,rue jean-Talon Est/rue Sagard,,,,orthophotographies,296715.46,5045732.23,-73.6035430378666,45.5514560308643
+421,Villeray–Saint-Michel–Parc-Extension,Nicolas-Tillemont,,rue Tillemont/rue Louis-Hémon,,,,orthophotographies,295994.05,5046207.52,-73.6127910601221,45.5557241001450
+422,Villeray–Saint-Michel–Parc-Extension,CESM (Frédéric-Back),,ave Papineau/ave Émile-Journault,,,localisation approx.,localisation approx.,295274.05,5046711.64,-73.6220229819343,45.5602508569406
+423,Villeray–Saint-Michel–Parc-Extension,CESM (Frédéric-Back),,ave Papineau/ave Émile-Journault,,,localisation approx.,localisation approx.,295324.09,5046750.55,-73.6213827482094,45.5606016644257
+424,Villeray–Saint-Michel–Parc-Extension,CESM (Frédéric-Back),,ave Papineau/ave Émile-Journault,,,localisation approx.,localisation approx.,295377.83,5046726.46,-73.6206938969862,45.5603856242921
+425,Villeray–Saint-Michel–Parc-Extension,Giovannina-Di Tomasso,,rue De Normanville/rue Tillemont,,,,orthophotographies,295433.19,5045369.37,-73.6199587775245,45.5481748284270
+426,Villeray–Saint-Michel–Parc-Extension,Villeray,,rue De Normanville/rue Tillemont,,,,orthophotographies,295380.71,5045354.74,-73.6206305948256,45.5480424749747
+427,Villeray–Saint-Michel–Parc-Extension,De Normanville,,rue De Normanville/rue Everett,,,,orthophotographies,295766.25,5045130.26,-73.6156889429854,45.5460276343456
+428,Villeray–Saint-Michel–Parc-Extension,De Normanville,,rue De Normanville/rue Everett,,,localisation approx.,localisation approx.,295736.52,5045112.19,-73.6160693389720,45.5458646480595
+429,Villeray–Saint-Michel–Parc-Extension,De Normanville,,rue De Normanville/rue Everett,,,localisation approx.,localisation approx.,295741.04,5045108.34,-73.6160113835079,45.5458300632341
+430,Villeray–Saint-Michel–Parc-Extension,de Turin,,rue De Castelnaud Est/rue De Lanaudière,,,,orthophotographies,296121.21,5045122.24,-73.6111430841229,45.5459599807608
+431,Villeray–Saint-Michel–Parc-Extension,Le Prévost,,ave Christophe-Colomb/rue Jean-Talon Est,,,,orthophotographies,295993.95,5044798.06,-73.6127669768494,45.5430412993180
+432,Villeray–Saint-Michel–Parc-Extension,Victorien-Pesant,,ave De Gaspé/rue De Castelnaud Est,,,,orthophotographies,295493.55,5044192.88,-73.6191633942114,45.5375891714437
+433,Villeray–Saint-Michel–Parc-Extension,Victorien-Pesant,,ave De Gaspé/rue De Castelnaud Est,,,localisation approx.,localisation approx.,295496.12,5044203.71,-73.6191306927900,45.5376866579621
+434,Villeray–Saint-Michel–Parc-Extension,Villeray-Ouest,,ave Christophe-Colomb/rue Villeray,,,localisation approx.,localisation approx.,295328.88,5045140.97,-73.6212902307880,45.5461181968853
+435,Villeray–Saint-Michel–Parc-Extension,Jean-Marie_Lamonde,,ave De Chateaubriand/rue Villeray,,,,orthophotographies,295331.96,5044809.15,-73.6212443688060,45.5431324081572
+436,Villeray–Saint-Michel–Parc-Extension,Saint-Vincent-Ferrier,,ave Henri-Julien/rue Jarry Est,,,,orthophotographies,294541.19,5044665.19,-73.6313676467919,45.5418258100068
+437,Villeray–Saint-Michel–Parc-Extension,des Rêves,,ave De Gaspé/rue Guizot Est,,,,orthophotographies,294401.01,5044646.59,-73.6331623007166,45.5416563624121
+438,Villeray–Saint-Michel–Parc-Extension,Howard,,ave De L'Épée/rue de Liège Ouest,,,,orthophotographies,293658.98,5043750.33,-73.6426438041746,45.5335800318668
+439,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/ave de l'Esplanade,,,,orthophotographies,294364.32,5043794.61,-73.6336139681262,45.5339893989269
+440,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/ave de l'Esplanade,,,,orthophotographies,294590.46,5043690.79,-73.6307164120240,45.5330585392605
+441,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/boul Saint-Laurent,,,,orthophotographies,294625.9,5044211.32,-73.6302734766887,45.5377429717083
+442,Villeray–Saint-Michel–Parc-Extension,Jarry,,boul Saint-Laurent/rue Villeray,,,,orthophotographies,294852,5044077.26,-73.6273756804245,45.5365399172527
+443,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/boul Saint-Laurent,,,localisation approx.,localisation approx.,294464.15,5043875.73,-73.6323375031515,45.5347208334976
+444,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/boul Saint-Laurent,,,localisation approx.,localisation approx.,294605.31,5043984.14,-73.6305323892848,45.5356984247767
+445,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/boul Saint-Laurent,,,localisation approx.,localisation approx.,294940.87,5044098,-73.6262381960247,45.5367278062839
+446,Villeray–Saint-Michel–Parc-Extension,Jarry,,rue Jarry Ouest/boul Saint-Laurent,,,localisation approx.,localisation approx.,295091.89,5044054.94,-73.6243036578376,45.5363424575949
+447,Villeray–Saint-Michel–Parc-Extension,Jean-Valets,,ave Bloomfield/rue de Liège Ouest,,,,orthophotographies,293743.71,5043632.27,-73.6415563036635,45.5325190355310
+448,Villeray–Saint-Michel–Parc-Extension,Parc-école Sinclair-Laird,,rue de Liège Ouest/ave Stuart,,,,orthophotographies,293613.52,5043410.72,-73.6432180919895,45.5305233718329
+449,Villeray–Saint-Michel–Parc-Extension,Barclay,,ave Wiseman/rue Jarry Ouest,,,localisation approx.,localisation approx.,294154.03,5043278.35,-73.6362952023537,45.5293407248877
+450,Villeray–Saint-Michel–Parc-Extension,De Lestre,,ave Ball/ave Bloomfield,,,,orthophotographies,294388.15,5043390.88,-73.6333002774072,45.5303568476000
+451,Villeray–Saint-Michel–Parc-Extension,Saint-Roch,,ave Ball/rue Durocher,,,localisation approx.,localisation approx.,294520.14,5043615.8,-73.6316151679190,45.5323827184915
+452,Villeray–Saint-Michel–Parc-Extension,Ogilvy/Outremont,,ave d'Outremont/ave Ogilvy,,,,orthophotographies,294892.9,5042983.75,-73.6268298738134,45.5267007001119
+453,Villeray–Saint-Michel–Parc-Extension,Birnam,,rue Birnam (face au #7002),,,,orthophotographies,295095.32,5042734.89,-73.6242335867096,45.5244642126329
+454,Villeray–Saint-Michel–Parc-Extension,Champagneur,,ave Champagneur ( face au #7001),,,,orthophotographies,295199.26,5042935.17,-73.6229069357221,45.5262678463337
+455,Villeray–Saint-Michel–Parc-Extension,Bloomfield,,ave Bloomfield/rue Jean-Talon Ouest,,,,orthophotographies,295144.54,5043032.37,-73.6236093652309,45.5271417322229
+456,Villeray–Saint-Michel–Parc-Extension,Athéna,,rue Jean-Talon Ouest/ave De L'Épée,,,,orthophotographies,295107.61,5043093.12,-73.6240833444932,45.5276878706724
+457,Côte-des-Neiges–Notre-Dame-de-Grâce,William-Bowie,chalet,ave Patricia/ave Fielding,,,,orthophotographies,293134.77,5035350.3,-73.6491558120882,45.4579845299982
+458,Côte-des-Neiges–Notre-Dame-de-Grâce,Loyola,,ave Doherty/ave Somerled,,,localisation approx.,localisation approx.,293481.99,5035568.54,-73.6447211709131,45.4599540673173
+459,Côte-des-Neiges–Notre-Dame-de-Grâce,Loyola,baseball,ave Doherty/ave Somerled,,,,orthophotographies,293386.12,5035662.38,-73.6459492163766,45.4607969239049
+460,Côte-des-Neiges–Notre-Dame-de-Grâce,Loyola,baseball/soccer,ave Fielding/ave Coronation,,,,orthophotographies,293383.88,5035856.04,-73.6459823563478,45.4625395303201
+461,Côte-des-Neiges–Notre-Dame-de-Grâce,Loyola,jeux d'eau,ave Doherty/ave Fielding,,,,orthophotographies,293307.08,5035665.59,-73.6469599720980,45.4608245131598
+462,Côte-des-Neiges–Notre-Dame-de-Grâce,Gilbert-Layton,soccer,Chemin de la Côte-Saint-Luc/ave Rosedale,,,non-fonctionnelle,orthophotographies,292966.99,5036318.95,-73.6513244162037,45.4666980699798
+463,Côte-des-Neiges–Notre-Dame-de-Grâce,Gilbert-Layton,chalet,ave de Chester/ave de Mayfair,,,,orthophotographies,293035.26,5036226.07,-73.6504491367960,45.4658634465141
+464,Côte-des-Neiges–Notre-Dame-de-Grâce,Coffee,module de jeux,rue Coffee/ave Elmhurst,,,,orthophotographies,293872.73,5035037.05,-73.6397130592210,45.4551776884524
+465,Côte-des-Neiges–Notre-Dame-de-Grâce,Trenholme,,rue Sherbrooke Ouest/ave King-Edward,,,,orthophotographies,294383.29,5035718.25,-73.6331996295958,45.4613152486457
+466,Côte-des-Neiges–Notre-Dame-de-Grâce,Trenholme,,rue Sherbrooke Ouest/rue Park Row Est,,,accès restreint - parc à chien,orthophotographies,294476.45,5035721.74,-73.6320084587962,45.4613480362014
+467,Côte-des-Neiges–Notre-Dame-de-Grâce,Trenholme,soccer,rue Sherbrooke Ouest/rue Park Row Est,,,,orthophotographies,294574.4,5035683.35,-73.6307551653141,45.4610040254168
+468,Côte-des-Neiges–Notre-Dame-de-Grâce,Trenholme,module de jeux,rue Park Row Ouest/boul De Maisonneuve Ouest,,,,orthophotographies,294479.43,5035611.73,-73.6319680438752,45.4603581582062
+469,Côte-des-Neiges–Notre-Dame-de-Grâce,Benny,module de jeux,ave Benny/ave de Monkland,,,,orthophotographies,294435.59,5036344.87,-73.6325440780968,45.4669546463596
+470,Côte-des-Neiges–Notre-Dame-de-Grâce,de la Confédération,module de jeux,ave West Hill/ave Fielding,,,localisation approx.,localisation approx.,293915.38,5036884.56,-73.6392086593124,45.4718031104948
+471,Côte-des-Neiges–Notre-Dame-de-Grâce,de la Confédération,soccer,,,,localisation approx.,localisation approx.,293689.15,5037066.94,-73.6421061394931,45.4734406851860
+472,Côte-des-Neiges–Notre-Dame-de-Grâce,de la Confédération,soccer,ave West Hill/ave Fielding,,,localisation approx.,localisation approx.,293848.81,5036974.65,-73.6400620606155,45.4726127402900
+473,Côte-des-Neiges–Notre-Dame-de-Grâce,Somerled,tennis,ave de Hampton (face au #4915),,,,orthophotographies,294233.16,5037166.02,-73.6351504825351,45.4743406956899
+474,Côte-des-Neiges–Notre-Dame-de-Grâce,Somerled,chalet,ave de Hampton/ave Somerled,,,,orthophotographies,294320.2,5037101.39,-73.6340358604331,45.4737604374909
+475,Côte-des-Neiges–Notre-Dame-de-Grâce,William-Hurst,chalet,boul Grand/rue de Terrebonn,,,,orthophotographies,294537.34,5036669.02,-73.6312496325473,45.4698730000721
+476,Côte-des-Neiges–Notre-Dame-de-Grâce,Herbert-Outerbridge,,ave Benny/rue Sherbrooke Ouest,,,,orthophotographies,294858.58,5036171.13,-73.6271312180279,45.4653974014459
+477,Côte-des-Neiges–Notre-Dame-de-Grâce,Notre-Dame-de-Grâce,module de jeux,ave Marcil/Chemin de la Côte-Saint-Antoine,,,localisation approx.,localisation approx.,295778.39,5036974.16,-73.6153834239710,45.4726359250784
+478,Côte-des-Neiges–Notre-Dame-de-Grâce,Notre-Dame-de-Grâce,chalet,ave Marcil/Chemin de la Côte-Saint-Antoine,,,,orthophotographies,295821.83,5037010.4,-73.6148285040251,45.4729625891178
+479,Côte-des-Neiges–Notre-Dame-de-Grâce,Georges-Saint-Pierre,module de jeux/soccer,ave d'Oxford (face au #966),,,,orthophotographies,296375.93,5036515.35,-73.6077332322510,45.4685148029846
+480,Côte-des-Neiges–Notre-Dame-de-Grâce,Maurice-Cullen,chalet,chemin Circle/chemin Mira,,,,orthophotographies,295413.18,5038182.38,-73.6200774195206,45.4835032186848
+481,Côte-des-Neiges–Notre-Dame-de-Grâce,Macdonald,chalet,ave Clanranald/ave Isabella,,,,orthophotographies,294147.11,5038224.08,-73.6362740125446,45.4838602804565
+482,Côte-des-Neiges–Notre-Dame-de-Grâce,Macdonald,chalet,ave Clanranald/ave Isabella,,,,orthophotographies,294149.94,5038227.8,-73.6362378913752,45.4838937978177
+483,Côte-des-Neiges–Notre-Dame-de-Grâce,Macdonald,module de jeux,ave Clanranald/ave Isabella,,,localisation approx.,localisation approx.,294212.23,5038168.76,-73.6354397933304,45.4833634777392
+484,Côte-des-Neiges–Notre-Dame-de-Grâce,Mackenzie-King,chalet,ave Saint-Kevin/ave de Westbury,,,,orthophotographies,294400.51,5038853.58,-73.6330458093401,45.4895286144072
+485,Côte-des-Neiges–Notre-Dame-de-Grâce,Mackenzie-King,module de jeux,ave Saint-Kevin/ave de Westbury,,,,orthophotographies,294359.38,5038802.48,-73.6335709174683,45.4890681806789
+486,Côte-des-Neiges–Notre-Dame-de-Grâce,Mackenzie-King,soccer,rue Beaucourt/chemin de la Côte-Sainte-Catherine,,,,orthophotographies,294378.6,5039033.73,-73.6333299387297,45.4911493540221
+487,Côte-des-Neiges–Notre-Dame-de-Grâce,Van Horne,,ave de Westbury/ave Van Horne,,,,orthophotographies,293900.97,5039033.86,-73.6394406554285,45.4911432279005
+488,Côte-des-Neiges–Notre-Dame-de-Grâce,Van Horne,jeux d'eau,ave Van Horne/rue Lemieux,,,localisation approx.,localisation approx.,293998.18,5039143.81,-73.6381993877221,45.4921341158102
+489,Côte-des-Neiges–Notre-Dame-de-Grâce,Nelson-Mandela,module de jeux,ave Barclay/rue Lemieux,,,localisation approx.,localisation approx.,293629.52,5039501.58,-73.6429241831644,45.4953476756889
+490,Côte-des-Neiges–Notre-Dame-de-Grâce,Nelson-Mandela,,ave Victoria/rue Bouchette,,,,orthophotographies,293685.03,5039598.46,-73.6422161397431,45.4962203284726
+491,Côte-des-Neiges–Notre-Dame-de-Grâce,Rosemary-Brown (Mclynn),jeux d'eau,place Kenmore,,,,orthophotographies,293261.28,5038890,-73.6476213509107,45.4898384316678
+492,Côte-des-Neiges–Notre-Dame-de-Grâce,Rosemary-Brown (Mclynn),,ave Mclynn/ave Plamondon,,,,orthophotographies,293273.02,5038846.3,-73.6474701288036,45.4894453946461
+493,Côte-des-Neiges–Notre-Dame-de-Grâce,Rosemary-Brown (Mclynn),pétanque,ave Mclynn/rue Vézina,,,,orthophotographies,293148.99,5038927.66,-73.6490588291923,45.4901754466191
+494,Côte-des-Neiges–Notre-Dame-de-Grâce,de la Savane,jardins communautaires,rue de la Savane/place de la Savane,,,,orthophotographies,292695.91,5039893.62,-73.6548791752758,45.4988598405670
+495,Côte-des-Neiges–Notre-Dame-de-Grâce,Roméo-Charrette,module de jeux,ave Glencoe/boul Laird,,,,orthophotographies,293728.31,5040730.98,-73.6416879327176,45.5064118906896
+496,Côte-des-Neiges–Notre-Dame-de-Grâce,de Dunkerque,module de jeux,ave Kirkfield/rue de Tilly,,,,orthophotographies,294310.7,5041398.89,-73.6342492110173,45.5124310102667
+497,Côte-des-Neiges–Notre-Dame-de-Grâce,de Kent,piscine,chemin Hudson/ave de Kent,,,accès restreint,orthophotographies,294657.26,5040653.33,-73.6297982908987,45.5057272916214
+498,Côte-des-Neiges–Notre-Dame-de-Grâce,de Kent,baseball/soccer,ave de Kent/ave Decelles,,,,orthophotographies,294471.11,5040352.85,-73.6321741489223,45.5030207194719
+499,Côte-des-Neiges–Notre-Dame-de-Grâce,de Kent,soccer,ave Appleton/ave Decelles,,,,orthophotographies,294401.43,5040461.31,-73.6330681092820,45.5039956512988
+500,Côte-des-Neiges–Notre-Dame-de-Grâce,de Kent,tennis,ave Appleton/chemin Hudson,,,localisation approx.,localisation approx.,294523.84,5040659.72,-73.6315058176878,45.5057828385782
+501,Côte-des-Neiges–Notre-Dame-de-Grâce,Mahatma-Gandhi,,ave Van Horne/ave Linton,,,localisation approx.,localisation approx.,294792.27,5040797.37,-73.6280734895352,45.5070253716403
+502,Côte-des-Neiges–Notre-Dame-de-Grâce,place de Darlington,module de jeux,place de Darlington (face au #2795),,,,orthophotographies,294834.35,5041107.03,-73.6275412666725,45.5098124185075
+503,Côte-des-Neiges–Notre-Dame-de-Grâce,Jean-Brillant,,ave Swail/ave Gatineau,,,,orthophotographies,295453.54,5039618.18,-73.6195884685307,45.4964237079328
+504,Côte-des-Neiges–Notre-Dame-de-Grâce,Jean-Brillant,jeux d'eau,ave Decelles/rue Jean-Brillant,,,,orthophotographies,295460.34,5039706.6,-73.6195031452835,45.4972194393272
+505,Côte-des-Neiges–Notre-Dame-de-Grâce,De Sousa-Mendes,module de jeux,rue Plantagenet/ave De Soissons,,,,orthophotographies,295267.37,5040995.5,-73.6219972834211,45.5088148800661
+506,Mercier–Hochelaga-Maisonneuve,de la Promenade-Bellerive,chalet,rue Bellerive/rue Mousseau,,,,orthophotographies,304052.72,5051156.74,-73.5095791187554,45.6003140046242
+507,Mercier–Hochelaga-Maisonneuve,de la Promenade-Bellerive,,rue Bellerive/ave Mercier,,,,orthophotographies,304094.98,5050583.54,-73.5090365747883,45.5951562344791
+508,Mercier–Hochelaga-Maisonneuve,Louis-Riel,soccer,ave de Carignan/ave Pérodeau,,,,orthophotographies,300595.32,5049150.95,-73.5538810255407,45.5822530182144
+509,Mercier–Hochelaga-Maisonneuve,Louis-Riel,baseball,ave de Carignan/rue Gérin-Lajoie,,,,orthophotographies,300679.12,5049137.33,-73.5528070529468,45.5821309627958
+510,Mercier–Hochelaga-Maisonneuve,Louis-Riel,tennis,rue Gérin-Lajoie/ave Louis-Joseph-Doucet,,,,orthophotographies,300627.71,5049034.46,-73.5534649679647,45.5812050010457
+511,Mercier–Hochelaga-Maisonneuve,Louis-Riel,terrain d'athlétisme,ave de Carignan/ave Pérodeau,,,,orthophotographies,300529.99,5049117.21,-73.5547179039095,45.5819490176114
+512,Mercier–Hochelaga-Maisonneuve,Louis-Riel,baseball,rue Du Quesne/rue Pierre-Bédard,,,,orthophotographies,300516.15,5049089.32,-73.5548950114825,45.5816979698972
+513,Mercier–Hochelaga-Maisonneuve,Louis-Riel,,rue Du Quesne/rue Pierre-Bédard,,,localisation approx.,localisation approx.,300475.87,5049007.29,-73.5554104496017,45.5809595899697
+514,Mercier–Hochelaga-Maisonneuve,Louis-Riel,,rue Du Quesne/rue Pierre-Bédard,,,localisation approx.,localisation approx.,300479.13,5049018.01,-73.5553687700059,45.5810560720294
+515,Mercier–Hochelaga-Maisonneuve,Hector-Vinet,,rue Hochelaga/ave Hector,,,,orthophotographies,303636.83,5052285.02,-73.5149129556681,45.6104659990572
+516,Mercier–Hochelaga-Maisonneuve,Saint-Victor,baseball,ave Pierre-De Coubertin/rue Aubry,,,,orthophotographies,303358,5051999.8,-73.5184869805495,45.6078989922141
+517,Mercier–Hochelaga-Maisonneuve,Saint-Victor,,rue Hochelaga/rue Taillon,,,localisation approx.,localisation approx.,303424.16,5051904.79,-73.5176385166422,45.6070442012042
+518,Mercier–Hochelaga-Maisonneuve,Pierre-Bernard,chalet,rue De Teck/boul Pierre-Bernard,,,,orthophotographies,302765.13,5051801.26,-73.5260869674062,45.6061109938564
+519,Mercier–Hochelaga-Maisonneuve,Pierre-Bernard,,boul Pierre-Bernard/rue de Marseille,,,,orthophotographies,302855.14,5051776.78,-73.5249329446539,45.6058909739650
+520,Mercier–Hochelaga-Maisonneuve,Pierre-Bernard,baseball,rue de Marseille/rue French,,,,orthophotographies,302871.72,5051679.09,-73.5247200043537,45.6050119794155
+521,Mercier–Hochelaga-Maisonneuve,Sainte-Claire,module de jeux,ave Pierre-De Coubertin/ave Mercier,,,,orthophotographies,302945.89,5051089.95,-73.5237669275443,45.5997109390371
+522,Mercier–Hochelaga-Maisonneuve,Clément-Jetté (Sud),,rue Notre-Dame Est/boul Pierre-Bernard,,,,orthophotographies,303928.71,5051341.68,-73.5111690893677,45.6019780012265
+523,Mercier–Hochelaga-Maisonneuve,Pierre-Tétreault,,rue Notre-Dame Est/rue Baldwin,,,,orthophotographies,303928.42,5050905.04,-73.5111720271025,45.5980489933402
+524,Mercier–Hochelaga-Maisonneuve,Honoré-Mercier,,rue Notre-Dame Est/rue Liébert,,,,orthophotographies,304019.16,5050289.35,-73.5100079250395,45.5925089475737
+525,Mercier–Hochelaga-Maisonneuve,De La Bruère,,ave Dubuisson/rue Liébert,,,,orthophotographies,303245.22,5050504.55,-73.5199280985572,45.5944440792003
+526,Mercier–Hochelaga-Maisonneuve,Liébert,baseball,rue Liébert/rue Sainte-CLaire,,,,orthophotographies,302688.17,5050757.86,-73.5270690767212,45.5967219656138
+527,Mercier–Hochelaga-Maisonneuve,Liébert,module de jeux,rue Cirier/ave Pierre-De Coubertin,,,,orthophotographies,302729,5050605.71,-73.5265450792913,45.5953529997929
+528,Mercier–Hochelaga-Maisonneuve,Michel-Bourdon,module de jeux,rue Joseph-A.-Rodier,,,,orthophotographies,301834.85,5050642.52,-73.5380060842325,45.5956809885948
+529,Mercier–Hochelaga-Maisonneuve,Radisson,,rue Radisson (face au #5260),,,,orthophotographies,301286.3,5050060.69,-73.5450329851459,45.5904429608722
+530,Mercier–Hochelaga-Maisonneuve,Beauclerk,chalet,ave Émile-Legrand/rue La Fontaine,,,,orthophotographies,303251.72,5048974.81,-73.5198399362237,45.5806790403871
+531,Mercier–Hochelaga-Maisonneuve,Carlos-D'Alcantara,chalet,rue De Contreceour,,,,orthophotographies,302183.83,5052627.44,-73.5335436444706,45.6135432313126
+532,Mercier–Hochelaga-Maisonneuve,Carlos-D'Alcantara,soccer,rue De Contreceour/rue Rousseau,,,,orthophotographies,301986.33,5052677.86,-73.5360762128935,45.6139961516469
+533,Mercier–Hochelaga-Maisonneuve,Rougemont,chalet,rue Bossuet/rue Ontario Est,,,,orthophotographies,302623.07,5047738.43,-73.5278900609871,45.5695520204248
+534,Mercier–Hochelaga-Maisonneuve,Rougemont,,rue La Fontaine/ave Rougemont,,,,orthophotographies,302713.36,5047658.27,-73.5267329552429,45.5688309912816
+535,Mercier–Hochelaga-Maisonneuve,Olivier-Guimond,,rue Dickson/rue Boileau,,,,orthophotographies,301534.01,5047928.72,-73.5418439827306,45.5712600524749
+536,Mercier–Hochelaga-Maisonneuve,Thibodeau,,ave Pierre-De Coubertin/rue Lacordaire,,,,orthophotographies,301639.22,5048073.8,-73.5404969669424,45.5725660143920
+537,Mercier–Hochelaga-Maisonneuve,Jean-Amyot,,rue Du Quesne/ave Pierre-De Coubertin,,,,orthophotographies,301727.97,5048410.37,-73.5393619883193,45.5755949749593
+538,Mercier–Hochelaga-Maisonneuve,Jean-Amyot,bocce,rue Du Quesne/rue de Marseille,,,,orthophotographies,301668.98,5048433.74,-73.5401179780467,45.5758050026014
+539,Mercier–Hochelaga-Maisonneuve,Jean-Amyot,baseball,rue de Marseille/ave de la Pépinière,,,,orthophotographies,301638.76,5048550.11,-73.5405059417569,45.5768519995382
+540,Mercier–Hochelaga-Maisonneuve,Saint-Donat,,rue Arcand/rue de Marseille,,,,orthophotographies,301905.85,5049274.57,-73.5370879277236,45.5833720748228
+541,Mercier–Hochelaga-Maisonneuve,Saint-Donat,soccer,rue Arcand/rue de Marseille,,,,orthophotographies,301972.39,5049238.08,-73.5362350204680,45.5830440004458
+542,Mercier–Hochelaga-Maisonneuve,Saint-Donat,,ave Parkville/ave Pierre-De Coubertin,,,,orthophotographies,301983.35,5049133.94,-73.5360939707286,45.5821069616719
+543,Mercier–Hochelaga-Maisonneuve,Guillaume-Couture,,ave Rodolphe-Mathieu/ave Albani,,,,orthophotographies,299966.46,5049297.54,-73.5619410210712,45.5835679937209
+544,Mercier–Hochelaga-Maisonneuve,Guillaume-Couture,module de jeux,rue Du Quesne/ave De Charette,,,,orthophotographies,299998.22,5049202.61,-73.5615330889512,45.5827140052139
+545,Mercier–Hochelaga-Maisonneuve,Francesca-Cabrini,,ave Rodolphe-Mathieu/rue De Cadillac,,,,orthophotographies,299864.82,5049152.93,-73.5632420591720,45.5822660361375
+546,Mercier–Hochelaga-Maisonneuve,Pierre-Bédard,chalet,rue Lacordaire/rue Gérin-Lajoie,,,,orthophotographies,300564.07,5048633.54,-73.5542769935438,45.5775970158668
+547,Mercier–Hochelaga-Maisonneuve,rue Chauveau (Îlot de voirie),,rue Chauveau/boul de L'Assomption,,,Îlot de voirie aménagé,orthophotographies,300969.96,5047594.08,-73.5490679873834,45.5682459785740
+548,Mercier–Hochelaga-Maisonneuve,Théodore,,rue Théodore/rue Hochelaga,,,,orthophotographies,301319.58,5046772.84,-73.5445830385564,45.5608580259665
+549,Mercier–Hochelaga-Maisonneuve,Théodore,,rue Théodore/rue Hochelaga,,,,orthophotographies,301392.48,5046738.57,-73.5436489749653,45.5605500136057
+550,Mercier–Hochelaga-Maisonneuve,Saint-Clément,baseball,rue Ontario Est/rue Ida-Steinberg,,,,orthophotographies,302123.51,5046775.11,-73.5342849735207,45.5608820070611
+551,Mercier–Hochelaga-Maisonneuve,Saint-Clément,module de jeux,rue La Fontaine/rue Vimont,,,,orthophotographies,302204.66,5046685.28,-73.5332449916660,45.5600739936212
+552,Mercier–Hochelaga-Maisonneuve,Ovila-Pelletier,module de jeux,ave Bennett/rue Ontario Est,,,,orthophotographies,301702.41,5046115.62,-73.5396749509618,45.5549459447007
+553,Mercier–Hochelaga-Maisonneuve,Morgan,chalet,ave Morgan/rue Sainte-Catherinre Est,,,,orthophotographies,302222.14,5045724.76,-73.5330160200404,45.5514309678741
+554,Mercier–Hochelaga-Maisonneuve,Morgan,,ave Morgan/rue Sainte-Catherinre Est,,,localisation approx.,localisation approx.,302264.27,5045660.64,-73.5324761065830,45.5508541481727
+555,Mercier–Hochelaga-Maisonneuve,Jacques-Blanchet,,ave Jeanne-D'Arc/rue Ontario Est,,,,orthophotographies,301600.64,5045435.96,-73.5409740099984,45.5488296655289
+556,Mercier–Hochelaga-Maisonneuve,de Saint-Aloysius,chalet,ave Valois/rue Drouin,,,,orthophotographies,301603.4,5045125.55,-73.5409366353322,45.5460364979809
+557,Mercier–Hochelaga-Maisonneuve,Lalancette,,rue Hochelaga/rue Nicolet,,,,orthophotographies,301001.52,5045445.89,-73.5486469781110,45.5489160093782
+558,Mercier–Hochelaga-Maisonneuve,Lalancette,,rue Hochelaga/rue Nicolet,,,,orthophotographies,300985.25,5045404.89,-73.5488550276493,45.5485469879117
+559,Mercier–Hochelaga-Maisonneuve,Lalancette,,rue Hochelaga/rue Nicolet,,,,orthophotographies,300934.32,5045442.22,-73.5495075764524,45.5488826156777
+560,Mercier–Hochelaga-Maisonneuve,Edmond-Hamelin,,rue Sainte-Catherine Est/rue Joliette,,,,orthophotographies,301805.56,5044839.23,-73.5383459616175,45.5434609853184
+561,Mercier–Hochelaga-Maisonneuve,Hochelaga,,rue Darling/rue Utilités publiques (La Fontaine),,,,orthophotographies,301351.32,5044709.1,-73.5441619136741,45.5422879274473
+562,Mercier–Hochelaga-Maisonneuve,Hochelaga,,rue Darling/rue Utilités publiques,,,,orthophotographies,301398.38,5044659.63,-73.5435589454245,45.5418430096649
+563,Mercier–Hochelaga-Maisonneuve,Square Dézéry,,rue Dézéry/rue John-Easton-Mills,,,,orthophotographies,301657.97,5044380.44,-73.5402330128322,45.5393319742965
+564,Mercier–Hochelaga-Maisonneuve,Raymond-Préfontaine,,rue Dézéry/rue de Rouen,,,,orthophotographies,300696.41,5044691.24,-73.5525481806766,45.5421236667093
+565,Mercier–Hochelaga-Maisonneuve,Raymond-Préfontaine,,rue de Rouen/rue Préfontaine,,,,orthophotographies,300715.93,5044600.26,-73.5522974600296,45.5413051101424
+566,Mercier–Hochelaga-Maisonneuve,place Valois,,ave Valois/rue Ontario Est,,,,orthophotographies,301391.13,5045269.97,-73.5436560348929,45.5473350344335
+567,Mercier–Hochelaga-Maisonneuve,Thomas-Chapais,chalet,boul Pierre-Bernard/rue Tiffin,,,,orthophotographies,301963.85,5052085.07,-73.5363609991690,45.6086619834248
+568,Mercier–Hochelaga-Maisonneuve,Thomas-Chapais,chalet,boul Pierre-Bernard/rue De Gadbois,,,,orthophotographies,302191.89,5052016.29,-73.5334370340459,45.6080439760825
+569,Anjou,du Fort-Des Ormeaux,chalet,"7775, ave Des Ormeaux",,,,orthophotographies,300464.16,5052775.7,-73.5555939797470,45.6148687100366
+570,Anjou,de Peterborough,,8400 boul de Châteauneuf,,,localisation approx.,localisation approx.,300474.57,5052308.53,-73.5554563599513,45.6106650613223
+571,Anjou,Des Roseraies,baseball,7070 ave de la Nantaise,,,,orthophotographies,300482.47,5050476.49,-73.5553388646129,45.5941799220371
+572,Anjou,Des Roseraies,baseball,7070 ave de la Nantaise,,,,orthophotographies,300485.68,5050478.34,-73.5552977376064,45.5941965887814
+573,Anjou,Des Roseraies,tennis,7070 ave de la Nantaise,,,localisation approx.,localisation approx.,300592.24,5050350.34,-73.5539308283716,45.5930454615199
+574,Anjou,André-Laurendeau,,8361 ave André-Laurendeau,,,localisation approx.,localisation approx.,299372.19,5051516.82,-73.5695811617090,45.6035333144783
+575,Anjou,André-Laurendeau,,8361 ave André-Laurendeau,,,localisation approx.,localisation approx.,299297.96,5051674.94,-73.5705345265965,45.6049555363222
+576,Anjou,André-Laurendeau,pataugeoire,8361 ave André-Laurendeau,,,localisation approx.,localisation approx.,299289.03,5051692.15,-73.5706492008561,45.6051103256722
+577,Anjou,Lucie-Bruneau,baseball#1,7051 ave de l'Alsace,,,,orthophotographies,298232.61,5051581.18,-73.5841907230681,45.6041026106623
+578,Anjou,Lucie-Bruneau,baseball#1,7051 ave de l'Alsace,,,,orthophotographies,298233.22,5051582.39,-73.5841829194599,45.6041135043204
+579,Anjou,Lucie-Bruneau,baseball#2,7051 ave de l'Alsace,,,,orthophotographies,298188.54,5051754.91,-73.5847580323684,45.6056654604972
+580,Anjou,Lucie-Bruneau,baseball#2,7051 ave de l'Alsace,,,,orthophotographies,298190.33,5051755.25,-73.5847350894393,45.6056685369281
+581,Anjou,d'Antioche,pétanque,6995 place d'Antioche,,,,orthophotographies,300174.08,5050646.22,-73.5592931828694,45.5957052169838
+582,Anjou,de Spalding,,7901 ave Spalding,,,localisation approx. / travaux prévus en 2019,localisation approx.,300719.94,5051439.62,-73.5523032045821,45.6028478649371
+583,Anjou,de Talcy,chalet,8151 ave de Talcy,,,,orthophotographies,300166.04,5051934.91,-73.5594084733750,45.6073011435460
+584,Anjou,de Talcy,chalet,8151 ave de Talcy,,,,orthophotographies,300171.27,5051937.99,-73.5593414527856,45.6073288930364
+585,Anjou,de Verdelles,,8441 place Verdelles,,,,orthophotographies,300919.5,5052039.85,-73.5497497750791,45.6082500359404
+586,Anjou,du Bocage,chalet,6200 ave du Bocage,,,,orthophotographies,300749.4,5050299.75,-73.5519160909570,45.5925911714812
+587,Anjou,du Bocage,chalet / piscine,6200 ave du Bocage,,,accès restreint,orthophotographies,300758.76,5050292.43,-73.5517960643350,45.5925253584912
+588,Anjou,Roger-Rousseau,baseball,7501 ave Rondeau,,,,orthophotographies,300962.21,5052913.57,-73.5492090886832,45.6161122277952
+589,Anjou,Roger-Rousseau,baseball,7501 ave Rondeau,,,,orthophotographies,300874.55,5053085.01,-73.5503344665244,45.6176543975164
+590,Anjou,Roger-Rousseau,,7501 ave Rondeau,,,localisation approx.,localisation approx.,300892.31,5052914.25,-73.5501053688075,45.6161179570206
+591,Anjou,Goncourt,tennis,7130 ave Goncourt,,,localisation approx.,localisation approx.,300341.85,5051415.95,-73.5571498065456,45.6026325540676
+592,Anjou,Du Mail (Chénier),,5555 ave de l'Aréna,,,localisation approx.,localisation approx.,301394.05,5051423.14,-73.5436615249945,45.6027032030283
+593,Anjou,Bibliothèque Jean-Corbeil,cour arrière,7500 ave Goncourt,,,localisation approx.,localisation approx.,300262.74,5051388.48,-73.5581636755663,45.6023848598110
+594,Ville-Marie,place Jacques-Cartier,,place Jacques-Cartier/rue Notre-Dame Est,,,abreuvoir à chevaux,orthophotographies,300633.58,5040895.9,-73.5533204713075,45.5079713384388
+595,Ville-Marie,champ de mars,,rue Saint-Antoine Est/ave de l'Hôtel-de-ville,,,localisation approx.,localisation approx.,300470.99,5040960.77,-73.5554018162688,45.5085540755953
+596,Ville-Marie,Charles-S.-Cambell,,rue Alexandre-DeSève/rue Gareau,,,localisation approx.,localisation approx.,300694.21,5042354.76,-73.5525567668808,45.5210991158927
+597,Ville-Marie,square des Frères-Charron,,rue des Soeurs-Grises/rue Marguerite-D'Youville,,,,orthophotographies,300525.45,5039892.21,-73.5546955364541,45.4989390544394
+598,Ville-Marie,Joe-Montferrand,,rue Frontenac/rue Sainte-Catherine Est,,,,orthophotographies,301240.1,5043366.05,-73.5455763721019,45.5302021006045
+599,Ville-Marie,Médéric-Martin,,ave Gascon/rue de Rouen,,,,orthophotographies,300562.07,5043883.17,-73.5542614653836,45.5348515494671
+600,Ville-Marie,Olivier-Robert,,rue Fullum/boul De Maisonneuve Est,,,,orthophotographies,300920.47,5043123.85,-73.5496665831198,45.5280209856489
+601,Ville-Marie,Espace Pierre-Bourgault,,rue Alexandre-DeSève/rue La Fontaine,,,,orthophotographies,300179.09,5042607.92,-73.5591530198252,45.5233739255403
+602,Ville-Marie,Berthier,,rue Berthier/rue de la Visitation,,,,orthophotographies,299923.16,5042547.48,-73.5624286179191,45.5228283191651
+603,Ville-Marie,Brennan/Duke,parc à chien,rue Duke/rue Brennan,,,,orthophotographies,300590.59,5039507.55,-73.5538587300094,45.4954781122937
+604,Ville-Marie,des Faubourgs,,rue Dorion/rue Ontario Est,,,,orthophotographies,300300.39,5042993.72,-73.5576037825965,45.5268462982269
+605,Ville-Marie,des Royaux,,ave De Lorimier/rue de Rouen,,,,orthophotographies,300143.59,5043305.41,-73.5596140899240,45.5296499751319
+606,Ville-Marie,des Vétérans,,ave Papineau/rue Logan,,,localisation approx.,localisation approx.,300503.05,5042688.46,-73.5550066634906,45.5241007283337
+607,Ville-Marie,Fleury-Mesplet,,rue de la Commune Est/rue Berri,,,,orthophotographies,300867.61,5041218.45,-73.5503280202120,45.5108751364879
+608,Ville-Marie,Jean-Narrache,,rue Saint-Timothée/rue Labrecque,,,,orthophotographies,299722.54,5042293.44,-73.5649941285869,45.5205409345400
+609,Ville-Marie,des Joyeux-Vikings,,rue Beaudry/rue Robin,,,localisation approx.,localisation approx.,300125.1,5042327.9,-73.5598414828981,45.5208538349453
+610,Ville-Marie,Percy-Walters,parc à chien,ave du Docteur-Penfield/rue Redpath,,,localisation approx.,localisation approx.,298139.74,5039980.01,-73.5852233495970,45.4997104206882
+611,Ville-Marie,Percy-Walters,,ave du Docteur-Penfield/rue Redpath,,,localisation approx.,localisation approx.,298183.1,5039959.73,-73.5846682508461,45.4995283451997
+612,Ville-Marie,Persillier-Lachapelle,,rue Alexandre-DeSève/rue Ontario Est (nord de),,,,orthophotographies,299966.78,5042751.1,-73.5618722453717,45.5246608755873
+613,Ville-Marie,école Pierre-Dupuy,,ave De Lorimier/rue Ontario Est,,,localisation approx. /privé,localisation approx.,300265.13,5043222.21,-73.5580572942047,45.5289021110068
+614,Ville-Marie,place d'Armes,,rue Notre-Dame Ouest/place d'Armes,,,,orthophotographies,300320.48,5040522.41,-73.5573240088230,45.5046085777017
+615,Ville-Marie,De La Dauversière,,rue Le Royer Est/Place Jacques-Cartier,,,,orthophotographies,300614.99,5040929.18,-73.5535586639057,45.5082706945016
+616,Ville-Marie,De La Dauversière,,rue Le Royer Est/Place Jacques-Cartier,,,,orthophotographies,300645.82,5040943.81,-73.5531642337277,45.5084025256666
+617,Ville-Marie,place de la Paix,,rue Juliette-Béliveau/rue Saint-Dominique,,,,orthophotographies,299957.92,5041054.25,-73.5619689043117,45.5093918742064
+618,Ville-Marie,place D'Youville,,place D'Youville/rue Saint-Pierre,,,localisation approx.,localisation approx.,300487.98,5040190.4,-73.5551776091092,45.5016220658392
+619,Ville-Marie,Raymond-Blain,,ure Panet (face au #1697),,,localisation approx.,localisation approx.,300205.53,5042401.64,-73.5588126232372,45.5215179114233
+620,Ville-Marie,Sainte-Marie,,rue Dufresne/rue Provençale,,,localisation approx.,localisation approx.,300782.45,5043287.06,-73.5514348828560,45.5294888303093
+621,Ville-Marie,Saint-Jacques,,rue Saint-André/rue La Fayette,,,localisation approx.,localisation approx.,299964.62,5041984.45,-73.5618923321650,45.5177622401209
+622,Ville-Marie,Saint-Jacques/Lucien-L'Allier (Julia-Drummond),,rue Lucien-L'Allier/rue Saint-Jacques,,,,orthophotographies,299541.83,5039271.7,-73.5672749116833,45.4933487157940
+623,Ville-Marie,Abords du pont Jacques-Cartier,skate park,boul De Maisonneuve Est/ave De Lorimier,,,,orthophotographies,300765.46,5042785.65,-73.5516482688701,45.5249768502749
+624,Ville-Marie,square Cabot,,ave Atwater/rue Sainte-Catherine Ouest,,,localisation approx.,localisation approx.,298233.74,5038828.15,-73.5840051340512,45.4893463754918
+625,Ville-Marie,square Dalhousie,,rue Berri/rue Notre-Dame Est,,,localisation approx.,localisation approx.,300811.99,5041319.41,-73.5510406841283,45.5117833004814
+626,Ville-Marie,square Phillips,,rue Sainte-Catherine Ouest/rue du Square-Phillips,,,localisation approx.,localisation approx.,299434.26,5040433.14,-73.5686639012603,45.5037990344848
+627,Ville-Marie,Walter-Stewart,chalet,rue D'Iberville/rue de Rouen,,,,orthophotographies,300386.21,5043706.99,-73.5565115468151,45.5332651236993
+628,Ville-Marie,Jovette-Marchessault,,rue Plessis (face au #1600),,,,orthophotographies,300393.15,5042425.45,-73.5564111634079,45.5217333744981
+629,Ville-Marie,Robert-Prévost,,rue Saint-Timothée (face au #1827),,,,orthophotographies,299946.76,5042123.04,-73.5621223103431,45.5190092043818
+630,Ville-Marie,parc de la Presse,,rue Saint-Antoine Ouest/côte de la place d'Armes,,,privé,orthophotographies,300276.41,5040651.68,-73.5578891605291,45.5057715193462
+631,Ville-Marie,près du parc du Mont-Royal,,ave des Pins Ouest/rue Peel,,,au pied de l'escalier,orthophotographies,298391.93,5040522.26,-73.5820034636704,45.5045921771973
+632,Ville-Marie,,,rue McTavish/ave du Docteur-Penfield,,,localisation approx.,localisation approx.,298670.62,5040446.96,-73.5784361566779,45.5039171007063
+633,Ville-Marie,promenade urbaine McTavish,,entre ave du Docteur-Penfield et rue De Maisonneuve Ouest,,,localisation approx.,localisation approx.,298761.6,5040398.99,-73.5772713187216,45.5034862399414
+634,Ville-Marie,promenade urbaine McTavish,,entre ave du Docteur-Penfield et rue De Maisonneuve Ouest,,,localisation approx.,localisation approx.,298788.44,5040382.14,-73.5769276503248,45.5033348483559
+635,Ville-Marie,Félix-Antoine-Savard,,rue Montcalm/rue Sherbrooke Est,,,localisation approx.,localisation approx.,299741.38,5042461.01,-73.5647546966534,45.5220489326522
+636,Ville-Marie,place Émilie-Gamelin,,rue Saint-Hbert/rue Sainte-Catherine Est,,,,orthophotographies,300163.45,5041734.09,-73.5593449633479,45.5155107502772
+637,Ville-Marie,trottoir coin nord/ouest,,rue Saint-Denis/rue Émery,,,,orthophotographies,299844.46,5041674.28,-73.5634272303944,45.5149703615811
+638,Ville-Marie,place Vauquelin,,rue Notre-Dame Est/place Jacques-Cartier,,,,,300523.39,5040948.19,-73.5547311020058,45.5084411987751
+639,Pierrefonds-Roxboro,Centre Sportif George-Springate,tennis,rue Richmond/rue Anderson,,,,orthophotographies,277773.4,5039269.33,-73.8457848270335,45.4928238364379
+640,Pierrefonds-Roxboro,Centre Sportif George-Springate,soccer,rue Richmond/rue Anderson,,,,orthophotographies,277748.04,5039093.06,-73.8460995678303,45.4912367264217
+641,Pierrefonds-Roxboro,Centre Sportif George-Springate,baseball,rue Richmond/rue Anderson,,,,orthophotographies,277853.25,5039107.48,-73.8447543397919,45.4913705520527
+642,Pierrefonds-Roxboro,Brook,parc à chien,rue Brook/rue Harvey,,,,orthophotographies,278130.68,5041224.26,-73.8413200592078,45.5104285751715
+643,Saint-Laurent,Poirier,module de jeux,rue Trudeau/rue Hislop,,,,orthophotographies,292098.64,5041642.23,-73.6625668620967,45.5145838945213
+644,Saint-Laurent,Poirier,intérieur du chalet,rue Trudeau/rue Hislop,,,accès restreint,orthophotographies,292105.9,5041603.8,-73.6624729454178,45.5142382191323
+645,Saint-Laurent,Raymond-Vidal,,rue Khalil-Gibran,,,,orthophotographies,291657.8,5043092.26,-73.6682481092340,45.5276236214083
+646,Saint-Laurent,Alexis-Nihon,tennis,rue Nantel/carré Stewart,,,,orthophotographies,289888.29,5039757.53,-73.6908000590020,45.4975808918864
+647,Saint-Laurent,Gold,pavillon,rue Dorais/rue du Collège,,,,orthophotographies,290263.17,5040122.1,-73.6860141779515,45.5008693457363
+648,Saint-Laurent,Chamberland,intérieur du chalet,rue Dorais/rue de L'Église,,,accès restreint,orthophotographies,289994.42,5040353.22,-73.6894600761789,45.5029434002203
+649,Saint-Laurent,Chamberland,intérieur du chalet,rue Dorais/rue de L'Église,,,accès restreint,orthophotographies,289999.53,5040358.53,-73.6893948464732,45.5029912900595
+650,Saint-Laurent,Chamberland,piscine,rue Dorais/rue de L'Église,,,accès restreint,orthophotographies,289995.21,5040366.84,-73.6894503780350,45.5030659749366
+651,Saint-Laurent,Houde,module de jeux,place Saint-Louis/rue Gratton,,,,orthophotographies,290711.28,5040148.15,-73.6802809117449,45.5011129471838
+652,Saint-Laurent,Gohier,pétanque,rue Beaudet/rue Buchanan,,,,orthophotographies,290679.34,5040948.43,-73.6807126566248,45.5083135272038
+653,Saint-Laurent,Gohier,parc à chien (intérieur),rue Beaudet/rue Buchanan,,,,orthophotographies,290616.97,5040868.04,-73.6815085232466,45.5075888821344
+654,Saint-Laurent,Gohier,parc à chien (intérieur),rue Beaudet/rue Buchanan,,,,orthophotographies,290605.2,5040861.77,-73.6816589685733,45.5075322228664
+655,Saint-Laurent,Gohier,chalet,rue Beaudet/rue Buchanan,,,,orthophotographies,290632.68,5040960.52,-73.6813101458397,45.5084213713471
+656,Saint-Laurent,Gohier,tennis,rue Beaudet/rue Buchanan,,,,orthophotographies,290628.4,5040898.38,-73.6813631243312,45.5078621252461
+657,Saint-Laurent,Grou,module de jeux,rue Cartier/rue Saint-Germain,,,,orthophotographies,291320.15,5041042.79,-73.6725143634386,45.5091752937279
+658,Saint-Laurent,Decelles,intérieur du chalet,rue Filiatrault/rue de L'Église,,,accès restreint,orthophotographies,290934.06,5041542.93,-73.6774696416343,45.5136681713166
+659,Saint-Laurent,Decelles,extérieur du chalet,rue Filiatrault/rue de L'Église,,,,orthophotographies,290926.18,5041548.08,-73.6775706427070,45.5137143561899
+660,Saint-Laurent,Decelles,intérieur du chalet,rue Filiatrault/rue de L'Église,,,accès restreint,orthophotographies,290939.05,5041547.92,-73.6774059162010,45.5137131723888
+661,Saint-Laurent,Beaudet,fontaine,rue Gohier/rue Beaudet,,,,orthophotographies,291006.01,5041090.85,-73.6765360424267,45.5096016134188
+662,Saint-Laurent,Gariépy,,rue Bourgoin/rue Hufford,,,,orthophotographies,289308.02,5040650.92,-73.6982529663293,45.5056073105000
+663,Saint-Laurent,Roland-Moreau,,rue Maheu/rue O'Grady,,,,orthophotographies,289443.83,5039820.69,-73.6964890091572,45.4981395893266
+664,Saint-Laurent,Bourbonnière,basketball,rue Cazeneuve/rue Modugno,,,,orthophotographies,288889.17,5040187.46,-73.7035979799655,45.5014274963629
+665,Saint-Laurent,Bourbonnière,pataugeoire,rue Cazeneuve/rue Modugno,,,accès restreint,orthophotographies,288931.12,5040255.49,-73.7030633838721,45.5020406113586
+666,Saint-Laurent,Bourbonnière,intérieur du chalet,rue Cazeneuve/rue Modugno,,,accès restreint,orthophotographies,288967.21,5040292.46,-73.7026027605321,45.5023741013118
+667,Saint-Laurent,Bourbonnière,extérieur du chalet,rue Cazeneuve/rue Modugno,,,accès restreint,orthophotographies,288955.52,5040286.2,-73.7027521473479,45.5023175060711
+668,Saint-Laurent,Tassé,pavillon,rue Billeron/rue Véniard,,,,orthophotographies,289673.94,5041034.49,-73.6935820960680,45.5090668471217
+669,Saint-Laurent,Marcel-Laurin,tennis,boul Thimens/rue Varin,,,,orthophotographies,289069.47,5040977.29,-73.7013161723786,45.5085387689844
+670,Saint-Laurent,Marcel-Laurin,tennis,boul Thimens/rue Varin,,,,orthophotographies,289070.59,5040975.97,-73.7013017965931,45.5085269164011
+671,Saint-Laurent,Marcel-Laurin,parc à chien,boul Thimens/rue Varin,,,,orthophotographies,289196.98,5040945.13,-73.6996833117250,45.5082522457285
+672,Saint-Laurent,Marcel-Laurin,piste d'athlétisme,rue Robert-Peary,,,,orthophotographies,288892.57,5041006.49,-73.7035810360306,45.5087975089578
+673,Saint-Laurent,Marcel-Laurin,soccer,boul Poirier,,,,orthophotographies,288589.49,5041012.62,-73.7074599882133,45.5088456904097
+674,Saint-Laurent,Marcel-Laurin,soccer,boul Poirier,,,,orthophotographies,288667,5040947.33,-73.7064658839616,45.5082599845165
+675,Saint-Laurent,Marcel-Laurin,près de PolyvalenteÉ.-Legault,boul Thimens/rue Samson,,,,orthophotographies,288747.79,5040782.46,-73.7054265651118,45.5067782881147
+676,Saint-Laurent,Bélanger,,rue Cardinal/boul de la Côte-Vertue,,,,orthophotographies,290351.02,5041515,-73.6849310870455,45.5134050098486
+677,Saint-Laurent,Hartenstein,tennis,rue Cardinal/rue Tassé,,,,orthophotographies,289901.82,5041830.68,-73.6906899159788,45.5162361604742
+678,Saint-Laurent,Hartenstein,bute pour glisser,rue Cardinal/rue Tassé,,,,orthophotographies,289877.89,5041910.2,-73.6909986280761,45.5169511982506
+679,Saint-Laurent,Hartenstein,extérieur du chalet,rue Gohier,,,,orthophotographies,289869.63,5041999.38,-73.6911070694490,45.5177534949469
+680,Saint-Laurent,Hartenstein,intérieur du chalet,rue Gohier,,,accès restreint,orthophotographies,289863.86,5042005.69,-73.6911811166699,45.5178101509967
+681,Saint-Laurent,Hartenstein,BBQ,rue Décarie/rue Deguire,,,,orthophotographies,289818.22,5042137.8,-73.6917693389719,45.5189979445400
+682,Saint-Laurent,Cousineau,chalet,ave O'Brien/rue Lapointe,,,,orthophotographies,289913.65,5042415.07,-73.6905562474445,45.5214949620397
+683,Saint-Laurent,Cousineau,module de jeux,ave O'Brien/rue Lapointe,,,,orthophotographies,289828.85,5042381.36,-73.6916407140079,45.5211898117047
+684,Saint-Laurent,Cousineau,parc à chien,ave O'Brien/rue Lapointe,,,,orthophotographies,289827.3,5042446.64,-73.6916625494058,45.5217771907477
+685,Saint-Laurent,Harris,chalet,ave Sainte-Croix/rue Tassé,,,,orthophotographies,290340.34,5042148.57,-73.6850864674194,45.5191058808966
+686,Saint-Laurent,Beaulac,chalet,rue Elizabeth,,,,orthophotographies,290917.49,5042236.32,-73.6777013569383,45.5199072180595
+687,Saint-Laurent,L'Archevêque,,rue Couvrette (face au #1275),,,,orthophotographies,291095.56,5042816.01,-73.6754382164202,45.5251269987987
+688,Saint-Laurent,Saint-Laurent,tennis,rue Dutrisac/croissant du Ruisseau,,,,orthophotographies,290080.87,5043086.42,-73.6884358873168,45.5275395533222
+689,Saint-Laurent,Saint-Laurent,module de jeux,rue Dutrisac/place Dutrisac,,,,orthophotographies,290030.28,5042937.81,-73.6890790622582,45.5262012393035
+690,Saint-Laurent,Saint-Laurent,baseball,rue Poirier/rue Muir,,,,orthophotographies,290253.06,5043086.18,-73.6862314970658,45.5275410087539
+691,Saint-Laurent,Saint-Laurent,,rue Poirier/rue Muir,,,localisation approx.,localisation approx.,290251.52,5043057.64,-73.6862503646768,45.5272841638709
+692,Saint-Laurent,Saint-Laurent,,rue Poirier/rue Muir,,,localisation approx.,localisation approx.,290257.64,5043066.18,-73.6861722700470,45.5273611374465
+693,Saint-Laurent,Saint-Laurent,intérieur du chalet,rue Poirier/rue Barré,,,,orthophotographies,290154.77,5043073.2,-73.6874894214772,45.5274221519237
+694,Saint-Laurent,Painter,tennis,rue Meloche,,,accès restreint,orthophotographies,291037.02,5043227.51,-73.6761991761614,45.5288286663448
+695,Saint-Laurent,Painter,chalet,rue Meloche,,,,orthophotographies,291059.32,5043263.6,-73.6759146963096,45.5291538566802
+696,Saint-Laurent,Caron,,boul Montpellier/rue Muir,,,,orthophotographies,291357.42,5042317.93,-73.6720723516784,45.5206501956637
+697,Saint-Laurent,Caron,,rue Muir/place Fortier,,,,orthophotographies,291407.82,5042407.96,-73.6714296673574,45.5214612881261
+698,Saint-Laurent,Goulet,,rue Connaught/rue d'Oxford,,,,orthophotographies,289031.43,5042470.32,-73.7018510225909,45.5219727239760
+699,Saint-Laurent,Marlborough,tennis (intérieur),rue Beauzèle/rue Carroll,,,accès restreint,orthophotographies,287612.26,5042594.14,-73.7200218115626,45.5230533524969
+700,Saint-Laurent,Marlborough,tennis (extérieur),rue Beauzèle/rue Carroll,,,,orthophotographies,287610.5,5042595.22,-73.7200443791995,45.5230630272990
+701,Saint-Laurent,Marlborough,piscine,rue Beauzèle/rue Carroll,,,accès restreint,orthophotographies,287541.47,5042506.13,-73.7209248943373,45.5222596602920
+702,Saint-Laurent,Noël-Nord,roller hockey,rue Baker/rue Geoffrion,,,,orthophotographies,286836.75,5041984.35,-73.7299267558719,45.5175467083490
+703,Saint-Laurent,Noël-Nord,soccer,rue McCarthy,,,,orthophotographies,286961.66,5041939.21,-73.7283262977365,45.5171437303837
+704,Saint-Laurent,Noël-Nord,module de jeux,rue Baker/rue Geoffrion,,,,orthophotographies,286876.75,5041990.6,-73.7294149948796,45.5176039773336
+705,Saint-Laurent,Noël-Sud,tennis,rue Noorduyn,,,,orthophotographies,287050.53,5041774.41,-73.7271828257003,45.5156630722198
+706,Saint-Laurent,Noël-Sud,module de jeux,rue Matis,,,,orthophotographies,287072.84,5041713.52,-73.7268950711347,45.5151157308424
+707,Saint-Laurent,Jerry-Shears,,rue Pierre-Dagenais/chemin du Bois-Franc,,,,orthophotographies,287214.39,5040942.98,-73.7250557096298,45.5081857286881
+708,Saint-Laurent,Philippe-Laheurte,soccer,ave Ernest-Hemingway/rue Robert-Choquette,,,,orthophotographies,287793.18,5040721.29,-73.7176408844989,45.5062052358166
+709,Saint-Laurent,Philippe-Laheurte,module de jeux,ave Ernest-Hemingway/boul Cavendish,,,,orthophotographies,287930.92,5040778.31,-73.7158801622499,45.5067216671477
+710,Saint-Laurent,Philippe-Laheurte,pavillon,ave Ernest-Hemingway/rue John-Lyman,,,,orthophotographies,287242.45,5040233.58,-73.7246712146518,45.5018030005472
+711,Saint-Laurent,Sir-Edmund-Hillary,,rue de l'Everest (face au #1600),,,,orthophotographies,288975.15,5041361.63,-73.7025356568650,45.5119950659473
+712,Saint-Laurent,Carré Square Magellan,,rue de l'Écu (face au #2724),,,,orthophotographies,288169.73,5041317.46,-73.7128423235836,45.5115788668420
+713,Saint-Laurent,Roman-Zytynsky,,rue Quenneville/rue Varry,,,,orthophotographies,290885.13,5043202.41,-73.6781430103311,45.5285997919296
+714,Saint-Laurent,Robert-Mitchell,,rue Crevier/rue Saint-Louis,,,,orthophotographies,291237.58,5040603.59,-73.6735589391137,45.5052216034387
+715,Saint-Laurent,Square du Nordet,,rue des Équinoxes/rue des Montérégiennes,,,,orthophotographies,288146.81,5041909.53,-73.7131557748133,45.5169059730845
+716,Saint-Laurent,du Bois-Franc,,rues des Andes/rue Modigliani,,,,orthophotographies,287855.09,5041170.07,-73.7168641178332,45.5102450254455
+717,Saint-Laurent,du Bois-Franc,,rue de l'Équatuer/rue du Chinook,,,,orthophotographies,288100.83,5041497.87,-73.7137302779272,45.5132006132210
+718,Saint-Laurent,Petit,,rue Poirier/chemin Laval,,,,orthophotographies,289559.44,5042286.18,-73.6950863619881,45.5203275111664
+719,Saint-Laurent,Dr-Bernard-Paquet,,rue Jean-Gascon/rue Guy-Hoffmann,,,,orthophotographies,286564.58,5040835.68,-73.7333677379423,45.5072035191521
+720,Saint-Laurent,Raymond-Lagacé,,rue Jean-Gascon/rue Pierre-Dagenais,,,,orthophotographies,287113.26,5041149,-73.7263573634741,45.5100370116338
+721,Saint-Laurent,place Rodolphe-Rousseau,,boul Edouard-Laurin/rue Gohier,,,,orthophotographies,290554.16,5041486.87,-73.6823303139621,45.5131560652629
+722,Saint-Laurent,Guillaume-Bruneau ou Henri-Thomas-Scott,,rue Jean-Gascon/rue Vittorio-Fiorucci,,,,orthophotographies,286911.65,5041037.61,-73.7289335123076,45.5090295436208
+723,Saint-Laurent,bassin du Suroît,,rue de l'Équatuer/rue du Chinook,,,,orthophotographies,288148.52,5041524.09,-73.7131207952539,45.5134376903967
+724,Montréal-Nord,Oscar,abri-soleil,ave Oscar/rue de Mayenne,,,,orthophotographies,293258.41,5049125.89,-73.6478993194659,45.5819444876536
+725,Montréal-Nord,Oscar,intérieur du chalet,ave Oscar/rue de Mayenne,,,accès restreint,orthophotographies,293225.79,5049161.46,-73.6483181687252,45.5822640143526
+726,Montréal-Nord,Oscar,intérieur du chalet,ave Oscar/rue de Mayenne,,,accès restreint,orthophotographies,293229.15,5049165,-73.6482751958691,45.5822959241387
+727,Montréal-Nord,Ottawa,intérieur de la bibliothèque,ave de Belleville/rue Fleury Est,,,accès restreint,orthophotographies,293695.93,5049123.19,-73.6422926904389,45.5819273133318
+728,Montréal-Nord,Ottawa,intérieur du chalet,ave de Belleville/rue Fleury Est,,,accès restreint,orthophotographies,293699.31,5049065.69,-73.6422480710944,45.5814099662835
+729,Montréal-Nord,Ottawa,soccer,ave de Belleville/rue Prieur Est,,,,orthophotographies,293604.53,5049188.88,-73.6434654341296,45.5825169452518
+730,Montréal-Nord,Ottawa,module de jeux,ave de Belleville/rue Fleury Est,,,,orthophotographies,293661.78,5049153.43,-73.6427309924654,45.5821988753156
+731,Montréal-Nord,Ménard,intérieur du chalet,place Ménard/ave Plaza,,,accès restreint,orthophotographies,293869.13,5049690.94,-73.6400859379683,45.5870388266198
+732,Montréal-Nord,Ménard,module de jeux,place Ménard/ave Plaza,,,,orthophotographies,293872.04,5049677.71,-73.6400483485747,45.5869198252259
+733,Montréal-Nord,Eusèbe-Ménard,sentier,boul Gouin Est/ave de Bruxelles,,,,orthophotographies,293174.09,5050374.77,-73.6490095623476,45.5931808381646
+734,Montréal-Nord,Sabrevois,pataugeoire,ave des Récollets/rue Sabrevois,,,,orthophotographies,294398.56,5049327.08,-73.6332932314210,45.5837728327133
+735,Montréal-Nord,Pilon,abri-soleil,rue Arthur-Champoux/ave Gariépy,,,,orthophotographies,293698.83,5050356.08,-73.6422835538294,45.5930212353444
+736,Montréal-Nord,Pilon,parc à chien,rue Arthur-Champoux/ave Gariépy,,,,orthophotographies,293697.39,5050447.71,-73.6423040940278,45.5938457228688
+737,Montréal-Nord,Maurice-Bélanger,intérieur du chalet,ave Hébert/rue Forest,,,accès restreint,orthophotographies,294526.9,5049771.29,-73.6316579172469,45.5877718638569
+738,Montréal-Nord,Maurice-Bélanger,,rue Forest/ave de l'Hôtel-de-Ville,,,,orthophotographies,294523.2,5049825.77,-73.6317064820244,45.5882620350570
+739,Montréal-Nord,Paul-Sauvé,intérieur du chalet,ave Éthier/rue de Bayonne,,,accès restreint,orthophotographies,294245,5051073.87,-73.6352988408423,45.5994885989553
+740,Montréal-Nord,Paul-Sauvé,pataugeoire,ave Éthier/rue de Bayonne,,,,orthophotographies,294228.63,5051034.86,-73.6355078334792,45.5991373284035
+741,Montréal-Nord,Paul-Sauvé,,boul Henri-Bourassa Est/ave Bellevois,,,,orthophotographies,294210.59,5051241.77,-73.6357435658829,45.6009988820841
+742,Montréal-Nord,Aimé-Léonard,sentier,boul Gouin Est/boul Sainte-Gertrude,,,,orthophotographies,293992.41,5052005.61,-73.6385572832696,45.6078687429063
+743,Montréal-Nord,Aimé-Léonard,module de jeux,boul Gouin Est/boul Sainte-Gertrude,,,,orthophotographies,293944.77,5051970.93,-73.6391672721201,45.6075559416117
+744,Montréal-Nord,Aimé-Léonard,extérieur du chalet,boul Gouin Est/boul Sainte-Gertrude,,,,orthophotographies,293931.2,5052094.51,-73.6393439963553,45.6086677317225
+745,Montréal-Nord,Saint-Laurent,intérieur du chalet,ave Salk/rue de la Gare,,,accès restreint,orthophotographies,294753.66,5051802.5,-73.6287936212261,45.6060525297430
+746,Montréal-Nord,Saint-Laurent,soccer,ave Alfred/boul Henri-Bourassa Est,,,,orthophotographies,294737.66,5051650.25,-73.6289956000353,45.6046823154285
+747,Montréal-Nord,Saint-Laurent,sentier,rue de la Gare/ave Edger,,,,orthophotographies,294667.21,5051845.29,-73.6299027921314,45.6064363097501
+748,Montréal-Nord,Charleroi,intérieur du chalet,ave Alfred/rue Louis-Francoeur,,,accès restreint,orthophotographies,295171.39,5051072.73,-73.6234239546936,45.5994917876783
+749,Montréal-Nord,Charleroi,baseball,rue Louis-Francoeur (face au #5273),,,,orthophotographies,295240.18,5051149.11,-73.6225436709772,45.6001800237781
+750,Montréal-Nord,Lacordaire,intérieur du chalet,boulevard Lacordaire (#12576),,,accès restreint,orthophotographies,294503.7,5052927.51,-73.6320218369348,45.6161719768647
+751,Montréal-Nord,Lacordaire,module de jeux,boulevard Lacordaire (#12576),,,,orthophotographies,294505.13,5052946.76,-73.6320039075628,45.6163452139267
+752,Montréal-Nord,Henri-Bourassa,extérieur du chalet,ave Laurier/rue Pascal,,,,orthophotographies,295178.53,5052834.13,-73.6233671696083,45.6153413939226
+753,Montréal-Nord,Henri-Bourassa,soccer,ave Laurier/rue Pascal,,,,orthophotographies,295208.62,5052862.62,-73.6229819147581,45.6155981695257
+754,Montréal-Nord,Henri-Bourassa,module de jeux,ave Laurier/rue Pascal,,,,orthophotographies,295138.44,5052853.46,-73.6238815881962,45.6155147734799
+755,Montréal-Nord,Le Carignan,intérieur du chalet,ave P.-M.-Favier/rue Renoir,,,,orthophotographies,295763.22,5052206.31,-73.6158586163698,45.6096999695726
+756,Montréal-Nord,Le Carignan,intérieur du centre communautaire,ave P.-M.-Favier/rue Renoir,,,,orthophotographies,295765.58,5052232.58,-73.6158288459282,45.6099363840953
+757,Montréal-Nord,Monty,intérieur du chalet,ave Monty (entre le #12357 et le #12351),,,accès par la ruelle,orthophotographies,295453.75,5053476.26,-73.6198505960804,45.6211231825371
+758,Montréal-Nord,Monty,extérieur du chalet,ave Monty (entre le #12357 et le #12351),,,accès par la ruelle,orthophotographies,295447.02,5053465.4,-73.6199366889405,45.6210253712561
+759,Montréal-Nord,Tardif,intérieur du chalet,rue Tardif ( à l'est de #6453),,,accès par la ruelle,orthophotographies,295713.16,5053111.75,-73.6165172941125,45.6178466800687
+760,Montréal-Nord,Tardif,module de jeux,rue Tardif ( à l'est de #6453),,,accès par la ruelle,orthophotographies,295691.42,5053154.61,-73.6167968584383,45.6182320595318
+761,Montréal-Nord,Gouin,,boul Gouin Est (face au #6700),,,,orthophotographies,295220.42,5054148.33,-73.6228558790487,45.6271674367124
+762,Montréal-Nord,Gouin,parc à chien,boul Gouin Est (face au #6700),,,,orthophotographies,295192.43,5054126.75,-73.6232144180064,45.6269728686784
+763,Montréal-Nord,Calixa-Lavallée (école),basketball,boul Henri-Bourassa Est/ave Pelletier,,,privé (commission scolaire),orthophotographies,293975.19,5050975.97,-73.6387552080074,45.5986035216403
+764,Montréal-Nord,Racette,,ave Racette (face au #11424),,,,orthophotographies,294731.06,5051420.55,-73.6290754695459,45.6026153222448
+765,Montréal-Nord,piste cyclabe (boul Gouin),piste cyclable,à la hauteur de l'intersection du boul Gouin Est et de l'ave,,,localisation approx.,localisation approx.,293579.72,5051154.84,-73.6438285408623,45.6002067689665
+766,Saint-Laurent,Square du Rambler,,,,,,orthophotographies,288382.02,5041933.79,-73.7101459913431,45.5171298510797
+769,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,296489.61,5033287.95,-73.6062248749791,45.4394744306387
+770,L'Île-Bizard–Sainte-Geneviève,parc nature de Boisé-de-l'Île-Bizard,,,,,Grands Parcs,,273552.25,5041917.13,-73.8999586819804,45.5164730454626
+771,Saint-Laurent,parc nature du Bois-de-Liesse,,,,,Grands Parcs,,284788.56,5041373.06,-73.7561180604378,45.5119903475464
+772,Saint-Laurent,parc nature du Bois-de-Liesse,,,,,Grands Parcs,,284792.52,5041364.37,-73.7560670239591,45.5119122657151
+773,Saint-Laurent,parc nature du Bois-de-Liesse,,,,,Grands Parcs,,284215.1,5040734.85,-73.7634306680711,45.5062308348070
+774,Saint-Laurent,parc nature du Bois-de-Liesse,,,,,Grands Parcs,,284206.41,5040750.12,-73.7635425163926,45.5063679827899
+775,Saint-Laurent,parc nature du Bois-de-Liesse,,,,,Grands Parcs,,283843.55,5040006.84,-73.7681543430062,45.4996688952515
+776,Saint-Laurent,parc nature du Bois-de-Liesse,,,,,Grands Parcs,,283822.24,5040012.46,-73.7684272585848,45.4997188254738
+778,Pierrefonds-Roxboro,parc nature du cap-Saint-Jacques,,,,,Grands Parcs,,270516.62,5036117.03,-73.9384073436021,45.4641400163233
+779,Pierrefonds-Roxboro,parc nature du cap-Saint-Jacques,,,,,Grands Parcs,,270560.49,5036094.26,-73.9378447753638,45.4639372783707
+780,Pierrefonds-Roxboro,parc nature du cap-Saint-Jacques,,,,,Grands Parcs,,270578.49,5035960.7,-73.9376053053361,45.4627363567996
+781,Pierrefonds-Roxboro,parc nature du cap-Saint-Jacques,,,,,Grands Parcs,,270709.71,5036933.13,-73.9359948389611,45.4714929177739
+782,Pierrefonds-Roxboro,parc nature du cap-Saint-Jacques,,,,,Grands Parcs,,270766.4,5036887.29,-73.9352666530871,45.4710832043718
+783,Rivière-des-Prairies–Pointe-aux-Trembles,parc nature du Ruissesau-De-Montigny,,,,,Grands Parcs,,296645.82,5053358.79,-73.6045622819175,45.6200811746924
+784,Plateau-Mont-Royal,Sir-Wilfrid-Laurier,,,,,Grands Parcs /localisation approx.,localisation approx.,297995.91,5043541.48,-73.5871132002910,45.5317565636143
+785,Plateau-Mont-Royal,Sir-Wilfrid-Laurier,,,,,Grands Parcs /localisation approx.,localisation approx.,297900.14,5043482.44,-73.5883385165854,45.5312243579536
+786,Plateau-Mont-Royal,Sir-Wilfrid-Laurier,,,,,Grands Parcs /localisation approx.,localisation approx.,297958.47,5043593.33,-73.5875932707014,45.5322227627523
+787,Plateau-Mont-Royal,Sir-Wilfrid-Laurier,,,,,Grands Parcs /localisation approx.,localisation approx.,298031.92,5043669.66,-73.5866539337464,45.5329103257953
+788,Plateau-Mont-Royal,Sir-Wilfrid-Laurier,,,,,Grands Parcs /localisation approx.,localisation approx.,297827.42,5043709.26,-73.5892727745030,45.5332646451698
+789,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292754.34,5049100.58,-73.6543580604167,45.5817081960568
+790,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292531.11,5048822.74,-73.6572116336153,45.5792042146597
+791,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292515.82,5048777.67,-73.6574064233620,45.5787983925638
+792,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292339.25,5048740.64,-73.6596679941887,45.5784620465188
+793,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292283.96,5048512,-73.6603706028604,45.5764036879989
+794,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292157.6,5048430.24,-73.6619875578576,45.5756657043420
+795,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292036.85,5048398.59,-73.6635338992989,45.5753787044645
+796,Ahuntsic-Cartierville,parc nature de l'Île-de-la-Visitation,,,,,Grands Parcs,,292775.13,5049257.58,-73.6540955144850,45.5831212844373
+797,Anjou,Du Mail (Chénier),piscine,5555 ave de l'Aréna,,,accès restreint,orthophotographies,301416.09,5051451.17,-73.5433791844765,45.6029555321637
+798,Lachine,René-Lévesque,,,,,Grands Parcs,,291463.33,5032183.72,-73.6704415291883,45.4294602039142
+799,Lachine,René-Lévesque,,,,,Grands Parcs,,291458.52,5032175.35,-73.6705027735473,45.4293847946710
+800,LaSalle,des Rapides,chalet,boul LaSalle/40e ave,,,Grands Parcs,,295775.91,5030668.8,-73.6152995043729,45.4158970796330
+801,LaSalle,des Rapides,chalet,boul LaSalle/boul Bishop-Power,,,Grands Parcs,,297324.07,5031863.29,-73.5955370428475,45.4266640082063
+802,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,296284.95,5033570.57,-73.6088457604698,45.4420151275477
+803,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,296954.34,5033280.75,-73.6002845085684,45.4394150110186
+804,Le Sud-Ouest,Angrignon,sentier,,,,Grands Parcs,,297249.46,5033955.79,-73.5965225994334,45.4454926170262
+805,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,296905.5,5033962.89,-73.6009197316599,45.4455527062677
+806,Le Sud-Ouest,Angrignon,sentier,,,,Grands Parcs,,297040.89,5034005.64,-73.5991896436921,45.4459389084864
+807,Le Sud-Ouest,Angrignon,,,,,Grands Parcs,,296970.77,5033902.65,-73.6000843921209,45.4450113702856
+808,Le Sud-Ouest,Angrignon,,,,,Grands Parcs,,296994.83,5033863.79,-73.5997762068996,45.4446619573138
+809,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,296429.37,5033315.5,-73.6069953405232,45.4397216210676
+810,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,297091.99,5033529.55,-73.5985289430859,45.4416553729242
+811,Le Sud-Ouest,Angrignon,,,,,Grands Parcs,,296876.18,5033180.01,-73.6012819390826,45.4385076188730
+812,Le Sud-Ouest,Angrignon,sentier,chemin du parc Angrignon,,,Grands Parcs,,296518.18,5033839.09,-73.6058689639818,45.4444342093047
+813,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298123.35,5041765.4,-73.5854573792679,45.5157759402544
+814,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298177.52,5041685.03,-73.5847629486470,45.5150532553701
+815,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298209.49,5041664.65,-73.5843534822615,45.5148701708428
+816,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298291.64,5041660.97,-73.5833019774264,45.5148378283216
+817,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298045.81,5041902.52,-73.5864517360189,45.5170090539287
+818,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298012.61,5041969.86,-73.5868776186672,45.5176146836084
+819,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,297969.43,5042000.67,-73.5874307451800,45.5178915025215
+820,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,297851.71,5041889.59,-73.5889359752777,45.5168907974043
+821,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298486.85,5041559.2,-73.5808021323056,45.5139238555071
+822,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299512.98,5043258.32,-73.5676870151644,45.5292217427946
+823,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299344.31,5043250.82,-73.5698463258569,45.5291529550049
+824,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299265.82,5043164.23,-73.5708502130028,45.5283731662185
+825,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299306.41,5043102.94,-73.5703298808862,45.5278219763884
+826,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299257.25,5043098.84,-73.5709591887615,45.5277846938052
+827,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299541.25,5043136.32,-73.5673237794031,45.5281241538897
+828,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299513.48,5043067.21,-73.5676785515887,45.5275020654384
+829,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299632.73,5043030.91,-73.5661515194689,45.5271763183111
+830,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299509.57,5042934.05,-73.5677271698308,45.5263038106635
+831,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299117.23,5042996.46,-73.5727505586166,45.5268623116290
+832,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299179.09,5042790.75,-73.5719562703872,45.5250117550577
+833,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299260.1,5042802.72,-73.5709193542654,45.5251201143084
+834,Plateau-Mont-Royal,La Fontaine,,,,,Grands Parcs,,299570.13,5042528.53,-73.5669475633891,45.5226552404959
+835,Plateau-Mont-Royal,Jeanne-Mance,,,,,Grands Parcs,,298215.47,5041716.22,-73.5842776355914,45.5153342748984
+836,Rivière-des-Prairies–Pointe-aux-Trembles,parc nature de la Pointe-aux-Prairies,,,,,Grands Parcs,,302969.03,5060942.37,-73.5235073560208,45.6883651093504
+837,Rivière-des-Prairies–Pointe-aux-Trembles,parc nature de la Pointe-aux-Prairies,,,,,Grands Parcs,,303607.22,5061787,-73.5153158723665,45.6959665925681
+838,Rivière-des-Prairies–Pointe-aux-Trembles,parc nature de la Pointe-aux-Prairies,,,,,Grands Parcs,,303573.41,5061624.86,-73.5157495995575,45.6945075774194
+839,Rivière-des-Prairies–Pointe-aux-Trembles,parc nature de la Pointe-aux-Prairies,,,,,Grands Parcs,,305151.96,5060290.26,-73.4954817477005,45.6824996602096
+840,Rivière-des-Prairies–Pointe-aux-Trembles,parc nature de la Pointe-aux-Prairies,,,,,Grands Parcs,,304219.18,5060032.98,-73.5074559127872,45.6801844627021
+841,Ville-Marie,du Mont-Royal,chalet,,,,Grands Parcs,,297968.62,5040392.46,-73.5874187076881,45.5034201653086
+842,Ville-Marie,du Mont-Royal,chalet,,,,Grands Parcs,,298013.69,5040425.75,-73.5868424243730,45.5037201625941
+843,Ville-Marie,du Mont-Royal,sentier,,,,Grands Parcs,,297993.79,5040245.38,-73.5870945759392,45.5020969236876
+844,Ville-Marie,du Mont-Royal,chemin,,,,Grands Parcs,,297633.33,5040316.15,-73.5917081726892,45.5027301319067
+845,Ville-Marie,du Mont-Royal,chalet,,,,Grands Parcs,,297988.78,5040500.19,-73.5871622236582,45.5043897620654
+846,Ville-Marie,du Mont-Royal,chalet,,,,Grands Parcs,,297922.91,5040477.85,-73.5880048385643,45.5041880911219
+847,Ville-Marie,du Mont-Royal,chalet,près du lac des castors,,,Grands Parcs,,297051.25,5039859.87,-73.5991495321484,45.4986181098056
+848,Ville-Marie,du Mont-Royal,chemin,,,,Grands Parcs,,297823.63,5040457.05,-73.5892750088408,45.5039999381890
+849,Ville-Marie,du Mont-Royal,sentier,près du lac des castors,,,Grands Parcs,,297034.91,5039898.87,-73.5993592283718,45.4989688666521
+850,Ville-Marie,du Mont-Royal,stationnement,,,,Grands Parcs,,297497.16,5040174.42,-73.5934485576128,45.5014533736525
+851,Ville-Marie,du Mont-Royal,,ave du Parc/rue Prince Arthur Ouest,,,Grands Parcs,,298561.12,5041257.25,-73.5798477077722,45.5112074551243
+852,Ville-Marie,du Mont-Royal,,près de rue Hill Parck Circle,,,Grands Parcs,,297163.55,5039699.85,-73.5977101033573,45.4971794199827
+853,Ville-Marie,du Mont-Royal,sentier,près du lac des castors,,,Grands Parcs,,297217.35,5039731.56,-73.5970222112183,45.4974653468355
+854,Ville-Marie,du Mont-Royal,sentier,près du lac des castors,,,Grands Parcs,,297206.75,5039744.09,-73.5971580350051,45.4975779818353
+855,Ville-Marie,du Mont-Royal,,ave des Pins Ouest/rue Peel,,,Grands Parcs,,298309.17,5040579.06,-73.5830632860766,45.5051025221477
+856,Ville-Marie,du Mont-Royal,,ave du Parc/ave Duluth Ouest,,,Grands Parcs,,298102.57,5041596.63,-73.5857210456158,45.5142570807954
+857,Ville-Marie,du Mont-Royal,,ave du Parc/ave Duluth Ouest,,,Grands Parcs,,298157.36,5041559.74,-73.5850192841203,45.5139256537971
+858,Villeray–Saint-Michel–Parc-Extension,Jarry,,,,,Grands Parcs,orthophotographies,295111.5,5043838.88,-73.6240482953232,45.5343985453147
+859,Villeray–Saint-Michel–Parc-Extension,Jarry,,,,,Grands Parcs,orthophotographies,294657.52,5043883.33,-73.6298618084324,45.5347920624094
+860,Ville-Marie,du Mont-Royal,sentier,,,,Grands Parcs / auge pour chevaux,orthophotographies,297985.9,5040244.65,-73.5871955288026,45.5020902778169
+861,Montréal-Nord,parc nature de l'Île-de-la-Visitation,sentier,ave Touchette/,,,,orthophotographies,292827.9,5049503.87,-73.6534253200919,45.5853383783977
