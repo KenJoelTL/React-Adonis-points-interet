@@ -107,7 +107,7 @@ footer {
 
 .CompteurTable table,
 .FontaineTable table {
-  height: 420px;
+  height: 415px;
   overflow-y: scroll;
   overflow-x: scroll;
 }

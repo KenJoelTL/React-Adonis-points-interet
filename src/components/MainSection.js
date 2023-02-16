@@ -74,7 +74,7 @@ function MainSection() {
         </div>
       }
 
-      {selectedBtnId === 2 &&
+      {selectedBtnId === 3 &&
         <div className='FontaineTable'>
           <h2>Point d'intérêt</h2>
           <div>
