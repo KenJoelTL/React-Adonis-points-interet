@@ -1,23 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import CompteurTable from './CompteurTable'
 import FontaineTable from './FontaineTable'
 import SortingBox from './SortingBox'
 import ButtonsSection from './ButtonsSection'
-import compteurList from '../data/compteurs.json'
-import fontaineList from '../data/fontaines.json'
 
 function MainSection() {
-
-  const menuButtons = [
+  const [isLoaded, setIsLoaded] = useState(false)
+  const [error, setError] = useState(null)
+  const [compteurList, setCompteurList] = useState([])
+  const [fontaineList, setFontaineList] = useState([])
+  const [sort, setSort] = useState({ column: '', direction: '' })
+  const [selectedBtnId, setSelectedBtnId] = useState(1)
+  const [menuButtons] = useState([
     { id: 1, name: 'Comptages de vélos' },
     { id: 2, name: 'Points d\'intérêt' },
     { id: 3, name: 'Fontaines à boire' },
     { id: 4, name: 'Réparation vélos' },
     { id: 5, name: 'Ajouter un point d\'intérêt' }
-  ]
-
-  const [sort, setSort] = React.useState({ column: '', direction: '' })
-  const [selectedBtnId, setSelectedBtnId] = React.useState(1)
+  ])
 
   const handleSort = (column) => {
     let direction = 'asc'
@@ -56,6 +56,26 @@ function MainSection() {
     setSelectedBtnId(buttonId)
   }
 
+  useEffect(() => {
+    const compteurURL = "http://localhost:3333/gti525/v1/compteurs/"
+    const fontaineURL = "http://localhost:3333/gti525/v1/fontaines/"
+
+    setIsLoaded(true)
+    fetch(compteurURL)
+      .then(res => res.json())
+      .then(
+        (result) => { setCompteurList(result); setIsLoaded(false) },
+        (error) => { setError(error); setIsLoaded(false) }
+      )
+
+    setIsLoaded(true)
+    fetch(fontaineURL)
+      .then(res => res.json())
+      .then(
+        (result) => { setFontaineList(result); setIsLoaded(false) },
+        (error) => { setError(error); setIsLoaded(false) }
+      )
+  }, [])
   return (
     <div className='MainSection'>
       <div className='ItemMenu'>
