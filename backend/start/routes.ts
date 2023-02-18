@@ -20,6 +20,47 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
+
 Route.get('/', async () => {
   return { hello: 'world' }
+})
+
+Route.get('/gti525/v1/compteurs', async () => {
+  const compteurList = require('../data/compteurs.json')
+  return compteurList
+})
+
+Route.get('/gti525/v1/fontaines', async () => {
+  const fontaineList = require('../data/fontaines.json')
+  return fontaineList
+})
+
+Route.get('/gti525/v1/compteurs/:id', async ({ params, request, response }) => {
+  const compteurStatsList = require('../data/counter_stats.json')
+
+  const compteurId = params.id
+  let from
+  let to
+
+  if (request.input('debut')) {
+    from = Date.parse(request.input('debut'))
+  }
+
+  if (request.input('fin')) {
+    to = Date.parse(request.input('fin'))
+  }
+
+  const filteredList = compteurStatsList.filter(m => {
+    let isAccepted = m.id == compteurId
+    let compteurDate = Date.parse(m.date)
+    if (isAccepted && from) {
+      isAccepted = compteurDate >= from
+    }
+    if (isAccepted && to) {
+      isAccepted = compteurDate <= to
+    }
+    return isAccepted
+  })
+
+  response.json(filteredList)
 })
