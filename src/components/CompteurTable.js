@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import StartEndDatePicker from './StartEndDatePicker'
+import Overlay from './Overlay'
+import Map from './Map';
+import 'leaflet/dist/leaflet.css';
 
 function CompteurTable(props) {
 
@@ -17,6 +20,12 @@ function CompteurTable(props) {
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
 
+  //For Overlay
+  const [showOverlay, setShowOverlay] = React.useState({ show: false, id: -1 })
+  const handleClose = () => {
+    setShowOverlay(false);
+  };
+  
   return (
     <>
       <table>
@@ -30,7 +39,7 @@ function CompteurTable(props) {
             <th></th>
           </tr>
         </thead>
-
+        
         <tbody>
           {
             compteurList.map(compteur => {
@@ -40,7 +49,9 @@ function CompteurTable(props) {
                   <td className='left'> {compteur.Nom} </td>
                   <td className='center'> {compteur.Statut} </td>
                   <td className='center'> {compteur.Annee_implante} </td>
-                  <td className='center'> IC </td>
+                  <td className='center'>
+                  <button onClick={() => setShowOverlay({ show: true, id: compteur.ID })}>Map</button>
+                  </td>
                   <td className='right'>
                     <button onClick={() => setShowDetails({ show: true, id: compteur.ID })}>
                       Statistiques
@@ -71,6 +82,13 @@ function CompteurTable(props) {
             </div>
           ))}
         </div>
+      )}
+      {showOverlay.show && (
+        <Overlay onClose={handleClose}>
+          {props.compteurList.filter(compteur => compteur.ID === showOverlay.id).map((selectedCompteur, i) => (
+            <Map compteurList={props.compteurList} selectedCompteur={selectedCompteur}/>
+          ))}
+        </Overlay>
       )}
     </>
   )
