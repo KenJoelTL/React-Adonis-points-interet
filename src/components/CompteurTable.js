@@ -9,7 +9,6 @@ function CompteurTable(props) {
   const handleSort = (column) => { props.onSort(column) }
 
   const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 })
-  const [showResults, setShowResults] = React.useState({ show: false, id: -1 })
   const [statList, setStatList] = React.useState([])
 
   //For StartEndDatePicker
@@ -19,24 +18,28 @@ function CompteurTable(props) {
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
 
-  function closeStatPanel() {
-    setShowDetails({ show: false, id: -1 })
-    setShowResults({ show: false, id: -1 })
+  function openStatsPanel(compteurID) {
+    setShowDetails({ show: true, id: compteurID })
     setStatList([])
   }
 
-  React.useEffect(() => {
-    if (showResults.id == -1) return
-
-    fetch("http://localhost:3333/gti525/v1/compteurs/" + showResults.id + "?debut=" + startDate + "&fin=" + endDate)
+  function fetchResults() {
+    fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "?debut=" + startDate + "&fin=" + endDate)
       .then(res => res.json())
       .then(
-        (result) => { setStatList(Object.values(result)); 
-          console.log(statList); 
+        (result) => { 
+          let stats = Object.values(result);
+          // TODO : Right now there is up to one value per hour, we should group them by day. HOW ?!
+          setStatList(stats);
         },
         (error) => { console.log(error) }
       )
-  }, [showResults])
+  }
+
+  function closeStatsPanel() {
+    setShowDetails({ show: false, id: -1 })
+    setStatList([])
+  }
 
   return (
     <>
@@ -63,7 +66,7 @@ function CompteurTable(props) {
                   <td className='center'> {compteur.Annee_implante} </td>
                   <td className='center'> IC </td>
                   <td className='right'>
-                    <button onClick={() => setShowDetails({ show: true, id: compteur.ID }) }>
+                    <button onClick={() => openStatsPanel(compteur.ID)}>
                       Statistiques
                     </button>
                   </td>
@@ -92,10 +95,10 @@ function CompteurTable(props) {
                 <input type="radio" value="Semaine" name="statSortingType" /> Semaine
                 <input type="radio" value="Mois" name="statSortingType" /> Mois
               </div>
-              <button onClick={() => setShowResults({ show: true, id: selectedCompteur.ID })}>
+              <button onClick={() => fetchResults()}>
                 Afficher résultats
               </button>
-              <button onClick={() => closeStatPanel()}>
+              <button onClick={() => closeStatsPanel()}>
                 Retour
               </button>
               {statList.length > 0 && (
@@ -107,7 +110,6 @@ function CompteurTable(props) {
             </div>
           ))}
         </div>
-
       )}
     </>
   )
