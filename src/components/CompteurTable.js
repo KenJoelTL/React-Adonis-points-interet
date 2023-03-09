@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import StartEndDatePicker from './StartEndDatePicker'
+import BarChart from './BarChart'
 
 function CompteurTable(props) {
 
@@ -9,6 +10,7 @@ function CompteurTable(props) {
 
   const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 })
   const [showResults, setShowResults] = React.useState({ show: false, id: -1 })
+  const [statList, setStatList] = React.useState([])
 
   //For StartEndDatePicker
   const [startDate, setStartDate] = React.useState(null)
@@ -16,6 +18,17 @@ function CompteurTable(props) {
 
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
+
+  function getCompteurStats(idCompteur) {
+    fetch("http://localhost:3333/gti525/v1/compteurs/" + idCompteur)
+      .then(res => res.json())
+      .then(
+        (result) => { setStatList(result); 
+          console.log(statList); 
+        },
+        (error) => { console.log(error) }
+      )
+  }
 
   return (
     <>
@@ -65,12 +78,18 @@ function CompteurTable(props) {
                   onEndDateChange={handleEndDateChange}
                 />
               </div>
-              <button onClick={() => setShowResults({ show: true, id: selectedCompteur.ID })}>
+              <button onClick={() => getCompteurStats(selectedCompteur.ID)}>
                 Afficher résultats
               </button>
+              {statList.length > 0 && (
+                <div style={{ width: 700 }}>
+                  <BarChart chartData={statList} />
+                </div>
+              )}
             </div>
           ))}
         </div>
+
       )}
     </>
   )
