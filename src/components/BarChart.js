@@ -2,13 +2,13 @@ import React from "react";
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 
-function BarChart({ chartArray }) {
+function BarChart({ statList }) {
     const [chartData, setChartData] = React.useState({
-        labels: chartArray,
+        labels: statList.map((statList) => statList.date), 
         datasets: [
           {
             label: "Passages",
-            data: chartArray,
+            data: statList.map((statList) => statList.nb_passage),
             backgroundColor: [
               "rgba(75,192,192,1)",
               "#ecf0f1",

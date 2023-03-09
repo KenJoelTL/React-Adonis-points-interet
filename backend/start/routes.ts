@@ -61,6 +61,5 @@ Route.get('/gti525/v1/compteurs/:id', async ({ params, request, response }) => {
     }
     return isAccepted
   })
-
   response.json(filteredList)
 })

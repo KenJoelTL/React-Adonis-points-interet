@@ -19,16 +19,24 @@ function CompteurTable(props) {
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
 
-  function getCompteurStats(idCompteur) {
-    fetch("http://localhost:3333/gti525/v1/compteurs/" + idCompteur)
+  function closeStatPanel() {
+    setShowDetails({ show: false, id: -1 })
+    setShowResults({ show: false, id: -1 })
+    setStatList([])
+  }
+
+  React.useEffect(() => {
+    if (showResults.id == -1) return
+
+    fetch("http://localhost:3333/gti525/v1/compteurs/" + showResults.id + "?debut=" + startDate + "&fin=" + endDate)
       .then(res => res.json())
       .then(
-        (result) => { setStatList(result); 
+        (result) => { setStatList(Object.values(result)); 
           console.log(statList); 
         },
         (error) => { console.log(error) }
       )
-  }
+  }, [showResults])
 
   return (
     <>
@@ -55,7 +63,7 @@ function CompteurTable(props) {
                   <td className='center'> {compteur.Annee_implante} </td>
                   <td className='center'> IC </td>
                   <td className='right'>
-                    <button onClick={() => setShowDetails({ show: true, id: compteur.ID })}>
+                    <button onClick={() => setShowDetails({ show: true, id: compteur.ID }) }>
                       Statistiques
                     </button>
                   </td>
@@ -78,12 +86,22 @@ function CompteurTable(props) {
                   onEndDateChange={handleEndDateChange}
                 />
               </div>
-              <button onClick={() => getCompteurStats(selectedCompteur.ID)}>
+              <div id="statSortingTypeDiv">
+                Trier par...
+                <input type="radio" value="Jour" name="statSortingType" /> Jour
+                <input type="radio" value="Semaine" name="statSortingType" /> Semaine
+                <input type="radio" value="Mois" name="statSortingType" /> Mois
+              </div>
+              <button onClick={() => setShowResults({ show: true, id: selectedCompteur.ID })}>
                 Afficher résultats
+              </button>
+              <button onClick={() => closeStatPanel()}>
+                Retour
               </button>
               {statList.length > 0 && (
                 <div style={{ width: 700 }}>
-                  <BarChart chartData={statList} />
+                  <p>DEBUG : {statList.length} rows of data</p>
+                  <BarChart statList={statList} />
                 </div>
               )}
             </div>
