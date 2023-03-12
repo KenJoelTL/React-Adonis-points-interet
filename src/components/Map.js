@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -18,7 +17,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 function Map(props) {
     const compteurList = props.compteurList;
-
+    console.log(props.selectedCompteur)
     return (
         <div id="mapid" style={{ height: '100%', width: '100%'}}>
             <MapContainer style={{ height: '100%', width: '100%'}}>
@@ -42,6 +41,7 @@ function Map(props) {
                         </Popup>
                     </Marker>
                 ))}
+                <Popup position={{lat:props.selectedCompteur.Latitude, lng: props.selectedCompteur.Longitude}}>{props.selectedCompteur.Nom}</Popup>
             </MapContainer>
         </div>
     );

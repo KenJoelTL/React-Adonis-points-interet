@@ -10,21 +10,6 @@ function BoundMap(props) {
   const bounds = L.latLngBounds(compteurCoords).pad(0.1);
   mapRef.fitBounds(bounds)
 
-  const openSelectedCompteurPopup = () => {
-    console.log(props.selectedCompteur.ID);
-    const layerContainer = mapRef.getContainer().querySelector('.leaflet-pane.leaflet-marker-pane');
-    const markers = layerContainer.getElementsByTagName('img');
-    Array.from(markers).forEach((marker) => {
-      console.log("test");
-
-      const id = marker.getAttribute('data-id');
-      if (id === props.selectedCompteur.ID) {
-        marker.parentNode.click();
-      }
-    });
-  };
-
-  openSelectedCompteurPopup();
   return null
 }
 
