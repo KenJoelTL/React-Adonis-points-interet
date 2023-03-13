@@ -14,7 +14,6 @@ function CompteurTable(props) {
   //For StartEndDatePicker
   const [startDate, setStartDate] = React.useState(null)
   const [endDate, setEndDate] = React.useState(null)
-
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
 
@@ -29,7 +28,6 @@ function CompteurTable(props) {
       .then(
         (result) => { 
           let stats = Object.values(result);
-          // TODO : Right now there is up to one value per hour, we should group them by day. HOW ?!
           setStatList(stats);
         },
         (error) => { console.log(error) }
