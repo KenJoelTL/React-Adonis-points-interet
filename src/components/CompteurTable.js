@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import StartEndDatePicker from './StartEndDatePicker'
 import BarChart from './BarChart'
+import Overlay from './Overlay'
+import Map from './Map'
+import 'leaflet/dist/leaflet.css'
 
 function CompteurTable(props) {
 
@@ -26,9 +29,9 @@ function CompteurTable(props) {
     fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "?debut=" + startDate + "&fin=" + endDate)
       .then(res => res.json())
       .then(
-        (result) => { 
-          let stats = Object.values(result);
-          setStatList(stats);
+        (result) => {
+          let stats = Object.values(result)
+          setStatList(stats)
         },
         (error) => { console.log(error) }
       )
@@ -37,6 +40,12 @@ function CompteurTable(props) {
   function closeStatsPanel() {
     setShowDetails({ show: false, id: -1 })
     setStatList([])
+  }
+
+  //For Overlay
+  const [showOverlay, setShowOverlay] = React.useState({ show: false, id: -1 })
+  const handleClose = () => {
+    setShowOverlay(false)
   }
 
   return (
@@ -62,7 +71,9 @@ function CompteurTable(props) {
                   <td className='left'> {compteur.Nom} </td>
                   <td className='center'> {compteur.Statut} </td>
                   <td className='center'> {compteur.Annee_implante} </td>
-                  <td className='center'> IC </td>
+                  <td className='center'>
+                    <button onClick={() => setShowOverlay({ show: true, id: compteur.ID })}>Map</button>
+                  </td>
                   <td className='right'>
                     <button onClick={() => openStatsPanel(compteur.ID)}>
                       Statistiques
@@ -108,6 +119,13 @@ function CompteurTable(props) {
             </div>
           ))}
         </div>
+      )}
+      {showOverlay.show && (
+        <Overlay onClose={handleClose}>
+          {props.compteurList.filter(compteur => compteur.ID === showOverlay.id).map((selectedCompteur, i) => (
+            <Map compteurList={props.compteurList} selectedCompteur={selectedCompteur} />
+          ))}
+        </Overlay>
       )}
     </>
   )
