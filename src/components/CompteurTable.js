@@ -1,6 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import StartEndDatePicker from './StartEndDatePicker'
+import BarChart from './BarChart'
+import Overlay from './Overlay'
+import Map from './Map'
+import 'leaflet/dist/leaflet.css'
 
 function CompteurTable(props) {
 
@@ -8,14 +12,46 @@ function CompteurTable(props) {
   const handleSort = (column) => { props.onSort(column) }
 
   const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 })
-  const [showResults, setShowResults] = React.useState({ show: false, id: -1 })
+  const [timeGrouping, setTimeGrouping] = React.useState('day')
+  const [statList, setStatList] = React.useState([])
 
   //For StartEndDatePicker
   const [startDate, setStartDate] = React.useState(null)
   const [endDate, setEndDate] = React.useState(null)
-
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
+
+  function openStatsPanel(compteurID) {
+    setShowDetails({ show: true, id: compteurID })
+    setStatList([])
+  }
+
+  function updateTimeGrouping(selectedTimeGrouping) {
+    setTimeGrouping(selectedTimeGrouping)
+  }
+
+  function fetchResults() {
+    fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "?debut=" + startDate + "&fin=" + endDate)
+      .then(res => res.json())
+      .then(
+        (result) => {
+          let stats = Object.values(result)
+          setStatList(stats)
+        },
+        (error) => { console.log(error) }
+      )
+  }
+
+  function closeStatsPanel() {
+    setShowDetails({ show: false, id: -1 })
+    setStatList([])
+  }
+
+  //For Overlay
+  const [showOverlay, setShowOverlay] = React.useState({ show: false, id: -1 })
+  const handleClose = () => {
+    setShowOverlay(false)
+  }
 
   return (
     <>
@@ -40,9 +76,11 @@ function CompteurTable(props) {
                   <td className='left'> {compteur.Nom} </td>
                   <td className='center'> {compteur.Statut} </td>
                   <td className='center'> {compteur.Annee_implante} </td>
-                  <td className='center'> IC </td>
+                  <td className='center'>
+                    <button onClick={() => setShowOverlay({ show: true, id: compteur.ID })}>Map</button>
+                  </td>
                   <td className='right'>
-                    <button onClick={() => setShowDetails({ show: true, id: compteur.ID })}>
+                    <button onClick={() => openStatsPanel(compteur.ID)}>
                       Statistiques
                     </button>
                   </td>
@@ -65,12 +103,33 @@ function CompteurTable(props) {
                   onEndDateChange={handleEndDateChange}
                 />
               </div>
-              <button onClick={() => setShowResults({ show: true, id: selectedCompteur.ID })}>
+              <div id="timeGroupingDiv" >
+                Trier par...
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('day')} /> Jour
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('week')} /> Semaine
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('month')} /> Mois
+              </div>
+              <button onClick={() => fetchResults()}>
                 Afficher résultats
               </button>
+              <button onClick={() => closeStatsPanel()}>
+                Retour
+              </button>
+              {statList.length > 0 && (
+                <div style={{ width: 700 }}>
+                  <BarChart statList={statList} timeGrouping={timeGrouping} />
+                </div>
+              )}
             </div>
           ))}
         </div>
+      )}
+      {showOverlay.show && (
+        <Overlay onClose={handleClose}>
+          {props.compteurList.filter(compteur => compteur.ID === showOverlay.id).map((selectedCompteur, i) => (
+            <Map compteurList={props.compteurList} selectedCompteur={selectedCompteur} />
+          ))}
+        </Overlay>
       )}
     </>
   )

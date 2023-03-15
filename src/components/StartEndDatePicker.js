@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 
-function DatePicker() {
+function DatePicker(props) {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
 
   const handleStartDateChange = (e) => {
     setStartDate(e.target.value);
+    props.onStartDateChange(e.target.value);
   };
 
   const handleEndDateChange = (e) => {
     setEndDate(e.target.value);
+    props.onEndDateChange(e.target.value);
   };
 
   return (
