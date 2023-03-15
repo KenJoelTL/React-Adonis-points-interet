@@ -12,7 +12,7 @@ function BarChart({ statList, timeGrouping }) {
     if (timeGrouping == 'month') {
       groupedDate = Date.parse(statList[i].date.slice(0,7) + '-01 00:00:00 GMT-0500');
     } else if (timeGrouping == 'week') {
-      groupedDate = Date.parse(startOfWeek(new Date(statList[i].date.slice(0,10)), {weekStartsOn: 1}));
+      groupedDate = Date.parse(startOfWeek(new Date(statList[i].date.slice(0,10) + ' 00:00:00 GMT-0500')));
     } else { // jour
       groupedDate = Date.parse(statList[i].date.slice(0,10) + ' 00:00:00 GMT-0500');
     }
