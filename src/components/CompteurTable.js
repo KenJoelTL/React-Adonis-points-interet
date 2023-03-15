@@ -112,7 +112,6 @@ function CompteurTable(props) {
               </button>
               {statList.length > 0 && (
                 <div style={{ width: 700 }}>
-                  <p>DEBUG : {statList.length} rows of data</p>
                   <BarChart statList={statList} />
                 </div>
               )}
