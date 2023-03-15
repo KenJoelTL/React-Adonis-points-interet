@@ -43,16 +43,15 @@ Route.get('/gti525/v1/compteurs/:id', async ({ params, request, response }) => {
   let to
 
   if (request.input('debut')) {
-    from = Date.parse(request.input('debut'))
+    from = Date.parse(request.input('debut') + ' 00:00:00 GMT-0500')
   }
-
   if (request.input('fin')) {
-    to = Date.parse(request.input('fin'))
+    to = Date.parse(request.input('fin') + ' 23:59:59 GMT-0500')
   }
 
   const filteredList = compteurStatsList.filter(m => {
     let isAccepted = m.id == compteurId
-    let compteurDate = Date.parse(m.date)
+    let compteurDate = Date.parse(m.date + ' GMT-0500')
     if (isAccepted && from) {
       isAccepted = compteurDate >= from
     }
@@ -61,6 +60,5 @@ Route.get('/gti525/v1/compteurs/:id', async ({ params, request, response }) => {
     }
     return isAccepted
   })
-
   response.json(filteredList)
 })
