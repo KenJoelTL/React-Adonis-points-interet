@@ -27,7 +27,7 @@ function CompteurTable(props) {
   }
 
   function updateTimeGrouping(selectedTimeGrouping) {
-    setTimeGrouping(selectedTimeGrouping);
+    setTimeGrouping(selectedTimeGrouping)
   }
 
   function fetchResults() {
@@ -105,9 +105,9 @@ function CompteurTable(props) {
               </div>
               <div id="timeGroupingDiv" >
                 Trier par...
-                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('day')}/> Jour
-                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('week')}/> Semaine
-                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('month')}/> Mois
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('day')} /> Jour
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('week')} /> Semaine
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('month')} /> Mois
               </div>
               <button onClick={() => fetchResults()}>
                 Afficher résultats
