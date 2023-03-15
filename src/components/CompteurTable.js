@@ -12,6 +12,7 @@ function CompteurTable(props) {
   const handleSort = (column) => { props.onSort(column) }
 
   const [showDetails, setShowDetails] = React.useState({ show: false, id: -1 })
+  const [timeGrouping, setTimeGrouping] = React.useState('day')
   const [statList, setStatList] = React.useState([])
 
   //For StartEndDatePicker
@@ -23,6 +24,10 @@ function CompteurTable(props) {
   function openStatsPanel(compteurID) {
     setShowDetails({ show: true, id: compteurID })
     setStatList([])
+  }
+
+  function updateTimeGrouping(selectedTimeGrouping) {
+    setTimeGrouping(selectedTimeGrouping);
   }
 
   function fetchResults() {
@@ -98,11 +103,11 @@ function CompteurTable(props) {
                   onEndDateChange={handleEndDateChange}
                 />
               </div>
-              <div id="statSortingTypeDiv">
+              <div id="timeGroupingDiv" >
                 Trier par...
-                <input type="radio" value="Jour" name="statSortingType" /> Jour
-                <input type="radio" value="Semaine" name="statSortingType" /> Semaine
-                <input type="radio" value="Mois" name="statSortingType" /> Mois
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('day')}/> Jour
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('week')}/> Semaine
+                <input type="radio" name="timeGroupingButton" onChange={() => updateTimeGrouping('month')}/> Mois
               </div>
               <button onClick={() => fetchResults()}>
                 Afficher résultats
@@ -112,7 +117,7 @@ function CompteurTable(props) {
               </button>
               {statList.length > 0 && (
                 <div style={{ width: 700 }}>
-                  <BarChart statList={statList} />
+                  <BarChart statList={statList} timeGrouping={timeGrouping} />
                 </div>
               )}
             </div>
