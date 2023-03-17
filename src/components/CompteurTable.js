@@ -58,10 +58,10 @@ function CompteurTable(props) {
       <table>
         <thead>
           <tr>
-            <th className='clickable left' onClick={() => handleSort('ID')}>ID</th>
-            <th className='clickable left' onClick={() => handleSort('Nom')}>Nom du compteur</th>
-            <th className='clickable center' onClick={() => handleSort('Statut')}>Statut</th>
-            <th className='clickable center' onClick={() => handleSort('Annee_implante')}>Année Implanté</th>
+            <th className='clickable left' onClick={() => handleSort('id')}>ID</th>
+            <th className='clickable left' onClick={() => handleSort('nom')}>Nom du compteur</th>
+            <th className='clickable center' onClick={() => handleSort('statut')}>Statut</th>
+            <th className='clickable center' onClick={() => handleSort('annee_implante')}>Année Implanté</th>
             <th></th>
             <th></th>
           </tr>
@@ -71,16 +71,16 @@ function CompteurTable(props) {
           {
             compteurList.map(compteur => {
               return (
-                <tr key={compteur.ID}>
-                  <td className='left'> {compteur.ID} </td>
-                  <td className='left'> {compteur.Nom} </td>
-                  <td className='center'> {compteur.Statut} </td>
-                  <td className='center'> {compteur.Annee_implante} </td>
+                <tr key={compteur.id}>
+                  <td className='left'> {compteur.id} </td>
+                  <td className='left'> {compteur.nom} </td>
+                  <td className='center'> {compteur.statut} </td>
+                  <td className='center'> {compteur.annee_implante} </td>
                   <td className='center'>
-                    <button onClick={() => setShowOverlay({ show: true, id: compteur.ID })}>Map</button>
+                    <button onClick={() => setShowOverlay({ show: true, id: compteur.id })}>📍</button>
                   </td>
                   <td className='right'>
-                    <button onClick={() => openStatsPanel(compteur.ID)}>
+                    <button onClick={() => openStatsPanel(compteur.id)}>
                       Statistiques
                     </button>
                   </td>
@@ -91,9 +91,9 @@ function CompteurTable(props) {
       </table>
       {showDetails.show && (
         <div>
-          {props.compteurList.filter(compteur => compteur.ID === showDetails.id).map((selectedCompteur, i) => (
-            <div key={selectedCompteur.ID + "-" + i}>
-              <h3>Statistiques du compteur: {selectedCompteur.ID}</h3>
+          {props.compteurList.filter(compteur => compteur.id === showDetails.id).map((selectedCompteur, i) => (
+            <div key={selectedCompteur.id + "-" + i}>
+              <h3>Statistiques du compteur: {selectedCompteur.id}</h3>
               <p>Plage de dates</p>
               <div>
                 <StartEndDatePicker
@@ -126,7 +126,7 @@ function CompteurTable(props) {
       )}
       {showOverlay.show && (
         <Overlay onClose={handleClose}>
-          {props.compteurList.filter(compteur => compteur.ID === showOverlay.id).map((selectedCompteur, i) => (
+          {props.compteurList.filter(compteur => compteur.id === showOverlay.id).map((selectedCompteur, i) => (
             <Map compteurList={props.compteurList} selectedCompteur={selectedCompteur} />
           ))}
         </Overlay>
