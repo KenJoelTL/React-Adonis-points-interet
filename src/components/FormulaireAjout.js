@@ -22,7 +22,7 @@ function FormulaireAjout() {
     }
 
     function handleEnvoyer() {
-      console.log("TODO : Ajouter dans la BD (???)")
+      console.log("TODO : Ajouter les données dans la BD (???)")
     }
 
     return (

@@ -106,7 +106,7 @@ function MainSection() {
 
       {selectedBtnId === 5 &&
         <div className='FormulaireAjout'>
-          <h2>Ajouter un Point d'Intérêt</h2>
+          <h2>Ajouter un Point d'intérêt</h2>
           <div>
             <FormulaireAjout />
           </div>
