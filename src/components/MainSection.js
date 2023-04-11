@@ -3,6 +3,7 @@ import CompteurTable from './CompteurTable'
 import FontaineTable from './FontaineTable'
 import SortingBox from './SortingBox'
 import ButtonsSection from './ButtonsSection'
+import FormulaireAjout from './FormulaireAjout'
 
 function MainSection() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -102,6 +103,16 @@ function MainSection() {
           </div>
         </div>
       }
+
+      {selectedBtnId === 5 &&
+        <div className='FormulaireAjout'>
+          <h2>Ajouter un Point d'intérêt</h2>
+          <div>
+            <FormulaireAjout />
+          </div>
+        </div>
+      }
+
     </div>
   )
 }

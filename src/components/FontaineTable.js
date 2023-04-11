@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import SingleMarkerMap from './SingleMarkerMap'
 
 function FontaineTable(props) {
 
@@ -32,7 +33,7 @@ function FontaineTable(props) {
                   <td className='left'> {fontaine.Intersection} </td>
                   <td className='center'>
                     <button onClick={() => setShowDetails({ show: true, id: fontaine.ID })}>
-                      IC
+                      Map
                     </button>
                   </td>
                 </tr>)
@@ -44,6 +45,9 @@ function FontaineTable(props) {
         <div>
           {props.fontaineList.filter(fontaine => fontaine.ID === showDetails.id).map((selectedFontaine, i) => (
             <div key={selectedFontaine.ID + "-" + i}>
+              <div>
+                <SingleMarkerMap selectedItem={selectedFontaine} text={selectedFontaine.Nom_parc_lieu}/>
+              </div>
               <h3>Point d'intérêt</h3>
               <div>
                 <p>Proximité: {selectedFontaine.Proximité_jeux_repère}</p>
