@@ -46,7 +46,7 @@ function FontaineTable(props) {
           {props.fontaineList.filter(fontaine => fontaine.ID === showDetails.id).map((selectedFontaine, i) => (
             <div key={selectedFontaine.ID + "-" + i}>
               <div>
-                <SingleMarkerMap selectedItem={selectedFontaine} text={selectedFontaine.Nom_parc_lieu}/>
+                <SingleMarkerMap Latitude={selectedFontaine.Latitude} Longitude={selectedFontaine.Longitude} text={selectedFontaine.Nom_parc_lieu}/>
               </div>
               <h3>Point d'intérêt</h3>
               <div>

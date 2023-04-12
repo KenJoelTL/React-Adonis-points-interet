@@ -226,7 +226,7 @@ Route.post('/gti525/v1/pointsdinteret', async ({ request, response }) => {
   const newPoint = request.body()
   const idlist = [...fontainesList, ...ateliersList]
   const requiredFields = {
-    fontaine: ['Arrondissement', 'Nom_parc_lieu', 'Proximité_jeux_repère', 'Intersection', 'Etat', 'Date_installation', 'Remarque', 'Precision_localisation', 'X', 'Y', 'Longitude', 'Latitude', 'Type'],
+    fontaine: ['Arrondissement', 'Nom_parc_lieu', 'Date_installation', 'Remarque', 'Longitude', 'Latitude', 'Type'],
     atelier: ['Nom', 'Adresse', 'Arrondissement', 'Type', 'Année', 'Remarque']
   };
 

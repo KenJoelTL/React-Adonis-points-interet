@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import CompteurTable from './CompteurTable'
+import AtelierTable from './AtelierTable'
 import FontaineTable from './FontaineTable'
 import SortingBox from './SortingBox'
 import ButtonsSection from './ButtonsSection'
@@ -9,6 +10,7 @@ function MainSection() {
   const [isLoaded, setIsLoaded] = useState(false)
   const [error, setError] = useState(null)
   const [compteurList, setCompteurList] = useState([])
+  const [atelierList, setAtelierList] = useState([])
   const [fontaineList, setFontaineList] = useState([])
   const [sort, setSort] = useState({ column: '', direction: '' })
   const [selectedBtnId, setSelectedBtnId] = useState(1)
@@ -51,6 +53,7 @@ function MainSection() {
   }
 
   const sortedCompteurList = compteurList.sort(sortListAlgo)
+  const sortedAtelierList = atelierList.sort(sortListAlgo)
   const sortedFontaineList = fontaineList.sort(sortListAlgo)
 
   const handleMenuChange = (buttonId) => {
@@ -59,13 +62,22 @@ function MainSection() {
 
   useEffect(() => {
     const compteurURL = "http://localhost:3333/gti525/v1/compteurs/"
-    const fontaineURL = "http://localhost:3333/gti525/v1/fontaines/"
+    const atelierURL = "http://localhost:3333/gti525/v1/pointsdinteret?type=atelier"
+    const fontaineURL = "http://localhost:3333/gti525/v1/pointsdinteret?type=fontaine"
 
     setIsLoaded(true)
     fetch(compteurURL)
       .then(res => res.json())
       .then(
         (result) => { setCompteurList(result); setIsLoaded(false) },
+        (error) => { setError(error); setIsLoaded(false) }
+      )
+
+    setIsLoaded(true)
+    fetch(atelierURL)
+      .then(res => res.json())
+      .then(
+        (result) => { setAtelierList(result); setIsLoaded(false) },
         (error) => { setError(error); setIsLoaded(false) }
       )
 
@@ -97,9 +109,18 @@ function MainSection() {
 
       {selectedBtnId === 3 &&
         <div className='FontaineTable'>
-          <h2>Point d'intérêt</h2>
+          <h2>Fontaines</h2>
           <div>
             <FontaineTable onSort={handleSort} fontaineList={sortedFontaineList} />
+          </div>
+        </div>
+      }
+
+      {selectedBtnId === 4 &&
+        <div className='AtelierTable'>
+          <h2>Point d'intérêt</h2>
+          <div>
+            <AtelierTable onSort={handleSort} atelierList={sortedAtelierList} />
           </div>
         </div>
       }

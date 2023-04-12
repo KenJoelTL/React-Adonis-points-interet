@@ -1,75 +1,5 @@
 [
   {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "atelier",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "atelier",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "atelier",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "fontaine",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "fontaine",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "fontaine",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
-    "Nom": "Nouvelle Fontaine",
-    "Type": "fontaine",
-    "Latitude": 45.5047421,
-    "Longitude": -73.5794815,
-    "Remarque": "Une nouvelle fontaine d'eau potable située dans un parc.",
-    "Intersection": "a",
-    "Arrondissement": "ttt",
-    "ID": null
-  },
-  {
     "Type": "atelier",
     "Nom": "Atelier Vélo ABC",
     "Adresse": "1234, rue Sainte-Catherine Est",
@@ -162,7 +92,7 @@
   {
     "Type": "atelier",
     "Nom": "Atelier Vélo BCD",
-    "Adresse": "1234, rue Sainte-Catherine Est",
+    "Adresse": "7024 Des Glaieuls",
     "Arrondissement": "Ville-Marie",
     "Année": "2020",
     "Remarque": "Ouvert du lundi au vendredi, de 9h à 17h",
@@ -171,7 +101,7 @@
   {
     "Type": "atelier",
     "Nom": "Atelier Vélo BCD",
-    "Adresse": "1234, rue Sainte-Catherine Est",
+    "Adresse": "4535 Bd Westley",
     "Arrondissement": "Ville-Marie",
     "Année": "2020",
     "Remarque": "Ouvert du lundi au vendredi, de 9h à 17h",
@@ -180,7 +110,7 @@
   {
     "Type": "atelier",
     "Nom": "Atelier Vélo BCD",
-    "Adresse": "1234, rue Sainte-Catherine Est",
+    "Adresse": "4535 Bd Westley",
     "Arrondissement": "Ville-Marie",
     "Année": "2020",
     "Remarque": "Ouvert du lundi au vendredi, de 9h à 17h",
@@ -189,7 +119,7 @@
   {
     "Type": "atelier",
     "Nom": "Atelier Vélo BCD",
-    "Adresse": "1234, rue Sainte-Catherine Est",
+    "Adresse": "4680 Rue Quevillon",
     "Arrondissement": "Ville-Marie",
     "Année": "2020",
     "Remarque": "Ouvert du lundi au vendredi, de 9h à 17h",
@@ -198,10 +128,19 @@
   {
     "Type": "atelier",
     "Nom": "Atelier Vélo BCD",
-    "Adresse": "1234, rue Sainte-Catherine Est",
+    "Adresse": "4525 Nantel St",
     "Arrondissement": "Ville-Marie",
     "Année": "2020",
     "Remarque": "Ouvert du lundi au vendredi, de 9h à 17h",
     "ID": 868
+  },
+  {
+    "Nom": "Testing",
+    "Adresse": "5444 terrasse beaudry",
+    "Arrondissement": "icitte",
+    "Année": "2023",
+    "Remarque": "une place",
+    "Type": "atelier",
+    "ID": 870
   }
 ]

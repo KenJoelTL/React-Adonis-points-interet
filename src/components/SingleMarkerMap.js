@@ -15,16 +15,14 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 function SingleMarkerMap(props) {
-    console.log(props.selectedItem)
-    const selected = props.selectedItem;
     return (
         <div id="singlemarkermapid" style={{ height: '300px', width: '300px'}}>
-            <MapContainer center={[selected.Latitude, selected.Longitude]} zoom={13} style={{ height: '100%', width: '100%'}}>
+            <MapContainer center={[props.Latitude, props.Longitude]} zoom={13} style={{ height: '100%', width: '100%'}}>
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />               
                     <Marker
-                        id={selected.ID}
-                        key={selected.ID}
-                        position={[selected.Latitude, selected.Longitude]}
+                        id={1}
+                        key={1}
+                        position={[props.Latitude, props.Longitude]}
                         icon={
                         L.icon({
                             iconSize: [25, 41],
