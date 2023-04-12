@@ -20,6 +20,7 @@
 
 import Route from "@ioc:Adonis/Core/Route";
 import Compteur from "App/Models/Compteur";
+import Passage from "App/Models/Passage";
 import PointInteret from "App/Models/PointInteret";
 import { promises as fs } from "fs";
 import { join } from "path";
@@ -114,10 +115,7 @@ Route.get("/gti525/v1/", async () => {
 Route.get("/gti525/v1/compteurs", "CompteursController.index");
 
 Route.get("/gti525/v1/fontaines", async () => {
-  const fontaineList = await PointInteret.query().where(
-    "type",
-    "Fontaine à boire"
-  );
+  const fontaineList = await PointInteret.query().where("type", "fontaine");
   return fontaineList;
 });
 
@@ -126,31 +124,17 @@ Route.get("/gti525/v1/compteurs/:id", "CompteursController.show");
 Route.get(
   "/gti525/v1/compteurs/:id/passages",
   async ({ params, request, response }) => {
-    const compteurStatsList = require("../data/counter_stats.json");
-
     const compteurId = params.id;
-    let from;
-    let to;
 
+    const query = Passage.query().where("compteur_id", compteurId);
     if (request.input("debut")) {
-      from = Date.parse(request.input("debut") + " 00:00:00 GMT-0500");
+      query.where("date", ">=", request.input("debut") + " 00:00:00 GMT-0500");
     }
     if (request.input("fin")) {
-      to = Date.parse(request.input("fin") + " 23:59:59 GMT-0500");
+      query.where("date", "<=", request.input("fin") + " 00:00:00 GMT-0500");
     }
 
-    const filteredList = compteurStatsList.filter((m) => {
-      let isAccepted = m.id == compteurId;
-      let compteurDate = Date.parse(m.date + " GMT-0500");
-      if (isAccepted && from) {
-        isAccepted = compteurDate >= from;
-      }
-      if (isAccepted && to) {
-        isAccepted = compteurDate <= to;
-      }
-
-      return isAccepted;
-    });
+    const filteredList = await query;
     response.json(filteredList);
   }
 );

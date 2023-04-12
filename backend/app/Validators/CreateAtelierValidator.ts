@@ -29,7 +29,7 @@ export default class CreateAtelierValidator {
     arrondissement: schema.string(),
     type: schema.enum(["atelier", "fontaine"]),
     annee: schema.number(),
-    remarque: schema.string(),
+    remarque: schema.string.optional(),
   });
 
   /**

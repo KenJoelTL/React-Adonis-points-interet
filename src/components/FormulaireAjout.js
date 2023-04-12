@@ -11,6 +11,7 @@ function FormulaireAjout() {
   const [lat, setLat] = React.useState('45.49459670781232')
   const [remarque, setRemarque] = React.useState('')
   const [showMap, setShowMap] = React.useState(false)
+  const apiToken = 'b69d5935-5e8c-4d41-a72a-0e3201227928'
 
   function handleAnnuler() {
     setLieu('')
@@ -34,6 +35,7 @@ function FormulaireAjout() {
       latitude: lat,
       remarque: remarque,
       type: selectedType.toLowerCase(),
+      apiToken: apiToken
     }
     console.log(newPoint)
     const response = await fetch('http://127.0.0.1:3333/gti525/v1/pointsdinteret', {
@@ -51,6 +53,8 @@ function FormulaireAjout() {
       const point = await response.json()
       console.log('New point added:', point)
       handleAnnuler()
+      window.location.reload(false)
+
     }
   }
 
@@ -63,6 +67,7 @@ function FormulaireAjout() {
       annee: annee,
       remarque: remarque,
       type: selectedType.toLowerCase(),
+      apiToken: apiToken,
     }
     console.log(newPoint)
     const response = await fetch('http://127.0.0.1:3333/gti525/v1/pointsdinteret', {
@@ -80,6 +85,7 @@ function FormulaireAjout() {
       const point = await response.json()
       console.log('New point added:', point)
       handleAnnuler()
+      window.location.reload(false)
     }
   }
 

@@ -20,6 +20,8 @@ function CompteurTable(props) {
   const [endDate, setEndDate] = React.useState(null)
   const handleStartDateChange = (date) => { setStartDate(date) }
   const handleEndDateChange = (date) => { setEndDate(date) }
+  const apiToken = 'b69d5935-5e8c-4d41-a72a-0e3201227928'
+
 
   function openStatsPanel(compteurID) {
     setShowDetails({ show: true, id: compteurID })
@@ -31,7 +33,8 @@ function CompteurTable(props) {
   }
 
   function fetchResults() {
-    fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "?debut=" + startDate + "&fin=" + endDate)
+
+    fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "/passages?debut=" + startDate + "&fin=" + endDate + '&apiToken=' + apiToken)
       .then(res => res.json())
       .then(
         (result) => {

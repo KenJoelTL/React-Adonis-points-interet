@@ -13,8 +13,8 @@ export default class Passage extends BaseModel {
   @column.dateTime()
   public date: DateTime;
 
-  @column.dateTime()
-  public nb_passage: DateTime;
+  @column()
+  public nb_passage: number;
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime;
