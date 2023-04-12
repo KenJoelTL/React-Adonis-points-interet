@@ -31,7 +31,7 @@ function CompteurTable(props) {
   }
 
   function fetchResults() {
-    fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "?debut=" + startDate + "&fin=" + endDate)
+    fetch("http://localhost:3333/gti525/v1/compteurs/" + showDetails.id + "/passages?debut=" + startDate + "&fin=" + endDate)
       .then(res => res.json())
       .then(
         (result) => {
