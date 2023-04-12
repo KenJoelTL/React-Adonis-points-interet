@@ -111,15 +111,7 @@ Route.get("/gti525/v1/", async () => {
   return endpoints;
 });
 
-Route.get("/gti525/v1/compteurs", async ({ request }) => {
-  const limite = request.input("limite");
-  const compteurList = require("../data/compteurs.json");
-
-  // Filtrez la liste des compteurs si le paramètre `limite` est fourni.
-  const filteredList = limite ? compteurList.slice(0, limite) : compteurList;
-
-  return filteredList;
-});
+Route.get("/gti525/v1/compteurs", "CompteursController.index");
 
 Route.get("/gti525/v1/fontaines", async () => {
   const fontaineList = await PointInteret.query().where(
@@ -129,16 +121,7 @@ Route.get("/gti525/v1/fontaines", async () => {
   return fontaineList;
 });
 
-Route.get("/gti525/v1/compteurs/:id", async ({ params, response }) => {
-  const compteurId = params.id;
-  const compteur = await Compteur.find(compteurId);
-
-  if (!compteur) {
-    return response.notFound({ message: "Compteur introuvable" });
-  }
-
-  return response.ok(compteur);
-});
+Route.get("/gti525/v1/compteurs/:id", "CompteursController.show");
 
 Route.get(
   "/gti525/v1/compteurs/:id/passages",
@@ -172,51 +155,9 @@ Route.get(
   }
 );
 
-Route.get("/gti525/v1/pointsdinteret", async ({ request, response }) => {
-  // const fontainesList = require("../data/fontaines.json");
-  const query = PointInteret.query();
+Route.get("/gti525/v1/pointsdinteret", "PointsInteretsController.index");
 
-  const ateliersList = require("../data/ateliers.json");
-  const type = request.input("type");
-  const nom = request.input("nom");
-  const limite = request.input("limite");
-
-  let pointsdinteretList;
-
-  if (type === "fontaine") {
-    query.where("type", "Fontaine à boire");
-  } else if (type === "atelier") {
-    query.where("type", "Atelier");
-  }
-
-  if (nom) {
-    query.where((select_points) => {
-      select_points
-        .whereLike("nom_parc_lieu", `%${nom}%`)
-        .orWhereLike("remarque", `%${nom}%`);
-    });
-  }
-
-  if (limite) {
-    query.limit(parseInt(limite));
-  }
-  pointsdinteretList = await query;
-  response.json(pointsdinteretList);
-});
-
-Route.get("/gti525/v1/pointsdinteret/:id", async ({ params, response }) => {
-  const fontainesList = require("../data/fontaines.json");
-  const ateliersList = require("../data/ateliers.json");
-  let pointsdinteretList = [...fontainesList, ...ateliersList];
-  const pointId = params.id;
-  const point = pointsdinteretList.find((p) => p.id == pointId);
-
-  if (!point) {
-    response.status(404).json({ message: "Point d'intérêt introuvable" });
-  } else {
-    response.json(point);
-  }
-});
+Route.get("/gti525/v1/pointsdinteret/:id", "PointsInteretsController.show");
 
 Route.post("/gti525/v1/pointsdinteret", async ({ request, response }) => {
   const fontainesList = require("../data/fontaines.json");
