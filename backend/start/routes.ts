@@ -53,7 +53,7 @@ const endpoints = {
       {
         operation: "GET",
         endpoint: "/gti525/v1/pointsdinteret",
-        param: ["id", "limite", "type", "nom"],
+        param: ["id", "limite", "type", "nom_parc_lieu"],
         body: [],
       },
       {
@@ -62,7 +62,7 @@ const endpoints = {
         param: [],
         body: [
           "type",
-          "nom",
+          "nom_parc_lieu",
           "adresse",
           "arrondissement",
           "type",
@@ -159,66 +159,4 @@ Route.get("/gti525/v1/pointsdinteret", "PointsInteretsController.index");
 
 Route.get("/gti525/v1/pointsdinteret/:id", "PointsInteretsController.show");
 
-Route.post("/gti525/v1/pointsdinteret", async ({ request, response }) => {
-  const fontainesList = require("../data/fontaines.json");
-  const ateliersList = require("../data/ateliers.json");
-  const newPoint = request.body();
-  const idlist = [...fontainesList, ...ateliersList];
-  const requiredFields = {
-    fontaine: [
-      "arrondissement",
-      "nom_parc_lieu",
-      "date_installation",
-      "remarque",
-      "longitude",
-      "latitude",
-      "type",
-    ],
-    atelier: ["nom", "adresse", "arrondissement", "type", "annee", "remarque"],
-  };
-
-  if (!newPoint || !newPoint.type) {
-    response.status(400).json({
-      message: "Informations manquantes pour créer un nouveau point d'intérêt",
-    });
-  } else if (newPoint.type !== "fontaine" && newPoint.type !== "atelier") {
-    response.status(400).json({ message: "type de point d'intérêt invalide" });
-  } else {
-    const missingFields = requiredFields[newPoint.type].filter(
-      (field) => !newPoint.hasOwnProperty(field)
-    );
-
-    if (missingFields.length > 0) {
-      response.status(400).json({
-        message: `Champs manquants pour le type ${
-          newPoint.type
-        }: ${missingFields.join(", ")}`,
-      });
-    } else {
-      let currentList, filePath;
-      if (newPoint.type === "fontaine") {
-        currentList = fontainesList;
-        filePath = join(__dirname, "..", "data", "fontaines.json");
-      } else {
-        currentList = ateliersList;
-        filePath = join(__dirname, "..", "data", "ateliers.json");
-      }
-
-      // Générer un nouvel id pour le nouveau point d'intérêt
-      const newId =
-        idlist.reduce((maxId, currentPoint) => {
-          return Math.max(maxId, currentPoint.id);
-        }, 0) + 1;
-      newPoint.id = newId;
-
-      // Ajouter le nouveau point d'intérêt à la liste
-      currentList.push(newPoint);
-
-      // Sauvegarder la liste mise à jour dans le fichier JSON
-      await fs.writeFile(filePath, JSON.stringify(currentList, null, 2));
-
-      // Retourner le nouveau point d'intérêt créé
-      response.status(201).json(newPoint);
-    }
-  }
-});
+Route.post("/gti525/v1/pointsdinteret", "PointsInteretsController.store");

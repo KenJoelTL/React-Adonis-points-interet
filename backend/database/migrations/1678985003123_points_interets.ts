@@ -10,11 +10,13 @@ export default class PointsInteretTableMigration extends BaseSchema {
       table.string("arrondissement");
       table.string("nom_parc_lieu");
       table.string("proximite_jeux_repere");
+      table.string("adresse");
       table.string("intersection");
       table.string("etat");
       table.dateTime("date_installation");
+      table.integer("annee");
       table.string("remarque");
-      table.enum("type", ["Fontaine à boire", "Atelier de réparation"]);
+      table.enum("type", ["fontaine", "atelier"]);
       table.string("precision_localisation");
       table.float("x", 9, 7);
       table.float("y", 9, 7);

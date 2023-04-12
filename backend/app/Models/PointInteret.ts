@@ -11,6 +11,9 @@ export default class PointInteret extends BaseModel {
   public arrondissement: string;
 
   @column()
+  public adresse: string;
+
+  @column()
   public nom_parc_lieu: string;
 
   @column()
@@ -39,6 +42,9 @@ export default class PointInteret extends BaseModel {
 
   @column()
   public y: number;
+
+  @column()
+  public annee: number;
 
   @column()
   public latitude: number;

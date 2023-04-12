@@ -57,7 +57,7 @@ function FormulaireAjout() {
   async function handleEnvoyerAtelier() {
     //console.log("TODO : Ajouter les données dans la BD (???)")
     const newPoint = {
-      nom: lieu,
+      nom_parc_lieu: lieu,
       adresse: addr,
       arrondissement: arron,
       annee: annee,

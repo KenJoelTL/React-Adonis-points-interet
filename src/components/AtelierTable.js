@@ -66,7 +66,7 @@ function AtelierTable(props) {
       <table>
         <thead>
           <tr>
-            <th className='clickable left' onClick={() => handleSort('nom')}>Nom</th>
+            <th className='clickable left' onClick={() => handleSort('nom_parc_lieu')}>Nom</th>
             <th className='clickable left'>Type</th>
             <th className='clickable left' onClick={() => handleSort('adresse')}>Adresse</th>
             <th className='clickable left' onClick={() => handleSort('arrondissement')}>Arrondissement</th>
@@ -80,7 +80,7 @@ function AtelierTable(props) {
             atelierList.map(atelier => {
               return (
                 <tr key={atelier.id}>
-                  <td className='left'> {atelier.nom} </td>
+                  <td className='left'> {atelier.nom_parc_lieu} </td>
                   <td className='left'> Atelier </td>
                   <td className='left'> {atelier.adresse} </td>
                   <td className='left'> {atelier.arrondissement} </td>
