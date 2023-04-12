@@ -2,6 +2,8 @@ import { DateTime } from "luxon";
 import { BaseModel, column } from "@ioc:Adonis/Lucid/Orm";
 
 export default class PointInteret extends BaseModel {
+  public static table = "points_interets";
+
   @column({ isPrimary: true })
   public id: number;
 

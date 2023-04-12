@@ -32,7 +32,7 @@ function FontaineTable(props) {
                   <td className='left'> {fontaine.nom_parc_lieu} </td>
                   <td className='left'> {fontaine.intersection} </td>
                   <td className='center'>
-                    <button onClick={() => setShowDetails({ show: true, id: fontaine.ID })}>
+                    <button onClick={() => setShowDetails({ show: true, id: fontaine.id })}>
                       Map
                     </button>
                   </td>
@@ -43,10 +43,10 @@ function FontaineTable(props) {
       </table>
       {showDetails.show && (
         <div>
-          {props.fontaineList.filter(fontaine => fontaine.ID === showDetails.id).map((selectedFontaine, i) => (
-            <div key={selectedFontaine.ID + "-" + i}>
+          {props.fontaineList.filter(fontaine => fontaine.id === showDetails.id).map((selectedFontaine, i) => (
+            <div key={selectedFontaine.id + "-" + i}>
               <div>
-                <SingleMarkerMap Latitude={selectedFontaine.Latitude} Longitude={selectedFontaine.Longitude} text={selectedFontaine.Nom_parc_lieu} />
+                <SingleMarkerMap latitude={selectedFontaine.latitude} longitude={selectedFontaine.longitude} text={selectedFontaine.nom_parc_lieu} />
               </div>
               <h3>Point d'intérêt</h3>
               <div>
