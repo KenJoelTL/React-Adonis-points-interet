@@ -10,6 +10,8 @@
     "chartjs-adapter-date-fns": "^3.0.0",
     "date-fns": "^2.29.3",
     "leaflet": "^1.9.3",
+    "leaflet-control-geocoder": "^2.4.0",
+    "leaflet-geosearch": "^3.7.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
