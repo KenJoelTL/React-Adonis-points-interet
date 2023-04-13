@@ -27,7 +27,7 @@ export default class CreateFontaineValidator {
     arrondissement: schema.string(),
     nom_parc_lieu: schema.string(),
     date_installation: schema.string(),
-    remarque: schema.string(),
+    remarque: schema.string.optional(),
     longitude: schema.number(),
     latitude: schema.number(),
     type: schema.enum(["atelier", "fontaine"]),

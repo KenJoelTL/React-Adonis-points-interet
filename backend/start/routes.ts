@@ -134,6 +134,10 @@ Route.get(
       query.where("date", "<=", request.input("fin") + " 00:00:00 GMT-0500");
     }
 
+    if (request.input("limite")) {
+      query.limit(request.input("limite"));
+    }
+
     const filteredList = await query;
     response.json(filteredList);
   }
