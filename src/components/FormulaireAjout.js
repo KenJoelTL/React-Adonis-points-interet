@@ -25,7 +25,6 @@ function FormulaireAjout() {
   }
 
   async function handleEnvoyerFontaine() {
-    //console.log("TODO : Ajouter les données dans la BD (???)")
     const newPoint = {
       nom_parc_lieu: lieu,
       adresse: addr,
@@ -59,7 +58,6 @@ function FormulaireAjout() {
   }
 
   async function handleEnvoyerAtelier() {
-    //console.log("TODO : Ajouter les données dans la BD (???)")
     const newPoint = {
       nom_parc_lieu: lieu,
       adresse: addr,
