@@ -10,10 +10,10 @@ function SortingBox(props) {
     <div className='d-flex ml-auto SortingBox'>
       <div>Trier par: </div>
       <ul>
-        <li className='clickable' onClick={() => { handleSort('ID') }}> ID</li>
-        <li className='clickable' onClick={() => { handleSort('Nom') }}> Nom</li>
-        <li className='clickable' onClick={() => { handleSort('Statut') }}> Statut</li>
-        <li className='clickable' onClick={() => { handleSort('Annee_implante') }}> Année Implanté</li>
+        <li className='clickable' onClick={() => { handleSort('id') }}> ID</li>
+        <li className='clickable' onClick={() => { handleSort('nom') }}> Nom</li>
+        <li className='clickable' onClick={() => { handleSort('statut') }}> Statut</li>
+        <li className='clickable' onClick={() => { handleSort('annee_implante') }}> Année Implanté</li>
       </ul>
     </div>
   )

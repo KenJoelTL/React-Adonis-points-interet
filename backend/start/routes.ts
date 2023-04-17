@@ -18,47 +18,82 @@
 |
 */
 
-import Route from '@ioc:Adonis/Core/Route'
+import Route from "@ioc:Adonis/Core/Route";
+const endpoints = {
+  compteurs: {
+    desc: "Compteurs",
+    endpoints: [
+      {
+        operation: "GET",
+        endpoint: "/gti525/v1/compteurs",
+        param: ["limite", "apiToken"],
+        body: [],
+      },
+      {
+        operation: "GET",
+        endpoint: "/gti525/v1/compteurs/:id",
+        param: ["apiToken"],
+        body: [],
+      },
+      {
+        operation: "GET",
+        endpoint: "/gti525/v1/compteurs/:id/passages",
+        param: ["debut", "fin", "limite", "apiToken"],
+        body: [],
+      },
+    ],
+  },
+  pointsdinteret: {
+    desc: "Points d'intérêt",
+    endpoints: [
+      {
+        operation: "GET",
+        endpoint: "/gti525/v1/pointsdinteret",
+        param: ["id", "limite", "type", "nom_parc_lieu", "apiToken"],
+        body: [],
+      },
+      {
+        operation: "POST",
+        endpoint: "/gti525/v1/pointsdinteret",
+        param: [],
+        body: [
+          "apiToken",
+          "type",
+          "nom_parc_lieu",
+          "adresse",
+          "arrondissement",
+          "type",
+          "annee",
+          "remarque",
+          "id",
+          "nom_parc_lieu",
+          "proximite_jeux_repere",
+          "intersection",
+          "etat",
+          "date_installation",
+          "precision_localisation",
+          "x",
+          "y",
+          "longitude",
+          "latitude",
+        ],
+      },
+    ],
+  },
+};
 
+Route.get("/gti525/v1/", async () => {
+  return endpoints;
+});
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+Route.get("/gti525/v1/compteurs", "CompteursController.index");
 
-Route.get('/gti525/v1/compteurs', async () => {
-  const compteurList = require('../data/compteurs.json')
-  return compteurList
-})
+Route.get("/gti525/v1/compteurs/:id", "CompteursController.show");
 
-Route.get('/gti525/v1/fontaines', async () => {
-  const fontaineList = require('../data/fontaines.json')
-  return fontaineList
-})
+Route.get("/gti525/v1/compteurs/:id/passages", "PassagesController.index");
 
-Route.get('/gti525/v1/compteurs/:id', async ({ params, request, response }) => {
-  const compteurStatsList = require('../data/counter_stats.json')
+Route.get("/gti525/v1/pointsdinteret", "PointsInteretsController.index");
 
-  const compteurId = params.id
-  let from
-  let to
+Route.get("/gti525/v1/pointsdinteret/:id", "PointsInteretsController.show");
 
-  if (request.input('debut')) {
-    from = Date.parse(request.input('debut') + ' 00:00:00 GMT-0500')
-  }
-  if (request.input('fin')) {
-    to = Date.parse(request.input('fin') + ' 23:59:59 GMT-0500')
-  }
-
-  const filteredList = compteurStatsList.filter(m => {
-    let isAccepted = m.id == compteurId
-    let compteurDate = Date.parse(m.date + ' GMT-0500')
-    if (isAccepted && from) {
-      isAccepted = compteurDate >= from
-    }
-    if (isAccepted && to) {
-      isAccepted = compteurDate <= to
-    }
-    return isAccepted
-  })
-  response.json(filteredList)
-})
+Route.post("/gti525/v1/pointsdinteret", "PointsInteretsController.store");
