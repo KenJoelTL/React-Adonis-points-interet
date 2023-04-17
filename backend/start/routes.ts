@@ -19,11 +19,6 @@
 */
 
 import Route from "@ioc:Adonis/Core/Route";
-import Compteur from "App/Models/Compteur";
-import Passage from "App/Models/Passage";
-import PointInteret from "App/Models/PointInteret";
-import { promises as fs } from "fs";
-import { join } from "path";
 const endpoints = {
   compteurs: {
     desc: "Compteurs",
@@ -31,19 +26,19 @@ const endpoints = {
       {
         operation: "GET",
         endpoint: "/gti525/v1/compteurs",
-        param: ["limite"],
+        param: ["limite", "apiToken"],
         body: [],
       },
       {
         operation: "GET",
         endpoint: "/gti525/v1/compteurs/:id",
-        param: [],
+        param: ["apiToken"],
         body: [],
       },
       {
         operation: "GET",
         endpoint: "/gti525/v1/compteurs/:id/passages",
-        param: ["debut", "fin", "limite"],
+        param: ["debut", "fin", "limite", "apiToken"],
         body: [],
       },
     ],
@@ -54,7 +49,7 @@ const endpoints = {
       {
         operation: "GET",
         endpoint: "/gti525/v1/pointsdinteret",
-        param: ["id", "limite", "type", "nom_parc_lieu"],
+        param: ["id", "limite", "type", "nom_parc_lieu", "apiToken"],
         body: [],
       },
       {
@@ -62,6 +57,7 @@ const endpoints = {
         endpoint: "/gti525/v1/pointsdinteret",
         param: [],
         body: [
+          "apiToken",
           "type",
           "nom_parc_lieu",
           "adresse",
@@ -84,28 +80,6 @@ const endpoints = {
       },
     ],
   },
-  fontaines: {
-    desc: "Fontaines",
-    endpoints: [
-      {
-        operation: "GET",
-        endpoint: "/gti525/v1/fontaines",
-        param: [],
-        body: [],
-      },
-    ],
-  },
-  // ateliers: {
-  //   'desc': 'Ateliers',
-  //   'endpoints': [
-  //     {
-  //       'operation': 'GET',
-  //       'endpoint': '/gti525/v1/ateliers',
-  //       'param': [],
-  //       'body': []
-  //     }
-  //   ]
-  // }
 };
 
 Route.get("/gti525/v1/", async () => {
@@ -114,34 +88,9 @@ Route.get("/gti525/v1/", async () => {
 
 Route.get("/gti525/v1/compteurs", "CompteursController.index");
 
-Route.get("/gti525/v1/fontaines", async () => {
-  const fontaineList = await PointInteret.query().where("type", "fontaine");
-  return fontaineList;
-});
-
 Route.get("/gti525/v1/compteurs/:id", "CompteursController.show");
 
-Route.get(
-  "/gti525/v1/compteurs/:id/passages",
-  async ({ params, request, response }) => {
-    const compteurId = params.id;
-
-    const query = Passage.query().where("compteur_id", compteurId);
-    if (request.input("debut")) {
-      query.where("date", ">=", request.input("debut") + " 00:00:00 GMT-0500");
-    }
-    if (request.input("fin")) {
-      query.where("date", "<=", request.input("fin") + " 00:00:00 GMT-0500");
-    }
-
-    if (request.input("limite")) {
-      query.limit(request.input("limite"));
-    }
-
-    const filteredList = await query;
-    response.json(filteredList);
-  }
-);
+Route.get("/gti525/v1/compteurs/:id/passages", "PassagesController.index");
 
 Route.get("/gti525/v1/pointsdinteret", "PointsInteretsController.index");
 

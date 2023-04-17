@@ -34,21 +34,16 @@ export default class PointsInteretsController {
 
   public async store({ request, response }: HttpContextContract) {
     let newPoint = {};
-    let pointDTO;
     try {
       if (request.input("type") === "fontaine") {
-        console.log("fontaine");
         newPoint = await request.validate(CreateFontaineValidator);
-        // pointDTO = this.createFontaineDTO(newPoint);
       } else {
-        console.log("atelier");
         newPoint = await request.validate(CreateAtelierValidator);
       }
     } catch (error) {
       return response.badRequest(error.messages);
     }
     // Sauvegarder la liste mise à jour dans la BD
-    // console.log(pointDTO);
     const createdPoint = await PointInteret.create(newPoint);
 
     // Retourner le nouveau point d'intérêt créé
@@ -65,42 +60,4 @@ export default class PointsInteretsController {
 
     return response.ok(point);
   }
-
-  private createFontaineDTO(pointsdinteret) {
-    const fontaineDTO = {
-      nom_parc_lieu: "",
-      date_installation: "",
-      remarque: "",
-      longitude: "",
-      latitude: "",
-      type: "fontaine",
-    };
-    fontaineDTO.nom_parc_lieu = pointsdinteret.nom_parc_lieu;
-    fontaineDTO.date_installation = pointsdinteret.date_installation;
-    fontaineDTO.remarque = pointsdinteret.remarque;
-    fontaineDTO.longitude = pointsdinteret.longitude;
-    fontaineDTO.latitude = pointsdinteret.latitude;
-
-    return fontaineDTO;
-  }
-
-  private createAtelierDTO(pointsdinteret) {
-    const fontaineDTO = {
-      nom_parc_lieu: "",
-      date_installation: "",
-      remarque: "",
-      longitude: "",
-      latitude: "",
-      type: "fontaine",
-    };
-    fontaineDTO.nom_parc_lieu = pointsdinteret.nom_parc_lieu;
-    fontaineDTO.date_installation = pointsdinteret.date_installation;
-    fontaineDTO.remarque = pointsdinteret.remarque;
-    fontaineDTO.longitude = pointsdinteret.longitude;
-    fontaineDTO.latitude = pointsdinteret.latitude;
-
-    return fontaineDTO;
-  }
-
-  public async update({}: HttpContextContract) {}
 }

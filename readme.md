@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Information pour l'application dorsale
+Pour toutes informations sur la partie dorsale de l'application, veuille consulter le `readme.md`  à la racine du répertoire [backend](./backend/)
+
 ## Available Scripts
 
 In the project directory, you can run:
