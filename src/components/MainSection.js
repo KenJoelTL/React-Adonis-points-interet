@@ -61,9 +61,11 @@ function MainSection() {
   }
 
   useEffect(() => {
-    const compteurURL = "http://localhost:3333/gti525/v1/compteurs/"
-    const atelierURL = "http://localhost:3333/gti525/v1/pointsdinteret?type=atelier"
-    const fontaineURL = "http://localhost:3333/gti525/v1/pointsdinteret?type=fontaine"
+    const apiToken = 'b69d5935-5e8c-4d41-a72a-0e3201227928'
+
+    const compteurURL = "http://localhost:3333/gti525/v1/compteurs/?apiToken=" + apiToken
+    const atelierURL = "http://localhost:3333/gti525/v1/pointsdinteret?type=atelier&apiToken=" + apiToken
+    const fontaineURL = "http://localhost:3333/gti525/v1/pointsdinteret?type=fontaine&apiToken=" + apiToken
 
     setIsLoaded(true)
     fetch(compteurURL)
